@@ -2,11 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b23910-3023-4b75-8da0-bb1852ad18eb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/landing_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/62c8e26150031ca38356265f5ae4deb768bd4e97/main.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/f8dc56a3bdec103d753ceda5dfe0e661af8355e6/main.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/62c8e26150031ca38356265f5ae4deb768bd4e97/master.scssc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/css/sass/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/company.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/controllers/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/controllers/min/index-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/controllers/min/main-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/details.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/public/scss/.sass-cache/f8dc56a3bdec103d753ceda5dfe0e661af8355e6/main.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/templates/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/templates/head.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/css/main.css" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/css/master.css" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/css/master.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/img/sample.ico" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/sample.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/docs.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/docs.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/getting_started.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/getting_started.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/TimelineLite.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/TimelineLite.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/TimelineMax.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/TimelineMax.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/TweenLite.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/TweenLite.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/TweenMax.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/TweenMax.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/easing/EasePack.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/easing/EasePack.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/jquery.gsap.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/jquery.gsap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/AttrPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/AttrPlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/BezierPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/BezierPlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/CSSPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/CSSPlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/CSSRulePlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/CSSRulePlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/ColorPropsPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/ColorPropsPlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/DirectionalRotationPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/DirectionalRotationPlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/EaselPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/EaselPlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/EndArrayPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/EndArrayPlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/KineticPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/KineticPlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/RaphaelPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/RaphaelPlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/RoundPropsPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/RoundPropsPlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/ScrollToPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/ScrollToPlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/TextPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/TextPlugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/utils/Draggable.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/utils/Draggable.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/TimelineLite.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/TimelineLite.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/TimelineMax.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/TimelineMax.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/TweenLite.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/TweenLite.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/TweenMax.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/TweenMax.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/easing/EasePack.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/easing/EasePack.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/jquery.gsap.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/jquery.gsap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/AttrPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/AttrPlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/BezierPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/BezierPlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/CSSPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/CSSPlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/CSSRulePlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/CSSRulePlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/ColorPropsPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/ColorPropsPlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/DirectionalRotationPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/DirectionalRotationPlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/EaselPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/EaselPlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/EndArrayPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/EndArrayPlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/KineticPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/KineticPlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/RaphaelPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/RaphaelPlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/RoundPropsPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/RoundPropsPlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/ScrollToPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/ScrollToPlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/TEMPLATE_Plugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/TEMPLATE_Plugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/TextPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/TextPlugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/utils/Draggable.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/utils/Draggable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/main.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/min/main-min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/min/main-min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/modernizr.custom.09145.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/modernizr.custom.09145.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/localization/en-us.json" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/localization/en-us.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/scss/.sass-cache/f8dc56a3bdec103d753ceda5dfe0e661af8355e6/master.scssc" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/f8dc56a3bdec103d753ceda5dfe0e661af8355e6/master.scssc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/scss/main.scss" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/main.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/scss/master.scss" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/master.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/templates/elements/top_menu.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/elements/top_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/footer.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/head.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/company/templates/index.html" afterPath="$PROJECT_DIR$/plugins/company/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/company/controllers/index.js" afterPath="$PROJECT_DIR$/plugins/company/controllers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample.config.js" afterPath="$PROJECT_DIR$/sample.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="acorn_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="323">
-              <caret line="10" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4620887" vertical-offset="0" max-vertical-offset="699">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -75,50 +143,18 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="17.04" vertical-offset="426" max-vertical-offset="1140">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample.config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sample.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31361762" vertical-offset="0" max-vertical-offset="1064">
+            <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1064">
               <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="company.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/company/company.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="301" max-vertical-offset="1026">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/company/controllers/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1558">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="details.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/company/details.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="937" max-vertical-offset="1634">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,8 +199,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/plugins/company/templates/index.html" />
         <option value="$PROJECT_DIR$/plugins/company/controllers/index.js" />
-        <option value="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" />
         <option value="$PROJECT_DIR$/sample.config.js" />
+        <option value="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" />
       </list>
     </option>
   </component>
@@ -312,10 +348,14 @@
       <ConfigurationWrapper RunnerId="debuggableProgram" />
       <method />
     </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -323,10 +363,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -418,9 +454,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20329322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -446,6 +482,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plugins/pencilblue/controllers/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/company/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="729" max-vertical-offset="1634">
+          <caret line="42" column="63" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/dao/db_manager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8238993" vertical-offset="1824" max-vertical-offset="4370">
@@ -600,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/public/css/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.021664767" vertical-offset="0" max-vertical-offset="877">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/acorn-default/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="905">
@@ -717,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,14 +797,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/company/details.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="937" max-vertical-offset="1634">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,36 +816,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/company/company.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/company/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1558">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/company/controllers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="729" max-vertical-offset="1634">
           <caret line="42" column="63" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="323">
-          <caret line="10" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -809,7 +836,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.04" vertical-offset="426" max-vertical-offset="1140">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -817,8 +844,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31361762" vertical-offset="0" max-vertical-offset="1064">
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1064">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4620887" vertical-offset="0" max-vertical-offset="699">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
