@@ -5934,11 +5934,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/sample.config.js": {
+	"\/config.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sample.config.js",
+		"inputAbbreviatedPath": "\/config.js",
 		"outputAbbreviatedPath": "\/min\/sample.config-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,

@@ -2,79 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b23910-3023-4b75-8da0-bb1852ad18eb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/landing_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/62c8e26150031ca38356265f5ae4deb768bd4e97/main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/f8dc56a3bdec103d753ceda5dfe0e661af8355e6/main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/62c8e26150031ca38356265f5ae4deb768bd4e97/master.scssc" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/css/sass/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/company.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/controllers/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/controllers/min/index-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/controllers/min/main-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/details.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/public/scss/.sass-cache/f8dc56a3bdec103d753ceda5dfe0e661af8355e6/main.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/templates/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/company/templates/head.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/css/main.css" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/css/master.css" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/css/master.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/img/sample.ico" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/sample.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/docs.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/docs.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/getting_started.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/getting_started.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/TimelineLite.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/TimelineLite.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/TimelineMax.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/TimelineMax.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/TweenLite.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/TweenLite.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/TweenMax.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/TweenMax.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/easing/EasePack.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/easing/EasePack.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/jquery.gsap.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/jquery.gsap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/AttrPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/AttrPlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/BezierPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/BezierPlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/CSSPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/CSSPlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/CSSRulePlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/CSSRulePlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/ColorPropsPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/ColorPropsPlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/DirectionalRotationPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/DirectionalRotationPlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/EaselPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/EaselPlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/EndArrayPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/EndArrayPlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/KineticPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/KineticPlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/RaphaelPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/RaphaelPlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/RoundPropsPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/RoundPropsPlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/ScrollToPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/ScrollToPlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/plugins/TextPlugin.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/plugins/TextPlugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/minified/utils/Draggable.min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/minified/utils/Draggable.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/TimelineLite.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/TimelineLite.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/TimelineMax.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/TimelineMax.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/TweenLite.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/TweenLite.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/TweenMax.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/TweenMax.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/easing/EasePack.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/easing/EasePack.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/jquery.gsap.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/jquery.gsap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/AttrPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/AttrPlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/BezierPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/BezierPlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/CSSPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/CSSPlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/CSSRulePlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/CSSRulePlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/ColorPropsPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/ColorPropsPlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/DirectionalRotationPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/DirectionalRotationPlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/EaselPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/EaselPlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/EndArrayPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/EndArrayPlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/KineticPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/KineticPlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/RaphaelPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/RaphaelPlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/RoundPropsPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/RoundPropsPlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/ScrollToPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/ScrollToPlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/TEMPLATE_Plugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/TEMPLATE_Plugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/plugins/TextPlugin.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/plugins/TextPlugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/greensock-js/src/uncompressed/utils/Draggable.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/greensock-js/src/uncompressed/utils/Draggable.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/main.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/min/main-min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/min/main-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/js/modernizr.custom.09145.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/modernizr.custom.09145.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/localization/en-us.json" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/localization/en-us.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/scss/.sass-cache/f8dc56a3bdec103d753ceda5dfe0e661af8355e6/master.scssc" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/f8dc56a3bdec103d753ceda5dfe0e661af8355e6/master.scssc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/scss/main.scss" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/main.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/public/scss/master.scss" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/master.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/company/templates/elements/top_menu.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/elements/top_menu.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sample.config.js" afterPath="$PROJECT_DIR$/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/footer.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/head.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/company/templates/index.html" afterPath="$PROJECT_DIR$/plugins/company/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/company/controllers/index.js" afterPath="$PROJECT_DIR$/plugins/company/controllers/index.js" />
     </list>
     <ignored path="acorn_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4620887" vertical-offset="0" max-vertical-offset="699">
+            <state vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="456">
               <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
@@ -150,8 +79,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample.config.js">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1064">
               <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
@@ -420,6 +349,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2026599" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -429,7 +359,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39920425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -500,7 +429,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample.config.js">
+    <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -787,6 +716,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -842,18 +772,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample.config.js">
+    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1064">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="456">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4620887" vertical-offset="0" max-vertical-offset="699">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1064">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding />
         </state>
       </provider>
