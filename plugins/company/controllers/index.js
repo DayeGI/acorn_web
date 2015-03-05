@@ -40,7 +40,7 @@ Index.prototype.render = function(cb) {
                                 self.ts.registerLocal('main_css_src', PluginService.genPublicPath('company', 'css/main.css'));
                                 self.ts.registerLocal('modernizr_js_src', PluginService.genPublicPath('company', 'js/modernizr.custom.09145.js'));
                                 self.ts.registerLocal('tweenMax_js_src', PluginService.genPublicPath('company', 'js/greensock-js/src/uncompressed/TweenMax.js'));
-                                self.ts.registerLocal('main_js_src', PluginService.genPublicPath('company', 'js/main.js'));
+                                //self.ts.registerLocal('main_js_src', PluginService.genPublicPath('company', 'js/main.js'));
 
                                 //Load the headline setting from the company plugin
                                 pb.plugins.getSetting('landing_page_headline', 'company', function(err, headline) {
