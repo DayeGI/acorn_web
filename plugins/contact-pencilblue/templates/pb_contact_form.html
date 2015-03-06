@@ -39,6 +39,8 @@
 				<label>Phone</label><input ng-model="contactInformation.phone"/><br>
 				<label>Email</label><input ng-model="contactInformation.email"/><br>
 				<label>Company</label><input ng-model="contactInformation.company"/><br>
+				
+				<button ng-click="submitInquiry()" ng-disabled="inquirySubmitted">SUBMIT</button>
 			</div>	
 			<!-- These tabs look identical now, but their contents can be change independantly of each other. Angular will take care of the data sharing. -->
 			<div ng-show="contactForm == 1">

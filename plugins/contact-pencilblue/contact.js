@@ -23,7 +23,9 @@ Contact.onInstall = function(cb) {
         name: 'pb_contact',
         fields: {
           name: {field_type: 'text'},
+          phone: {field_type: 'text'},
           email: {field_type: 'text'},
+          company: {field_type: 'text'},
           comment: {field_type: 'text'},
           date: {field_type: 'date'}
         }
