@@ -1,0 +1,15 @@
+.floating-activator{
+	position:fixed;
+	right:20px;
+	bottom:20px;
+	background-color:blue;
+}
+.contact-panel{
+	position:fixed;
+	right:60px;
+	bottom:50px;
+	height:500px;
+	width:500px;
+	z-index:2;
+	background-color:green;
+}
