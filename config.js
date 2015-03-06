@@ -10,9 +10,9 @@
  */
 
 module.exports = {
-    "siteName": "My PencilBlue Site",
-    "siteRoot": "http://127.0.0.1:8080",
-    "sitePort": 8080,
+    "siteName": "Acorn Web",
+    "siteRoot": "http://123.56.128.209",
+    "sitePort": 80,
     "log_level": "info",
     "db": {
         "type":"mongo",
