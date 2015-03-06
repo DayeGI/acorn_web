@@ -24,7 +24,18 @@
 		<div ng-show="showContactType == 1">WECHAT</div>
 
 		<!--COMMUNITY PANEL-->
-		<div ng-show="showContactType == 2">CONTACT FORM</div>
+		<div ng-show="showContactType == 2">
+			<ul class="nav nav-tabs" ng-init="contactForm = 0">
+				<li ng-class="contactForm == 0 ? 'active : ''" ng-click="contactForm = 0">General</li>
+				<li ng-class="contactForm == 1 ? 'active : ''" ng-click="contactForm = 1">Demo</li>
+				<li ng-class="contactForm == 2 ? 'active : ''" ng-click="contactForm = 2">Sign Up</li>
+				<li ng-class="contactForm == 3 ? 'active : ''" ng-click="contactForm = 3">Technical Support</li>
+			</ul>
+			<div ng-show="contactForm == 0">GENERAL INQUIRIES</div>	
+			<div ng-show="contactForm == 1">REQUEST PRODUCT DEMO</div>	
+			<div ng-show="contactForm == 2">SIGN UP FOR COURSES</div>	
+			<div ng-show="contactForm == 3">REQUEST TECHNICAL SUPPORT</div>	
+		</div>
 
 		<!--COMMUNITY PANEL-->
 		<div ng-show="showContactType == 3">CALL INFORMATION</div>
