@@ -4,7 +4,7 @@
 <link rel="stylesheet" type="text/css" href="/public/contact-pencilblue/css/pb_contact_form.css">
 
 <!-- WRAPPING DIV - OPTIONAL -->
-<div>
+<div ng-controller="ContactFormController">
 	<!-- FLOATING BUTTON -->
 	<div class="floating-activator" ng-click="showContactPlugin = !showContactPlugin">CLICK HEREEEEE</div>
 	<!-- CONTACT US MAIN PANEL -->
@@ -25,16 +25,46 @@
 
 		<!--COMMUNITY PANEL-->
 		<div ng-show="showContactType == 2">
+			<!-- Tabs for the Contact form type -->
 			<ul class="nav nav-tabs" ng-init="contactForm = 0">
-				<li ng-class="contactForm == 0 ? 'active : ''" ng-click="contactForm = 0">General</li>
-				<li ng-class="contactForm == 1 ? 'active : ''" ng-click="contactForm = 1">Demo</li>
-				<li ng-class="contactForm == 2 ? 'active : ''" ng-click="contactForm = 2">Sign Up</li>
-				<li ng-class="contactForm == 3 ? 'active : ''" ng-click="contactForm = 3">Technical Support</li>
+				<li ng-class="contactForm == 0 ? 'active' : ''" ng-click="contactForm = 0">General</li>
+				<li ng-class="contactForm == 1 ? 'active' : ''" ng-click="contactForm = 1">Demo</li>
+				<li ng-class="contactForm == 2 ? 'active' : ''" ng-click="contactForm = 2">Sign Up</li>
+				<li ng-class="contactForm == 3 ? 'active' : ''" ng-click="contactForm = 3">Technical Support</li>
 			</ul>
-			<div ng-show="contactForm == 0">GENERAL INQUIRIES</div>	
-			<div ng-show="contactForm == 1">REQUEST PRODUCT DEMO</div>	
-			<div ng-show="contactForm == 2">SIGN UP FOR COURSES</div>	
-			<div ng-show="contactForm == 3">REQUEST TECHNICAL SUPPORT</div>	
+			<div ng-show="contactForm == 0">
+				GENERAL INQUIRIES<br>
+				
+				<label>Name</label><input ng-model="contactInformation.name"/><br>
+				<label>Phone</label><input ng-model="contactInformation.phone"/><br>
+				<label>Email</label><input ng-model="contactInformation.email"/><br>
+				<label>Company</label><input ng-model="contactInformation.company"/><br>
+			</div>	
+			<!-- These tabs look identical now, but their contents can be change independantly of each other. Angular will take care of the data sharing. -->
+			<div ng-show="contactForm == 1">
+				REQUEST PRODUCT DEMO<br>
+				
+				<label>Name</label><input ng-model="contactInformation.name"/><br>
+				<label>Phone</label><input ng-model="contactInformation.phone"/><br>
+				<label>Email</label><input ng-model="contactInformation.email"/><br>
+				<label>Company</label><input ng-model="contactInformation.company"/><br>
+			</div>	
+			<div ng-show="contactForm == 2">
+				SIGN UP FOR COURSES<br>
+				
+				<label>Name</label><input ng-model="contactInformation.name"/><br>
+				<label>Phone</label><input ng-model="contactInformation.phone"/><br>
+				<label>Email</label><input ng-model="contactInformation.email"/><br>
+				<label>Company</label><input ng-model="contactInformation.company"/><br>
+			</div>	
+			<div ng-show="contactForm == 3">
+				REQUEST TECHNICAL SUPPORT<br>
+				
+				<label>Name</label><input ng-model="contactInformation.name"/><br>
+				<label>Phone</label><input ng-model="contactInformation.phone"/><br>
+				<label>Email</label><input ng-model="contactInformation.email"/><br>
+				<label>Company</label><input ng-model="contactInformation.company"/><br>
+			</div>	
 		</div>
 
 		<!--COMMUNITY PANEL-->

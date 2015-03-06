@@ -34,6 +34,13 @@
 //    });
 //  }
 //}());
+
 function ContactFormController ($scope, $http) {
 	$scope.testVar = 'something';
+	$scope.contactInformation = {
+		name:'',
+		phone:'',
+		email:'',
+		company:''
+	}
 }
