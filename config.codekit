@@ -90,11 +90,11 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/include\/config.js": {
+	"\/include\/sample.config.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/include\/config.js",
+		"inputAbbreviatedPath": "\/include\/sample.config.js",
 		"outputAbbreviatedPath": "\/include\/min\/config-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -5934,11 +5934,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/config.js": {
+	"\/sample.config.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/config.js",
+		"inputAbbreviatedPath": "\/sample.config.js",
 		"outputAbbreviatedPath": "\/min\/sample.config-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,

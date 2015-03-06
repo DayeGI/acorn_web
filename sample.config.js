@@ -11,8 +11,8 @@
 
 module.exports = {
     "siteName": "Acorn Web",
-    "siteRoot": "http://127.0.0.1",
-    "sitePort": 80,
+    "siteRoot": "http://127.0.0.1:8080",
+    "sitePort": 8080,
     "log_level": "info",
     "db": {
         "type":"mongo",
