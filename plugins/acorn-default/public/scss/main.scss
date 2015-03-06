@@ -16,22 +16,78 @@
 	z-index: 1;
 	width: 100%;
  	margin: 0 auto;
+ 	padding-left: 0; //zero padding left and right
+ 	padding-right: 0; //zero padding left and right
+}
+
+.coverflow-video:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .coverflow-video {
 	width:100%;
-	height: 400px;
+	height: 600px;
 	position: absolute;
-	margin-top: 200px;
 	z-index: 2;
 	background-color: gray;
 }
 
 .coverflow-caption {
-	width: 100%;
-	height: 100px;
-	position: absolute;
+	width: 60%;
+	position: relative;
+	left: 20%;
 	z-index: 3;
+	text-align: center;
 	background-color: black;
+	display: inline-block;
+	vertical-align: middle;
 }
 
+.coverflow-button{
+	position: relative;
+	margin: 0 auto;
+	z-index: 4;
+}
+
+.news-flash {
+	width: 200px;
+	height: 120px;
+	position: absolute;
+	left: 0;
+	top: calc(100% - 160px);
+	z-index: 5;
+	text-align: left;
+	padding: 5px 0px 5px 10px;
+	background-color: green;
+}
+
+.featured-product{
+	height: 400px;
+	background-color: green;
+	position: relative;
+	z-index: 2;
+}
+
+.carousel{
+	height: 400px;
+	background-color: gray;
+	position: relative;
+	z-index: 2;
+}
+
+.featured-university{
+	height: 400px;
+	background-color: green;
+	position: relative;
+	z-index: 2;
+}
+
+.featured-about{
+	height: 400px;
+	background-color: gray;
+	position: relative;
+	z-index: 2;
+}
