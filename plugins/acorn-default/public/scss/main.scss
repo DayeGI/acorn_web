@@ -16,6 +16,12 @@ body {
  	margin: 0 auto;
  }
 
+ /*
+  *
+  * coverflow section
+  *
+  */
+
 .coverflow {
 	position: relative;
 	z-index: 1;
@@ -88,6 +94,12 @@ body {
 	background-color: green;
 }
 
+ /*
+  *
+  * featured product
+  *
+  */
+
 .featured-product{
 	height: 400px;
 	background-color: green;
@@ -149,12 +161,24 @@ body {
 	border: 2px solid #F48446;
 }
 
+ /*
+  *
+  * carousel
+  *
+  */
+
 .carousel{
 	height: 500px;
 	background-color: gray;
 	position: relative;
 	z-index: 2;
 }
+
+ /*
+  *
+  * university intro
+  *
+  */
 
 .featured-university{
 	height: 600px;
@@ -219,6 +243,12 @@ body {
 .featured-university p:nth-child(3) {
 	padding-bottom: 28px;
 }
+
+ /*
+  *
+  * about us
+  *
+  */
 
 .featured-about{
 	height: 500px;
