@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b23910-3023-4b75-8da0-bb1852ad18eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/contact-pencilblue/contact.js" afterPath="$PROJECT_DIR$/plugins/contact-pencilblue/contact.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/contact-pencilblue/templates/pb_contact_form.html" afterPath="$PROJECT_DIR$/plugins/contact-pencilblue/templates/pb_contact_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/contact-pencilblue/public/js/pb_contact_form.js" afterPath="$PROJECT_DIR$/plugins/contact-pencilblue/public/js/pb_contact_form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/contact-pencilblue/controllers/api/pb_contact_submit.js" afterPath="$PROJECT_DIR$/plugins/contact-pencilblue/controllers/api/pb_contact_submit.js" />
     </list>
     <ignored path="acorn_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +59,8 @@
       <file leaf-file-name="pb_contact_form.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/contact-pencilblue/templates/pb_contact_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69495416" vertical-offset="495" max-vertical-offset="1558">
-              <caret line="42" column="80" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
+            <state vertical-scroll-proportion="0.2614679" vertical-offset="0" max-vertical-offset="1558">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -900,8 +897,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/contact-pencilblue/templates/pb_contact_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69495416" vertical-offset="495" max-vertical-offset="1558">
-          <caret line="42" column="80" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
+        <state vertical-scroll-proportion="0.2614679" vertical-offset="0" max-vertical-offset="1558">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
           <folding />
         </state>
       </provider>
