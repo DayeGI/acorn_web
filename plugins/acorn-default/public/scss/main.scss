@@ -49,23 +49,31 @@ body {
 	background-color: black;
 	display: inline-block;
 	vertical-align: middle;
+	color:white;
 }
 
 .coverflow-btn{
 	position: absolute;
 	z-index: 4;
-  top: calc(100% - 75px);
-  left: calc(50% - 25px);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 1px solid black;
-  text-align: center;
+  	top: calc(100% - 75px);
+ 	left: calc(50% - 25px);
+	width: 50px;
+	height: 50px;
+ 	border-radius: 50%;
+ 	border: 1px solid black;
+ 	text-align: center;
 }
 
 .coverflow-btn-img {
   position: relative;
   top: 15px;
+}
+
+
+.coverflow-btn-img:hover { 
+	transform: translateY(5px);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .news-flash {
@@ -87,23 +95,151 @@ body {
 	z-index: 2;
 }
 
-.carousel{
+.featured-product-img {
+	width:45%;
 	height: 400px;
+	float: left;
+	outline: 1px solid white;
+}
+
+.featured-product-caption {
+	width: 43%;
+	margin-left: 5%;
+	margin-right: 7%;
+	height: 400px;
+	float: left;
+	outline: 1px solid black;
+}
+
+.featured-product-caption:after {
+	content: "";
+	clear: both;
+}
+
+.featured-product-caption h2 {
+	padding-top: 90px;
+	padding-bottom: 20px;
+	font-size: 28px;
+}
+
+.featured-product-caption p{
+	font-size: 24px;
+	padding-bottom: 7px;
+}
+
+.featured-product-caption p.bodycopy{
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+.button {
+	padding: 8px 35px;
+	border: 2px solid #F48446;
+    -webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	     -o-border-radius: 5px;
+	        border-radius: 5px;
+}
+
+.featured-product-caption .button {
+	margin-left: calc(100% - 175px);
+}
+
+.button:hover {
+	border: 2px solid #F48446;
+}
+
+.carousel{
+	height: 500px;
 	background-color: gray;
 	position: relative;
 	z-index: 2;
 }
 
 .featured-university{
-	height: 400px;
+	height: 600px;
 	background-color: green;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+}
+
+.university-book {
+	width: 100%;
+	height: 350px;
+	top: 200px;
+	position: absolute;
+	background-color: gray;
+	z-index: 2;
+}
+
+.university-marker {
+	width: 100px;
+	height: 100px;
+	float: left;
+	position: absolute;
+	background-color: black;
+	z-index: 3;
+	top: 300px;
+}
+
+.marker1 {
+	left: calc(25% - 200px);
+}
+
+.marker2 {
+	left: calc(50% - 200px);
+}
+
+.marker3 {
+	left: calc(75% - 200px);
+}
+
+.marker4 {
+	left: calc(100% - 200px);
+}
+
+.university-caption {
+	position: relative;
+	z-index: 4;
+	text-align: center;
+}
+
+.featured-university h4 {
+	padding-top: 90px;
+	padding-bottom: 20px;
+	font-size: 28px;
+}
+
+.featured-university p{
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+.featured-university p:nth-child(3) {
+	padding-bottom: 28px;
+}
+
+.featured-about{
+	height: 500px;
+	background-color: gray;
 	position: relative;
 	z-index: 2;
 }
 
-.featured-about{
-	height: 400px;
-	background-color: gray;
-	position: relative;
-	z-index: 2;
+.featured-about-left {
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+
+.featured-about-right {
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+
+.featured-about-right:after {
+	content: "";
+	clear: both;
 }

@@ -18,7 +18,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Hiragino Sans GB", STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-weight: 300;
-  line-height: 1.33em; }
+  line-height: 1.33em;
+  margin: 0; }
 
 nav ul li {
   display: inline; }
@@ -28,15 +29,36 @@ img {
   margin: 0;
   padding: 0; }
 
+a, a:visited {
+  color: #F48446;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0; }
+
+a:hover, a:active, .current {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #F48446;
+  border: 0; }
+
 .mycontainer {
   padding-left: 0;
   padding-right: 0; }
+
+p {
+  font-size: 13px;
+  line-height: 1.33em;
+  margin: 0; }
 
 /*
  *
  * main style compilation
  *
  */
+body {
+  margin: 0;
+  padding: 0; }
+
 .main {
   width: 100%;
   margin: 0 auto; }
@@ -45,19 +67,191 @@ img {
   position: relative;
   z-index: 1;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0; }
+
+.coverflow-video:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
 
 .coverflow-video {
   width: 100%;
-  height: 400px;
-  position: absolute;
-  margin-top: 200px;
+  height: 600px;
+  position: relative;
   z-index: 2;
   background-color: gray; }
 
 .coverflow-caption {
-  width: 100%;
-  height: 100px;
-  position: absolute;
+  width: 60%;
+  position: relative;
+  left: 20%;
   z-index: 3;
-  background-color: black; }
+  text-align: center;
+  background-color: black;
+  display: inline-block;
+  vertical-align: middle;
+  color: white; }
+
+.coverflow-btn {
+  position: absolute;
+  z-index: 4;
+  top: calc(100% - 75px);
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  text-align: center; }
+
+.coverflow-btn-img {
+  position: relative;
+  top: 15px; }
+
+.coverflow-btn-img:hover {
+  transform: translateY(5px);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer; }
+
+.news-flash {
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  left: 0;
+  top: calc(100% - 160px);
+  z-index: 5;
+  text-align: left;
+  padding: 5px 0px 5px 10px;
+  background-color: green; }
+
+.featured-product {
+  height: 400px;
+  background-color: green;
+  position: relative;
+  z-index: 2; }
+
+.featured-product-img {
+  width: 45%;
+  height: 400px;
+  float: left;
+  outline: 1px solid white; }
+
+.featured-product-caption {
+  width: 43%;
+  margin-left: 5%;
+  margin-right: 7%;
+  height: 400px;
+  float: left;
+  outline: 1px solid black; }
+
+.featured-product-caption:after {
+  content: "";
+  clear: both; }
+
+.featured-product-caption h2 {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  font-size: 28px; }
+
+.featured-product-caption p {
+  font-size: 24px;
+  padding-bottom: 7px; }
+
+.featured-product-caption p.bodycopy {
+  font-size: 18px;
+  padding-bottom: 20px; }
+
+.button {
+  padding: 8px 35px;
+  border: 2px solid #F48446;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px; }
+
+.featured-product-caption .button {
+  margin-left: calc(100% - 175px); }
+
+.button:hover {
+  border: 2px solid #F48446; }
+
+.carousel {
+  height: 500px;
+  background-color: gray;
+  position: relative;
+  z-index: 2; }
+
+.featured-university {
+  height: 600px;
+  background-color: green;
+  position: relative;
+  z-index: 2;
+  text-align: center; }
+
+.university-book {
+  width: 100%;
+  height: 350px;
+  top: 200px;
+  position: absolute;
+  background-color: gray;
+  z-index: 2; }
+
+.university-marker {
+  width: 100px;
+  height: 100px;
+  float: left;
+  position: absolute;
+  background-color: black;
+  z-index: 3;
+  top: 300px; }
+
+.marker1 {
+  left: calc(25% - 200px); }
+
+.marker2 {
+  left: calc(50% - 200px); }
+
+.marker3 {
+  left: calc(75% - 200px); }
+
+.marker4 {
+  left: calc(100% - 200px); }
+
+.university-caption {
+  position: relative;
+  z-index: 4;
+  text-align: center; }
+
+.featured-university h4 {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  font-size: 28px; }
+
+.featured-university p {
+  font-size: 24px;
+  padding-bottom: 20px; }
+
+.featured-university p:nth-child(3) {
+  padding-bottom: 28px; }
+
+.featured-about {
+  height: 500px;
+  background-color: gray;
+  position: relative;
+  z-index: 2; }
+
+.featured-about-left {
+  width: 50%;
+  height: 500px;
+  float: left; }
+
+.featured-about-right {
+  width: 50%;
+  height: 500px;
+  float: left; }
+
+.featured-about-right:after {
+  content: "";
+  clear: both; }
