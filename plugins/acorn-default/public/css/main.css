@@ -501,17 +501,58 @@ body {
   height: 500px;
   background-color: gray;
   position: relative;
-  z-index: 2; }
+  z-index: 2;
+  color: white; }
+
+.featured-about h5 {
+  font-size: 28px;
+  padding-bottom: 20px; }
+
+.featured-about h6 {
+  font-size: 38px;
+  display: inline-block;
+  float: left; }
+
+.featured-about p {
+  font-size: 18px;
+  padding-bottom: 10px; }
+
+.featured-about-left p:nth-child(3) {
+  font-size: 18px;
+  padding-bottom: 28px; }
 
 .featured-about-left {
-  width: 50%;
-  height: 500px;
-  float: left; }
+  width: 35%;
+  float: left;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0; }
+
+.featured-about-left .button {
+  color: white;
+  border: 2px solid #FFFFFF; }
+
+.featured-about-left .button:hover {
+  color: #314753;
+  background: #ffffff; }
 
 .featured-about-right {
-  width: 50%;
-  height: 500px;
+  width: 65%;
+  float: left;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 35%; }
+
+.featured-about-right p {
   float: left; }
+
+.featured-about-right p:nth-child(2n+1):after {
+  content: "";
+  clear: both; }
 
 .featured-about-right:after {
   content: "";
