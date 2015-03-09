@@ -1003,6 +1003,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/plugins\/acorn-default\/public\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/acorn-default\/public\/css\/master.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1052,6 +1061,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/aboutUs\/pin_aboutUs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 801,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/aboutUs\/pin_aboutUs.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/aboutUs\/pin_aboutUs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/careers\/cover_intro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1070,6 +1090,50 @@
 		"initialSize": 203354,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_companyValues1008.jpg",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_companyValues1008.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/index\/img_openBook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 293641,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/img_openBook.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/img_openBook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/index\/navy_blue_gradient_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 914101,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/navy_blue_gradient_bg.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/navy_blue_gradient_bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/index\/pin_university.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1240,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/pin_university.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/pin_university.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/index\/white_gradient_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 656459,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/white_gradient_bg.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/white_gradient_bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1829,12 +1893,60 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/plugins\/acorn-default\/public\/scss\/media-query.scss": {
+	"\/plugins\/acorn-default\/public\/scss\/animation.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/animation.scss",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/animation.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/plugins\/acorn-default\/public\/scss\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/main.scss",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/plugins\/acorn-default\/public\/scss\/master.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/master.scss",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/master.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/plugins\/acorn-default\/public\/scss\/media-query.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/media-query.scss",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/media-query.css",
@@ -2799,6 +2911,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/plugins\/acorn-default\/templates\/head.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/head.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/acorn-default\/templates\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/acorn-default\/templates\/robots.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2946,6 +3076,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/contact-pencilblue\/public\/css\/pb_contact_form.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/contact-pencilblue\/public\/css\/pb_contact_form.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/plugins\/contact-pencilblue\/public\/js\/pb_contact_form.js": {
 		"fileType": 64,
@@ -6208,7 +6347,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "yeeloong",
+"lastSavedByUser": "Yee Loong Ooi",
 "manualImportLinks": {
 	},
 "projectAttributes": {

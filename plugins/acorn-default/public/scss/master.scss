@@ -6,7 +6,7 @@
 
 html { font-size: 87.5%; /* 14px */ }
 body {
-	font-family: "Hiragino Sans GB", STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	// font-family: "Hiragino Sans GB", STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
 	font-weight: 300;
 	color: #333333;
 	background-color: #f7f7f7;
@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Hiragino Sans GB", STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+	// font-family: "Hiragino Sans GB", STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
 	font-weight: 300;
 	line-height: 1.33em;
 	margin: 0;
@@ -51,4 +51,8 @@ p {
   font-size: 13px;
   line-height: 1.33em;
   margin: 0;
+}
+
+.line {
+	border-top: 1px solid gray;
 }
