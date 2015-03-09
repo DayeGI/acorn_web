@@ -267,30 +267,31 @@ body {
 	position: absolute;
 	z-index: 3;
 	top: 300px;
-	-webkit-animation: bounce 800ms ease-out;
-	   -moz-animation: bounce 800ms ease-out;
-	     -o-animation: bounce 800ms ease-out;
-	        animation: bounce 800ms ease-out;
+	padding-bottom: 10px;
+	-webkit-animation: bounce 1000ms ease-in-out;
+	   -moz-animation: bounce 1000ms ease-in-out;
+	     -o-animation: bounce 1000ms ease-in-out;
+	        animation: bounce 1000ms ease-in-out;
 }
 
 .marker1 {
-	left: calc(25% - 50px);
-	top: 220px;
+	left: calc(25% - 65px);
+	top: 240px;
 }
 
 .marker2 {
-	left: calc(50% - 155px);
-	top: 305px;
-}
-
-.marker3 {
-	left: calc(75% - 200px);
+	left: calc(50% - 170px);
 	top: 335px;
 }
 
+.marker3 {
+	left: calc(75% - 215px);
+	top: 355px;
+}
+
 .marker4 {
-	left: calc(100% - 350px);
-	top: 230px;
+	left: calc(100% - 365px);
+	top: 250px;
 }
 
 .university-caption {
