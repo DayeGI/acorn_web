@@ -3,6 +3,7 @@
 	right:20px;
 	bottom:20px;
 	background-color:blue;
+	z-index:999;
 }
 .contact-panel{
 	position:fixed;
@@ -10,6 +11,6 @@
 	bottom:50px;
 	height:500px;
 	width:500px;
-	z-index:2;
+	z-index:999;
 	background-color:green;
 }

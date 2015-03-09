@@ -11,11 +11,11 @@
 @-webkit-keyframes bounce {
   0% {
 	-webkit-transform:translateY(-300%);
-    opacity: 0;
+    opacity: 1;
   }
   5% {
   	-webkit-transform:translateY(-300%);
-    opacity: 0;
+    opacity: 1;
   }
   15% {
   	-webkit-transform:translateY(0);
@@ -66,11 +66,11 @@
 @-moz-keyframes bounce {
   0% {
 	-moz-transform:translateY(-300%);
-    opacity: 0;
+    opacity: 1;
   }
   5% {
   	-moz-transform:translateY(-300%);
-    opacity: 0;
+    opacity: 1;
   }
   15% {
   	-moz-transform:translateY(0);
@@ -121,11 +121,11 @@
 @-o-keyframes bounce {
   0% {
 	-o-transform:translateY(-300%);
-    opacity: 0;
+    opacity: 1;
   }
   5% {
   	-o-transform:translateY(-300%);
-    opacity: 0;
+    opacity: 1;
   }
   15% {
   	-o-transform:translateY(0);
@@ -176,11 +176,11 @@
 @keyframes bounce {
   0% {
 	transform:translateY(-300%);
-    opacity: 0;
+    opacity: 1;
   }
   5% {
   	transform:translateY(-300%);
-    opacity: 0;
+    opacity: 1;
   }
   15% {
   	transform:translateY(0);
