@@ -44,7 +44,7 @@ function ContactFormController ($scope, $http) {
 		company:''
 	}
 	$scope.submitInquiry = function(type){
-		$http({method:'POST', url:'/api/contact/pb_contact_submit', data:$scope.contactInformation})
+		$http({method:'POST', url:'/api/contact/ac_contact_submit', data:$scope.contactInformation})
 				.success(function(res){
 					alert('Your inquire has been submitted.');
 					$scope.inquirySubmitted = true;

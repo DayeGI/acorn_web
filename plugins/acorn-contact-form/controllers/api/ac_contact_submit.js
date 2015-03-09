@@ -34,7 +34,7 @@ ContactSubmit.prototype.render = function(cb) {
     }
 
     var cos = new pb.CustomObjectService();
-    cos.loadTypeByName('pb_contact', function(err, contactType) {
+    cos.loadTypeByName('contact-requests', function(err, contactType) {
       if(util.isError(err) || !pb.utils.isObject(contactType)) {
         cb({
           code: 400,
@@ -82,7 +82,7 @@ ContactSubmit.getRoutes = function(cb) {
   var routes = [
     {
       method: 'post',
-      path: '/api/contact/pb_contact_submit',
+      path: '/api/contact/ac_contact_submit',
       auth_required: false,
       content_type: 'application/json'
     }

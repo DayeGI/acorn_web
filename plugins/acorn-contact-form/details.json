@@ -1,20 +1,20 @@
 {
-  "uid": "contact-pencilblue",
-  "name": "Contact Form",
-  "description": "A basic contact form plugin.",
-  "version": "0.1.1",
+  "uid": "acorn-contact-form",
+  "name": "Contact Forms Plugin",
+  "description": "Multiple contact forms plugin.",
+  "version": "0.0.1",
   "author": {
-    "name": "PencilBlue",
-    "email": "info@pencilblue.org",
-    "website": "http://pencilblue.org",
+    "name": "Istuary Media",
+    "email": "shawnl@istuary.com",
+    "website": "http://istuary.com",
     "contributors": [
       {
-          "name": "Blake Callens",
+          "name": "Shawn Lim",
           "email": ""
       },
       {
-          "name": "Brian Hyder",
-          "email": ""
+        "name": "Yee Loong Ooi",
+        "email": ""
       }
     ]
   },

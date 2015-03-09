@@ -1,10 +1,10 @@
 /**
- * Contact Form - A basic contact form plugin.
- * look like.
+ * Contact Form designed for Acorn Web
  *
- * @author Blake Callens <blake@pencilblue.org>
- * @copyright 2015 PencilBlue, LLC
- */
+ * @author Shawn Lim <shawnl@istuary.com>
+ * @copyright 2015 Istuary Media
+ * 
+ **/
 function Contact(){}
 
 /**
@@ -17,10 +17,10 @@ Contact.onInstall = function(cb) {
   var self = this;
   var cos = new pb.CustomObjectService();
 
-  cos.loadTypeByName('pb_contact', function(err, contactType) {
+  cos.loadTypeByName('contact-requests', function(err, contactType) {
     if(!contactType) {
       var contactValues = {
-        name: 'pb_contact',
+        name: 'contact-requests',
         fields: {
           name: {field_type: 'text'},
           phone: {field_type: 'text'},
