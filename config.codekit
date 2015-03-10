@@ -1003,6 +1003,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/plugins\/acorn-default\/public\/css\/animation.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/animation.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/acorn-default\/public\/css\/master.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1052,6 +1061,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/aboutUs\/map_map.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23920,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/aboutUs\/map_map.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/aboutUs\/map_map.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/aboutUs\/pin_aboutUs.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1096,6 +1116,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/index\/img_product.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 260430,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/img_product.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/img_product.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/index\/navy_blue_gradient_bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1125,6 +1156,28 @@
 		"initialSize": 656459,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/white_gradient_bg.png",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/white_gradient_bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10368,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/logo.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/logoWhite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5019,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/logoWhite.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/logoWhite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1893,22 +1946,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/animation.scss",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/animation.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/plugins\/acorn-default\/public\/scss\/master.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/master.scss",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/master.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
