@@ -162,12 +162,20 @@ body {
   */
 
 .background-wrapper {
-
+	//http://www.colorzilla.com/gradient-editor
+	//#FFFFFF to #DDDDDD – pivot point at 90%
+	background: #ffffff; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(90%,#dddddd), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#dddddd 90%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #ffffff 0%,#dddddd 90%,#dddddd 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%,#dddddd 90%,#dddddd 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, #ffffff 0%,#dddddd 90%,#dddddd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .featured-product{
 	height: 400px;
-	background-color: green;
 	position: relative;
 	z-index: 2;
 }
@@ -176,7 +184,11 @@ body {
 	width:45%;
 	height: 400px;
 	float: left;
-	outline: 1px solid white;
+	overflow: hidden;
+}
+
+.featured-product-img img {
+	transform: translate(-200px, 40px);
 }
 
 .featured-product-caption {
@@ -185,7 +197,6 @@ body {
 	margin-right: 7%;
 	height: 400px;
 	float: left;
-	outline: 1px solid black;
 }
 
 .featured-product-caption:after {
@@ -238,7 +249,7 @@ body {
 
 .carousel{
 	height: 500px;
-	background-color: gray;
+	outline: 1px solid gray;
 	position: relative;
 	z-index: 2;
 }
@@ -252,12 +263,21 @@ body {
 .featured-university{
 	width: 100%;
 	height: 725px;
-	background: url(/public/acorn-default/img/index/navy_blue_gradient_bg.png) no-repeat fixed; 
 	background-size: 100% auto;
 	position: relative;
 	z-index: 2;
 	text-align: center;
 	overflow: hidden;
+	//http://www.colorzilla.com/gradient-editor
+	//#57798A to #314753 – no pivot point
+	background: #57798a; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #57798a 0%, #314753 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#57798a), color-stop(100%,#314753)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #57798a 0%,#314753 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #57798a 0%,#314753 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #57798a 0%,#314753 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, #57798a 0%,#314753 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57798a', endColorstr='#314753',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .university-book {
@@ -280,10 +300,10 @@ body {
 	z-index: 3;
 	top: 300px;
 	padding-bottom: 10px;
-	-webkit-animation: bounce 1000ms ease-in-out;
-	   -moz-animation: bounce 1000ms ease-in-out;
-	     -o-animation: bounce 1000ms ease-in-out;
-	        animation: bounce 1000ms ease-in-out;
+	-webkit-animation: bounce 1500ms ease-in-out;
+	   -moz-animation: bounce 1500ms ease-in-out;
+	     -o-animation: bounce 1500ms ease-in-out;
+	        animation: bounce 1500ms ease-in-out;
 }
 
 .marker1 {
