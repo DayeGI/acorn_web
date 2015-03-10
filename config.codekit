@@ -2,17 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18493",
 "files": {
-	"\/config.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/config.js",
-		"outputAbbreviatedPath": "\/min\/sample.config-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/controllers\/api\/api_action_controller.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -57,17 +46,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Gruntfile.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Gruntfile.js",
-		"outputAbbreviatedPath": "\/min\/Gruntfile-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/include\/access_management.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -96,17 +74,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/include\/client_js.js",
 		"outputAbbreviatedPath": "\/include\/min\/client_js-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/include\/config.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/include\/config.js",
-		"outputAbbreviatedPath": "\/include\/min\/config-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -332,17 +299,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/include\/service\/entities\/article_service.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/include\/service\/entities\/article_service.js",
-		"outputAbbreviatedPath": "\/include\/service\/entities\/min\/article_service-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/include\/service\/entities\/custom_object_service.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -393,17 +349,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/include\/service\/entities\/section_service.js",
 		"outputAbbreviatedPath": "\/include\/service\/entities\/min\/section_service-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/include\/service\/entities\/template_service.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/include\/service\/entities\/template_service.js",
-		"outputAbbreviatedPath": "\/include\/service\/entities\/min\/template_service-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -536,17 +481,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/include\/service\/jobs\/plugins\/plugin_job_runner.js",
 		"outputAbbreviatedPath": "\/include\/service\/jobs\/plugins\/min\/plugin_job_runner-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/include\/service\/jobs\/plugins\/plugin_uninstall_job.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/include\/service\/jobs\/plugins\/plugin_uninstall_job.js",
-		"outputAbbreviatedPath": "\/include\/service\/jobs\/plugins\/min\/plugin_uninstall_job-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1061,17 +995,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/aboutUs\/map_map.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23920,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/aboutUs\/map_map.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/aboutUs\/map_map.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/plugins\/acorn-default\/public\/img\/aboutUs\/pin_aboutUs.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1127,6 +1050,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/index\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10368,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/logo.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/index\/logoWhite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5019,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/logoWhite.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/logoWhite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/index\/navy_blue_gradient_bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1156,28 +1101,6 @@
 		"initialSize": 656459,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/white_gradient_bg.png",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/white_gradient_bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/plugins\/acorn-default\/public\/img\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10368,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/logo.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/plugins\/acorn-default\/public\/img\/logoWhite.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5019,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/logoWhite.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/logoWhite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1946,6 +1869,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/animation.scss",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/animation.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/plugins\/acorn-default\/public\/scss\/master.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/master.scss",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/master.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3058,69 +2997,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/plugins\/contact-pencilblue\/contact.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/contact-pencilblue\/contact.js",
-		"outputAbbreviatedPath": "\/plugins\/contact-pencilblue\/min\/contact-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/plugins\/contact-pencilblue\/controllers\/api\/pb_contact_submit.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/contact-pencilblue\/controllers\/api\/pb_contact_submit.js",
-		"outputAbbreviatedPath": "\/plugins\/contact-pencilblue\/controllers\/api\/min\/pb_contact_submit-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/plugins\/contact-pencilblue\/public\/css\/pb_contact_form.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/contact-pencilblue\/public\/css\/pb_contact_form.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plugins\/contact-pencilblue\/public\/js\/pb_contact_form.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/contact-pencilblue\/public\/js\/pb_contact_form.js",
-		"outputAbbreviatedPath": "\/plugins\/contact-pencilblue\/public\/js\/min\/pb_contact_form-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/plugins\/contact-pencilblue\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/contact-pencilblue\/README.md",
-		"outputAbbreviatedPath": "\/plugins\/contact-pencilblue\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plugins\/contact-pencilblue\/templates\/pb_contact_form.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/contact-pencilblue\/templates\/pb_contact_form.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/plugins\/ga\/ga.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -4067,17 +3943,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/plugins\/pencilblue\/controllers\/api\/admin\/site_settings\/email\/send_test.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/api\/admin\/site_settings\/email\/send_test.js",
-		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/api\/admin\/site_settings\/email\/min\/send_test-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/plugins\/pencilblue\/controllers\/api\/admin\/system\/cluster_api.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -4188,17 +4053,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/plugins\/pencilblue\/controllers\/article.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/article.js",
-		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/min\/article-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/plugins\/pencilblue\/controllers\/error\/404.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -4221,34 +4075,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/plugins\/pencilblue\/controllers\/index.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/index.js",
-		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/min\/index-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/plugins\/pencilblue\/controllers\/media_content_controller.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/media_content_controller.js",
 		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/min\/media_content_controller-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/plugins\/pencilblue\/controllers\/page.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/page.js",
-		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/min\/page-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -4397,15 +4229,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/plugins\/pencilblue\/templates\/admin\/content\/articles\/article_form.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/admin\/content\/articles\/article_form.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/plugins\/pencilblue\/templates\/admin\/content\/articles\/manage_articles.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4510,15 +4333,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/admin\/content\/pages\/manage_pages.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plugins\/pencilblue\/templates\/admin\/content\/pages\/page_form.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/admin\/content\/pages\/page_form.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4901,15 +4715,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/plugins\/pencilblue\/templates\/angular\/admin\/content\/articles\/article_form.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/angular\/admin\/content\/articles\/article_form.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/plugins\/pencilblue\/templates\/angular\/admin\/content\/articles\/manage_articles.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4973,15 +4778,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/plugins\/pencilblue\/templates\/angular\/admin\/content\/objects\/object_form.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/angular\/admin\/content\/objects\/object_form.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/plugins\/pencilblue\/templates\/angular\/admin\/content\/objects\/sort_objects.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5014,15 +4810,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/angular\/admin\/content\/pages\/manage_pages.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plugins\/pencilblue\/templates\/angular\/admin\/content\/pages\/page_form.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/angular\/admin\/content\/pages\/page_form.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6009,17 +5796,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/public\/js\/angular\/homepage.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/js\/angular\/homepage.js",
-		"outputAbbreviatedPath": "\/public\/js\/angular\/min\/homepage-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/public\/js\/angular\/services\/form_validation.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -6316,36 +6092,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/README.md",
-		"outputAbbreviatedPath": "\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/style\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/style\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/views\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/views\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
