@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".coverflow-btn").click(function(){var o=-50;$("html, body").animate({scrollTop:$(".background-wrapper").offset().top+o},500)})});
+$(document).ready(function(){$(".coverflow-btn").click(function(){var a=-50;$("html, body").animate({scrollTop:$(".background-wrapper").offset().top+a},500)});var a=$(".scroll-marker").offset().top+$(".scroll-marker").height()-50;$(window).on("scroll",function(){var o=Math.round($(window).scrollTop());o>=a?$(".navbar").addClass("past-navbar"):$(".navbar").removeClass("past-navbar")})});

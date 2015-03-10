@@ -8,6 +8,22 @@ $( document ).ready(function() {
         }, 500);
     });
 
+    // get the value of the bottom of the video element by adding the offset of that element plus its height, set it as a variable
+    // minus 50px due to navbar height + 1px to trigger the activation
+    var mainbottom = $('.scroll-marker').offset().top + $('.scroll-marker').height() - 50;
+
+    // on scroll, activate class to turn navbar visible
+    $(window).on('scroll',function(){
+
+        var stop = Math.round($(window).scrollTop());
+        if (stop >= mainbottom) {
+            $('.navbar').addClass('past-navbar');
+        } else {
+            $('.navbar').removeClass('past-navbar');
+        }
+
+    });
+
 });
 
 
