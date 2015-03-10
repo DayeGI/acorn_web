@@ -15,9 +15,9 @@ module.exports = {
     "sitePort": 8080,
     "log_level": "info",
     "db": {
-        "type":"mongo",
+        "type": "mongo",
         "servers": [
-          "127.0.0.1:27017"
+            "mongodb://127.0.0.1:27017/"
         ],
         "name": "pencilblue",
         "writeConcern": 1
@@ -46,5 +46,7 @@ module.exports = {
     },
     "session": {
         "storage": "mongo"
-    }
+    },
+    "siteIP": "0.0.0.0"
 };
+

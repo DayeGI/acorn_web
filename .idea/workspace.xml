@@ -2,15 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b23910-3023-4b75-8da0-bb1852ad18eb" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/contact-pencilblue/README.md" afterPath="$PROJECT_DIR$/plugins/acorn-contact-form/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/contact-pencilblue/contact.js" afterPath="$PROJECT_DIR$/plugins/acorn-contact-form/contact.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/contact-pencilblue/controllers/api/pb_contact_submit.js" afterPath="$PROJECT_DIR$/plugins/acorn-contact-form/controllers/api/ac_contact_submit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/contact-pencilblue/details.json" afterPath="$PROJECT_DIR$/plugins/acorn-contact-form/details.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/contact-pencilblue/public/css/pb_contact_form.css" afterPath="$PROJECT_DIR$/plugins/acorn-contact-form/public/css/ac_contact_form.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/contact-pencilblue/public/js/pb_contact_form.js" afterPath="$PROJECT_DIR$/plugins/acorn-contact-form/public/js/ac_contact_form.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/contact-pencilblue/public/localization/en-us.json" afterPath="$PROJECT_DIR$/plugins/acorn-contact-form/public/localization/en-us.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/plugins/contact-pencilblue/templates/pb_contact_form.html" afterPath="$PROJECT_DIR$/plugins/acorn-contact-form/templates/ac_contact_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/fonts/SourceHanSansCN-Bold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/fonts/SourceHanSansCN-ExtraLight.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/fonts/SourceHanSansCN-Heavy.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/fonts/SourceHanSansCN-Light.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/fonts/SourceHanSansCN-Medium.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/fonts/SourceHanSansCN-Normal.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/fonts/SourceHanSansCN-Regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/62c8e26150031ca38356265f5ae4deb768bd4e97/animation.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/animation.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/img_openBook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/img_product.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/logoWhite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/main.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/master.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/62c8e26150031ca38356265f5ae4deb768bd4e97/media-query.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/media-query.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/navy_blue_gradient_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/aboutUs/pin_aboutUs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/pin_university.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/white_gradient_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/css/animation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/animation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_industry_electric.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_industry_manufacture.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_industry_oil.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_industry_steel.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_industry_tobacco.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_industry_transportation.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_mail _select.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_phone_select.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/product/icon_prod_vulnerabilityMethod.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/product/icon_prod_vulnerabilityScript.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_solutionDatabase.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_solutionDatabase_flat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_solutionDevices.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_solutionDevices_flat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_solutionMonitor.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_solutionMonitor_flat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_solutionProtection.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_solutionProtection_flat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_solutionSafety icon_flat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_solutionSafety.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_solutionThreat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_solutionThreat_flat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_uniEmployee.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_uniEmployee_flat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_uniProtection.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_uniProtection_flat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_uniStandard.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_uniStandard_flat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icon_wechat_select.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icons_connectwithUs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icons_delete.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icons_fax.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icons_location.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icons_mail.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icons_phone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/icons_wechat_white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/css/media-query.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/media-query.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/soln_Maintenance.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/soln_nstall.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/soln_prodDesign.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/soln_prodManu.svg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/angular/homepage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/style/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/62c8e26150031ca38356265f5ae4deb768bd4e97/main.scssc" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/62c8e26150031ca38356265f5ae4deb768bd4e97/main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/62c8e26150031ca38356265f5ae4deb768bd4e97/master.scssc" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/62c8e26150031ca38356265f5ae4deb768bd4e97/master.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-contact-form/public/css/ac_contact_form.css" afterPath="$PROJECT_DIR$/plugins/acorn-contact-form/public/css/ac_contact_form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pencilblue/controllers/article.js" afterPath="$PROJECT_DIR$/plugins/pencilblue/controllers/article.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pencilblue/templates/admin/content/articles/article_form.html" afterPath="$PROJECT_DIR$/plugins/pencilblue/templates/admin/content/articles/article_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pencilblue/templates/angular/admin/content/articles/article_form.html" afterPath="$PROJECT_DIR$/plugins/pencilblue/templates/angular/admin/content/articles/article_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/service/entities/article_service.js" afterPath="$PROJECT_DIR$/include/service/entities/article_service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/portfolio/controllers/blog.js" afterPath="$PROJECT_DIR$/plugins/portfolio/controllers/blog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/portfolio/controllers/blog_filter.js" afterPath="$PROJECT_DIR$/plugins/portfolio/controllers/blog_filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/config.js" afterPath="$PROJECT_DIR$/include/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/localization/de-de.js" afterPath="$PROJECT_DIR$/public/localization/de-de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/localization/en-us.js" afterPath="$PROJECT_DIR$/public/localization/en-us.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/footer.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/head.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pencilblue/templates/head.html" afterPath="$PROJECT_DIR$/plugins/pencilblue/templates/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/portfolio/templates/head.html" afterPath="$PROJECT_DIR$/plugins/portfolio/templates/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pencilblue/controllers/index.js" afterPath="$PROJECT_DIR$/plugins/pencilblue/controllers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/js/min/main-min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/min/main-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/css/main.css" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/js/main.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/main.scss" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/master.scss" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/master.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pencilblue/templates/angular/admin/content/objects/object_form.html" afterPath="$PROJECT_DIR$/plugins/pencilblue/templates/angular/admin/content/objects/object_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pencilblue/controllers/page.js" afterPath="$PROJECT_DIR$/plugins/pencilblue/controllers/page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pencilblue/templates/admin/content/pages/page_form.html" afterPath="$PROJECT_DIR$/plugins/pencilblue/templates/admin/content/pages/page_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pencilblue/templates/angular/admin/content/pages/page_form.html" afterPath="$PROJECT_DIR$/plugins/pencilblue/templates/angular/admin/content/pages/page_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/localization/pl-pl.js" afterPath="$PROJECT_DIR$/public/localization/pl-pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/service/jobs/plugins/plugin_uninstall_job.js" afterPath="$PROJECT_DIR$/include/service/jobs/plugins/plugin_uninstall_job.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/localization/ro-ro.js" afterPath="$PROJECT_DIR$/public/localization/ro-ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pencilblue/controllers/api/admin/site_settings/email/send_test.js" afterPath="$PROJECT_DIR$/plugins/pencilblue/controllers/api/admin/site_settings/email/send_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/service/entities/template_service.js" afterPath="$PROJECT_DIR$/include/service/entities/template_service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/elements/top_menu.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/elements/top_menu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="acorn_web.iws" />
@@ -35,41 +132,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="acorn-default.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/acorn-default/acorn-default.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="537" max-vertical-offset="1444">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="703">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.065972224" vertical-offset="0" max-vertical-offset="2090">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ac_contact_form.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ac_contact_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-contact-form/templates/ac_contact_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.043329533" vertical-offset="0" max-vertical-offset="1558">
+            <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1558">
               <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ac_contact_form.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/acorn-contact-form/public/css/ac_contact_form.css">
+      <file leaf-file-name="details.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/pencilblue/details.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="912">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.392857" vertical-offset="0" max-vertical-offset="1406">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -100,7 +197,7 @@
       <file leaf-file-name="contact.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-contact-form/contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1634">
+            <state vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="1634">
               <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding />
             </state>
@@ -110,7 +207,7 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-contact-form/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.28" vertical-offset="0" max-vertical-offset="190">
+            <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="190">
               <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
@@ -120,7 +217,7 @@
       <file leaf-file-name="details.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-contact-form/details.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="779">
+            <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="779">
               <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
               <folding />
             </state>
@@ -163,7 +260,6 @@
         <option value="$PROJECT_DIR$/plugins/portfolio/details.json" />
         <option value="$PROJECT_DIR$/plugins/acorn-default/details.json" />
         <option value="$PROJECT_DIR$/plugins/acorn-default/controllers/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/plugins/company/templates/index.html" />
         <option value="$PROJECT_DIR$/plugins/company/controllers/index.js" />
         <option value="$PROJECT_DIR$/sample.config.js" />
@@ -180,8 +276,9 @@
         <option value="$PROJECT_DIR$/plugins/acorn-contact-form/public/js/ac_contact_form.js" />
         <option value="$PROJECT_DIR$/plugins/acorn-contact-form/README.md" />
         <option value="$PROJECT_DIR$/plugins/acorn-contact-form/details.json" />
-        <option value="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" />
         <option value="$PROJECT_DIR$/plugins/acorn-contact-form/templates/ac_contact_form.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" />
       </list>
     </option>
   </component>
@@ -267,7 +364,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ga" />
+              <option name="myItemId" value="acorn-default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,77 +382,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="acorn-contact-form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acorn_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acorn_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acorn-contact-form" />
+              <option name="myItemId" value="acorn-default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acorn_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acorn_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acorn-contact-form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acorn_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acorn_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acorn-contact-form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,10 +427,14 @@
       <ConfigurationWrapper RunnerId="debuggableProgram" />
       <method />
     </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -407,10 +442,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -476,14 +507,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39920425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -509,6 +540,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plugins/acorn-contact-form/details.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="779">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/ga/ga.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="1520">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
@@ -677,13 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/pencilblue/include/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="16119" max-vertical-offset="18563">
@@ -705,20 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.codekit">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.96067417" vertical-offset="684" max-vertical-offset="108509">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/pencilblue/details.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79053086" vertical-offset="0" max-vertical-offset="912">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
@@ -737,13 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="874" max-vertical-offset="4598">
           <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46771878" vertical-offset="358" max-vertical-offset="1444">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -793,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="779">
           <caret line="18" column="59" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1444">
           <caret line="69" column="29" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,13 +826,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/acorn-contact-form/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.28" vertical-offset="0" max-vertical-offset="190">
+        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="190">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
@@ -841,7 +857,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/acorn-contact-form/details.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="779">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="779">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
           <folding />
         </state>
@@ -851,14 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="703">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -873,8 +881,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/acorn-contact-form/templates/ac_contact_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.043329533" vertical-offset="0" max-vertical-offset="1558">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1558">
           <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/pencilblue/details.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="912">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.392857" vertical-offset="0" max-vertical-offset="1406">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.065972224" vertical-offset="0" max-vertical-offset="2090">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
           <folding />
         </state>
       </provider>
