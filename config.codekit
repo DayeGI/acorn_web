@@ -2,6 +2,17 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18493",
 "files": {
+	"\/config.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/config.js",
+		"outputAbbreviatedPath": "\/min\/config-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/controllers\/api\/api_action_controller.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -74,6 +85,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/include\/client_js.js",
 		"outputAbbreviatedPath": "\/include\/min\/client_js-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/include\/config.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/include\/config.js",
+		"outputAbbreviatedPath": "\/include\/min\/config-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -299,6 +321,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/include\/service\/entities\/article_service.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/include\/service\/entities\/article_service.js",
+		"outputAbbreviatedPath": "\/include\/service\/entities\/min\/article_service-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/include\/service\/entities\/custom_object_service.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -349,6 +382,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/include\/service\/entities\/section_service.js",
 		"outputAbbreviatedPath": "\/include\/service\/entities\/min\/section_service-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/include\/service\/entities\/template_service.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/include\/service\/entities\/template_service.js",
+		"outputAbbreviatedPath": "\/include\/service\/entities\/min\/template_service-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -481,6 +525,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/include\/service\/jobs\/plugins\/plugin_job_runner.js",
 		"outputAbbreviatedPath": "\/include\/service\/jobs\/plugins\/min\/plugin_job_runner-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/include\/service\/jobs\/plugins\/plugin_uninstall_job.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/include\/service\/jobs\/plugins\/plugin_uninstall_job.js",
+		"outputAbbreviatedPath": "\/include\/service\/jobs\/plugins\/min\/plugin_uninstall_job-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -914,6 +969,69 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-contact-form\/contact.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-contact-form\/contact.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-contact-form\/min\/contact-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-contact-form\/controllers\/api\/ac_contact_submit.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-contact-form\/controllers\/api\/ac_contact_submit.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-contact-form\/controllers\/api\/min\/ac_contact_submit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-contact-form\/public\/css\/ac_contact_form.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-contact-form\/public\/css\/ac_contact_form.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/acorn-contact-form\/public\/js\/ac_contact_form.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-contact-form\/public\/js\/ac_contact_form.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-contact-form\/public\/js\/min\/ac_contact_form-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-contact-form\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-contact-form\/README.md",
+		"outputAbbreviatedPath": "\/plugins\/acorn-contact-form\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/acorn-contact-form\/templates\/ac_contact_form.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-contact-form\/templates\/ac_contact_form.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/plugins\/acorn-default\/acorn-default.js": {
 		"fileType": 64,
@@ -2871,6 +2989,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/plugins\/acorn-default\/templates\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/acorn-default\/templates\/robots.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3943,6 +4070,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/plugins\/pencilblue\/controllers\/api\/admin\/site_settings\/email\/send_test.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/api\/admin\/site_settings\/email\/send_test.js",
+		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/api\/admin\/site_settings\/email\/min\/send_test-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/plugins\/pencilblue\/controllers\/api\/admin\/system\/cluster_api.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -4053,6 +4191,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/plugins\/pencilblue\/controllers\/article.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/article.js",
+		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/min\/article-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/plugins\/pencilblue\/controllers\/error\/404.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -4075,12 +4224,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/plugins\/pencilblue\/controllers\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/index.js",
+		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/plugins\/pencilblue\/controllers\/media_content_controller.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/media_content_controller.js",
 		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/min\/media_content_controller-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/pencilblue\/controllers\/page.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/page.js",
+		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/min\/page-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -4229,6 +4400,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/plugins\/pencilblue\/templates\/admin\/content\/articles\/article_form.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/admin\/content\/articles\/article_form.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/pencilblue\/templates\/admin\/content\/articles\/manage_articles.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4333,6 +4513,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/admin\/content\/pages\/manage_pages.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/pencilblue\/templates\/admin\/content\/pages\/page_form.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/admin\/content\/pages\/page_form.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4715,6 +4904,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/plugins\/pencilblue\/templates\/angular\/admin\/content\/articles\/article_form.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/angular\/admin\/content\/articles\/article_form.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/pencilblue\/templates\/angular\/admin\/content\/articles\/manage_articles.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4778,6 +4976,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/plugins\/pencilblue\/templates\/angular\/admin\/content\/objects\/object_form.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/angular\/admin\/content\/objects\/object_form.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/pencilblue\/templates\/angular\/admin\/content\/objects\/sort_objects.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4810,6 +5017,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/angular\/admin\/content\/pages\/manage_pages.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/pencilblue\/templates\/angular\/admin\/content\/pages\/page_form.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/pencilblue\/templates\/angular\/admin\/content\/pages\/page_form.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6092,6 +6308,18 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
