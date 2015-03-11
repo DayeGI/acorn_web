@@ -32,7 +32,7 @@ RegisterCommunity.prototype.requestNotification = function(cb) {
 			}
 
 			var contact = {
-				name: post.name + ' (' + pb.utils.uniqueId().toString() + ')',
+				name: post.name + ' ( Contact for Community Beta - UID: ' + pb.utils.uniqueId().toString() + ')',
 				email: post.email,
 				description: post.email,
 				date: new Date()
@@ -46,9 +46,6 @@ RegisterCommunity.prototype.requestNotification = function(cb) {
 					cb({content: pb.BaseController.apiResponse(pb.BaseController.API_FAILURE, err.toString())});
 					return;
 				}
-				console.log('err ' +err);
-				console.log(obj);
-				console.log(obj.length);
 				if (obj.length===0) {
 					cos.save(customObjectDocument, contactType, function (err, result) {
 						if (util.isError(err)) {

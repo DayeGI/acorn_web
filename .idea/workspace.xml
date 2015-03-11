@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b23910-3023-4b75-8da0-bb1852ad18eb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/product/vulnerabilityPlatform/img_vulnerabilityFront.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/icon_communityEmail.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/icon_communityName.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/img/product/vulnerabilityPlatform/img_vulnerabilityFront" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/bg_community.jpg" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/index/bg_community.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/img/product/vulnerabilityPlatform/img_vulnerabilityAngle" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/product/vulnerabilityPlatform/img_vulnerabilityAngle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/img/product/vulnerabilityPlatform/img_vulnerabilitySideProfile" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/product/vulnerabilityPlatform/img_vulnerabilitySideProfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/62c8e26150031ca38356265f5ae4deb768bd4e97/main.scssc" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/62c8e26150031ca38356265f5ae4deb768bd4e97/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/css/main.css" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/main.scss" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/controllers/api/register_community.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/controllers/api/register_community.js" />
     </list>
     <ignored path="acorn_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3518851" vertical-offset="1932" max-vertical-offset="2489">
+            <state vertical-scroll-proportion="-7.0" vertical-offset="1932" max-vertical-offset="2489">
               <caret line="112" column="45" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
               <folding />
             </state>
@@ -90,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register_community.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="register_community.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-default/controllers/api/register_community.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="873" max-vertical-offset="1919">
-              <caret line="72" column="52" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.22408026" vertical-offset="759" max-vertical-offset="1862">
+              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -186,9 +174,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/plugins/acorn-contact-form/controllers/api/ac_contact_submit.js" />
         <option value="$PROJECT_DIR$/plugins/acorn-default/acorn-default.js" />
-        <option value="$PROJECT_DIR$/plugins/acorn-default/controllers/api/register_community.js" />
         <option value="$PROJECT_DIR$/plugins/acorn-default/public/js/main.js" />
         <option value="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" />
+        <option value="$PROJECT_DIR$/plugins/acorn-default/controllers/api/register_community.js" />
       </list>
     </option>
   </component>
@@ -1031,14 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/controllers/api/register_community.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="873" max-vertical-offset="1919">
-          <caret line="72" column="52" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/acorn-default/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="6251">
@@ -1049,8 +1029,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3518851" vertical-offset="1932" max-vertical-offset="2489">
+        <state vertical-scroll-proportion="-7.0" vertical-offset="1932" max-vertical-offset="2489">
           <caret line="112" column="45" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/controllers/api/register_community.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22408026" vertical-offset="759" max-vertical-offset="1862">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding />
         </state>
       </provider>
