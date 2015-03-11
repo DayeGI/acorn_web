@@ -39,8 +39,22 @@ $( document ).ready(function() {
 
 });
 
-
-
+function CommunityRequestController ($scope, $http){
+	$scope.submit = function(){
+		if($scope.name && $scope.email){
+			$http({method:'POST', url:'api/community/early_access_reminder', data:{
+				name:$scope.name,
+				email:$scope.email
+			}})
+					.success(function(res){
+						alert(res.message.length>0 ? res.message : "Request Submmitted!");
+					})
+					.error(function(err){
+						alert("Request failed with error: "+err);
+					})
+		}
+	}
+}
 
 
 // var iconSize = 80,

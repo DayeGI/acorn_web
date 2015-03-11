@@ -52,6 +52,28 @@ AcornDefault.onStartup = function(cb) {
     //    }
     //    return [];
     //});
+	var cos = new pb.CustomObjectService();
+
+	cos.loadTypeByName('community-notification-requests', function(err, contactType) {
+		if(!contactType) {
+			var contactValues = {
+				name: 'community-notification-requests',
+				fields: {
+					name: {field_type: 'text'},
+					description: {field_type: 'text'},
+					email: {field_type: 'text'}
+				}
+			};
+
+			cos.saveType(contactValues, function(err, contactType) {
+				cb(null, true);
+			});
+		}
+		else {
+			cb(null, true);
+		}
+	});
+	
     cb(null, true);
 };
 
