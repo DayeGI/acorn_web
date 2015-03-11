@@ -36,6 +36,10 @@ body {
 .navbar-default .navbar-nav>li>a { color: #fff; }
 .navbar-default .navbar-brand { color: #fff; }
 
+.past-navbar-pre {
+	top: -50px;
+}
+
 //add class on scrolling past intro video
 .past-navbar {
     background-color: #ffffff;
@@ -210,7 +214,7 @@ body {
 }
 
 .featured-product-img img {
-	transform: translate(-200px, 40px);
+	transform: translate(-200px, 65px);
 }
 
 .featured-product-caption {
@@ -385,6 +389,23 @@ body {
 	color: white;
 }
 
+.featured-about img {
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	z-index: 3;
+}
+
+.overlay {
+	width: 100%;
+	height: 500px;
+	background:rgba(0,0,0, 0.5);
+	// background-color: #5F5F5F;
+	// opacity: 0.7; 
+	position: absolute;
+	z-index: 4;
+}
+
 .featured-about h5{
 	font-size: 28px;
 	padding-bottom: 20px;
@@ -437,6 +458,7 @@ body {
   	top: 50%;
   	transform: translateY(-50%);
   	left: 0;
+  	z-index: 5;
 }
 
 .featured-about-left .button {
@@ -457,9 +479,99 @@ body {
   	top: 50%;
   	transform: translateY(-50%);
   	left: 35%;
+  	z-index: 5;
 }
 
 .featured-about-right:after {
 	content: "";
 	clear: both;
+}
+
+/*
+ *
+ * community
+ *
+ */
+
+.featured-community{
+	height: 400px;
+	position: relative;
+	z-index: 2;
+}
+
+.featured-community img {
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	z-index: 3;
+}
+
+.community-left {
+	width: 30%;
+	float: left;
+	text-align: left;
+	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	left: 10%;
+  	z-index: 5;
+}
+
+.community-right {
+	width: 30%;
+	float: left;
+	text-align: center;
+	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	left: 50%;
+  	z-index: 5;
+}
+
+.community-left h5{
+	font-size: 42px;
+	padding-bottom: 5px;
+	color: #F48446;
+}
+
+.community-left p {
+	font-size: 18px;
+	padding-bottom: 20px;
+	color: #5F5F5F;
+}
+
+form input:nth-child(1) {
+	margin-top: 105px;
+}
+
+.form-fill {
+	width: 250px;
+	height: 40px;
+	font-size: 17px;
+	color: #E9E9E9;
+	border-radius: 7px;
+	border: none;
+	background-color: #8D999F;
+	padding: 7px;
+	margin-bottom: 20px;
+}
+
+.form-fill:focus {
+	outline: none;
+	// -webkit-box-shadow: inset 0 0 13px #314753;
+	//    -moz-box-shadow: inset 0 0 13px #314753;
+    //         box-shadow: inset 0 0 13px #314753;
+    background-color: #314753;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button {
+	color: #F48446;
+	background-color: transparent;
+	padding: 6px 49px;
+}
+
+.submit-button:hover {
+	color: white;
+	background-color: #F48446;
 }
