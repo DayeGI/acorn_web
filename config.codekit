@@ -1139,7 +1139,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 71005,
+		"initialSize": 35365,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_community.jpg",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_community.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1725,6 +1725,17 @@
 		"initialSize": 273435,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/9.png",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/img_vulnerabilityFront.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 277545,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/img_vulnerabilityFront.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/img_vulnerabilityFront.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2380,6 +2391,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/greensock-js\/src\/uncompressed\/utils\/Draggable.js",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/greensock-js\/src\/uncompressed\/utils\/min\/Draggable-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/public\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/main.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/public\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3340,6 +3373,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/elements\/privacy_policy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/acorn-default\/templates\/elements\/top_menu.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/elements\/top_menu.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
