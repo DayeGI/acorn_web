@@ -125,6 +125,18 @@
 	background-image: url(/public/acorn-default/img/icon_delete_select.svg);
 }
 
+.wechat-active {
+	background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
+}
+
+.mail-active {
+	background-image: url(/public/acorn-default/img/icon_mail _select.svg);
+}
+
+.phone-active {
+	background-image: url(/public/acorn-default/img/icon_phone_select.svg);
+}
+
  /*
   *
   * contact form tab 2 - WECHAT
