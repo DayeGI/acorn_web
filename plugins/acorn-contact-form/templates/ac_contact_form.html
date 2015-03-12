@@ -11,10 +11,10 @@
 	<div class="contact-panel" ng-show="showContactPlugin">
 		<ul class="contact-types">
 			<li>联系我们</li>
-			<li ng-click="showContactType = 0">匡恩圈</li>
-			<li ng-click="showContactType = 1">关注我们</li>
-			<li ng-click="showContactType = 2">联络我们</li>
-			<li ng-click="showContactType = 3">匡恩热线<br>(440) 435-4231</li>
+			<li class="SiYuan-ExtraLight" ng-click="showContactType = 0"><p>匡恩圈</p></li>
+			<li ng-click="showContactType = 1"><p>关注我们</p></li>
+			<li ng-click="showContactType = 2"><p>联络我们</p></li>
+			<li ng-click="showContactType = 3"><p>匡恩热线<br>(440) 435-4231</p></li>
 			<li ng-click="showContactPlugin = false"></li>
 		</ul>
 
@@ -23,6 +23,7 @@
 
 		<!--WECHAT PANEL-->
 		<div class="wechat" ng-show="showContactType == 1">
+			<p>关注我们</p>
 			<p>来关注我们最新的动向</p>
 			<img src="public/acorn-default/img/qr.jpg" alt="">
 		</div>
@@ -74,7 +75,7 @@
 		</div>
 
 		<!--HOTLINE PANEL-->
-		<div ng-show="showContactType == 3">CALL INFORMATION</div>
+		<div ng-show="showContactType == 3"></div>
 	</div>
 	
 </div>

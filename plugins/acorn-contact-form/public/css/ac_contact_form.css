@@ -46,6 +46,11 @@
 	transition: all 0.2s ease-in-out;
 }
 
+
+.contact-panel p {
+	color: #ffffff;
+}
+
 .contact-types {
 	padding-left: 0px;
 	margin-bottom: 0px;
@@ -62,7 +67,7 @@
 	padding-right: 50px;
 	background-repeat: no-repeat;
 	background-size: 38px;
-	background-position: 302px 10px;
+	background-position: 302px 9px;
 	transition: background-color 0.2s ease-in-out;
 }
 
@@ -97,7 +102,7 @@
 	background-position: 0px 0px;
 	padding: 0;
 	margin: 11px 0px 11px 308px;
-	background-image: url(/public/acorn-default/img/icons_delete.svg);
+	background-image: url(/public/acorn-default/img/icon_delete.svg);
 }
 
 .contact-panel ul li:nth-child(3):hover {
@@ -117,7 +122,7 @@
 
 .contact-panel ul li:last-child:hover {
 	cursor: pointer;
-	background-image: url();
+	background-image: url(/public/acorn-default/img/icon_delete_select.svg);
 }
 
  /*
@@ -127,18 +132,34 @@
   */
 
 .wechat {
+	width: calc(100% - 50px);
+	height: 100%;
 	position: absolute;
 	z-index: 9999;
 	text-align: center;
+	background-color: #314753;
 }
 
 .wechat p{
 	display: block;
 }
 
+.wechat p:nth-child(1){
+	font-size: 18px;
+	margin: 20px 0px;
+}
+
+.wechat p:nth-child(2){
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
 .wechat img{
-	width: 40%;
+	width: 120px;
+	height: 120px;
 	display: block;
-	text-align: center;
+	margin-left: calc(50% - 60px);
+	/*margin-top: calc(50% - 60px);*/
+	background: black;
 }
 
