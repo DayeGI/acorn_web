@@ -513,7 +513,7 @@ body {
 
 .featured-community img {
 	width: 100%;
-	height: 500px;
+	height: 400px;
 	position: absolute;
 	z-index: 3;
 
@@ -524,6 +524,16 @@ body {
 	/* Set up proportionate scaling */
 	width: 100%;
 	height: auto;
+}
+
+.overlay2 {
+	width: 100%;
+	height: 400px;
+	// background:rgba(0,0,0, 0.5);
+	background-color: #ffffff;
+	opacity: 0.7; 
+	position: absolute;
+	z-index: 4;
 }
 
 .community-left {
@@ -548,6 +558,10 @@ body {
   	z-index: 5;
 }
 
+.section2 {
+	height: 160px;
+}
+
 .community-left h5{
 	font-size: 42px;
 	padding-bottom: 5px;
@@ -561,7 +575,7 @@ body {
 }
 
 form input:nth-child(1) {
-	margin-top: 105px;
+	margin-top: 16px;
 }
 
 .form-fill {

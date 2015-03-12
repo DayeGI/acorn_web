@@ -6,24 +6,28 @@
 <!-- WRAPPING DIV - OPTIONAL -->
 <div ng-controller="ContactFormController" ng-cloak>
 	<!-- FLOATING BUTTON -->
-	<div class="floating-activator" ng-click="showContactPlugin = !showContactPlugin">CLICK HEREEEEE</div>
-	<!-- CONTACT US MAIN PANEL -->
+	<div class="floating-activator" ng-click="showContactPlugin = !showContactPlugin">联系我们</div>
+	<!-- CONTACT MAIN PANEL -->
 	<div class="contact-panel" ng-show="showContactPlugin">
 		<ul class="contact-types">
-			<li ng-click="showContactType = 0">COM</li>
-			<li ng-click="showContactType = 1">WEC</li>
-			<li ng-click="showContactType = 2">CONTACT</li>
-			<li ng-click="showContactType = 3">CALL</li>
-			<li ng-click="showContactPlugin = false">X</li>
+			<li>联系我们</li>
+			<li ng-click="showContactType = 0">匡恩圈</li>
+			<li ng-click="showContactType = 1">关注我们</li>
+			<li ng-click="showContactType = 2">联络我们</li>
+			<li ng-click="showContactType = 3">匡恩热线<br>(440) 435-4231</li>
+			<li ng-click="showContactPlugin = false"></li>
 		</ul>
 
 		<!--COMMUNITY PANEL-->
 		<div ng-show="showContactType == 0">COMMUNITY THINGY</div>
 
-		<!--COMMUNITY PANEL-->
-		<div ng-show="showContactType == 1">WECHAT</div>
+		<!--WECHAT PANEL-->
+		<div class="wechat" ng-show="showContactType == 1">
+			<p>来关注我们最新的动向</p>
+			<img src="public/acorn-default/img/qr.jpg" alt="">
+		</div>
 
-		<!--COMMUNITY PANEL-->
+		<!--CONTACT US PANEL-->
 		<div ng-show="showContactType == 2">
 			<!-- Tabs for the Contact form type -->
 			<ul class="nav nav-tabs" ng-init="contactForm = 0">
@@ -69,7 +73,7 @@
 			</div>	
 		</div>
 
-		<!--COMMUNITY PANEL-->
+		<!--HOTLINE PANEL-->
 		<div ng-show="showContactType == 3">CALL INFORMATION</div>
 	</div>
 	

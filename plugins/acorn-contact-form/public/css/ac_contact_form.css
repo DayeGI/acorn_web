@@ -1,16 +1,144 @@
+ /*
+  *
+  * main contact button
+  *
+  */
+
 .floating-activator{
-	position:fixed;
-	right:20px;
-	bottom:20px;
-	background-color:blue;
-	z-index:999;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	background-color: #314753;
+	color: #ffffff;
+	z-index: 999;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	padding: 13px 10px 0px 10px;
+	border-radius: 50%;
+	transition: box-shadow 0.2s ease-in-out;
 }
+
+.floating-activator:hover{
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	   -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	     -o-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+ /*
+  *
+  * main contact form panel
+  *
+  */
+
 .contact-panel{
 	position:fixed;
-	right:60px;
-	bottom:50px;
-	height:500px;
-	width:500px;
+	right: 20px;
+	bottom: 20px;
+	height: 290px; /* minus 58px, currently community not available */
+	width: 348px;
 	z-index:999;
-	background-color:green;
+	background-color: #314753;
+	color: #ffffff;
+	text-align: right;
+	transition: all 0.2s ease-in-out;
 }
+
+.contact-types {
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+.contact-panel ul {
+	list-style: none;
+}
+
+.contact-panel ul li {
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	padding-right: 50px;
+	background-repeat: no-repeat;
+	background-size: 38px;
+	background-position: 302px 10px;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.contact-panel ul li:first-child {
+	background-image: none;
+	padding-right: 0px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.contact-panel ul li:nth-child(2) {
+	display: none; /* currently community not available */
+}
+
+.contact-panel ul li:nth-child(3) {
+	background-image: url(/public/acorn-default/img/icons_wechat_white.svg);
+}
+
+.contact-panel ul li:nth-child(4) {
+	background-image: url(/public/acorn-default/img/icons_mail.svg);
+}
+
+.contact-panel ul li:nth-child(5) {
+	background-image: url(/public/acorn-default/img/icons_phone.svg);
+	padding: 11px 50px 11px 0px;
+}
+
+.contact-panel ul li:last-child {
+	width: calc(100% - 318px);
+	height: 30px;
+	background-size: 30px;
+	background-position: 0px 0px;
+	padding: 0;
+	margin: 11px 0px 11px 308px;
+	background-image: url(/public/acorn-default/img/icons_delete.svg);
+}
+
+.contact-panel ul li:nth-child(3):hover {
+	cursor: pointer;
+	background-color: #F48446;
+}
+
+.contact-panel ul li:nth-child(4):hover {
+	cursor: pointer;
+	background-color: #F48446;
+}
+
+.contact-panel ul li:nth-child(5):hover {
+	cursor: pointer;
+	background-color: #F48446;
+}
+
+.contact-panel ul li:last-child:hover {
+	cursor: pointer;
+	background-image: url();
+}
+
+ /*
+  *
+  * contact form tab 2 - WECHAT
+  *
+  */
+
+.wechat {
+	position: absolute;
+	z-index: 9999;
+	text-align: center;
+}
+
+.wechat p{
+	display: block;
+}
+
+.wechat img{
+	width: 40%;
+	display: block;
+	text-align: center;
+}
+
