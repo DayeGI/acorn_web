@@ -244,17 +244,17 @@
 
 .contact-panel ul li:nth-child(3):hover {
 	cursor: pointer;
-	background-color: #F48446;
+	background-color: #C9C9C9;
 }
 
 .contact-panel ul li:nth-child(4):hover {
 	cursor: pointer;
-	background-color: #F48446;
+	background-color: #C9C9C9;
 }
 
 .contact-panel ul li:nth-child(5):hover {
 	cursor: pointer;
-	background-color: #F48446;
+	background-color: #C9C9C9;
 }
 
 .contact-panel ul li:last-child:hover {
@@ -385,16 +385,52 @@
 	opacity: 0;
 }
 
+/*.contact-panel ul li:nth-child(3).ng-hide-remove {
+	background-image: url(/public/acorn-default/img/icons_wechat_white.svg);
+}
+
+.contact-panel ul li:nth-child(3).ng-hide-remove-active {
+	background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
+}
+
+.contact-panel ul li:nth-child(3).ng-hide-add {
+	background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
+}
+
+.contact-panel ul li:nth-child(3).ng-hide-add-active {
+	background-image: url(/public/acorn-default/img/icons_wechat_white.svg);
+}*/
+
+.contact-panel ul li:nth-child(3).my-class {
+  background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
+}
+
  /*
   *
   * contact form tab 3 – CONTACT US
   *
   */
 
+.contact-us {
+	width: calc(100% - 50px);
+	height: 100%;
+	position: absolute;
+	z-index: 9999;
+	text-align: center;
+	background-color: #314753;
+}
 
  /*
   *
-  * contact form tab 2 - HOTLINE
+  * contact form tab 4 - HOTLINE
   *
   */
 
+.hotline {
+	width: calc(100% - 50px);
+	height: 100%;
+	position: absolute;
+	z-index: 9999;
+	text-align: center;
+	background-color: #314753;
+}

@@ -14,8 +14,8 @@
 	<div class="contact-panel toggle" ng-show="showContactPlugin">
 		<ul class="contact-types">
 			<li>联系我们</li>
-			<li class="SiYuan-ExtraLight" ng-click="showContactType = 0"><p>匡恩圈</p></li>
-			<li ng-click="showContactType = 1"><p>关注我们</p></li>
+			<li ng-click="showContactType = 0"><p>匡恩圈</p></li>
+			<li ng-click="showContactType = 1; myVar='my-class'" ng-class="myVar"><p>关注我们</p></li>
 			<li ng-click="showContactType = 2"><p>联络我们</p></li>
 			<li ng-click="showContactType = 3"><p>(440) 435-4231 匡恩热线</p></li>
 			<li ng-click="showContactPlugin = false; toggleMe = false"></li>
@@ -32,7 +32,7 @@
 		</div>
 
 		<!--CONTACT US PANEL-->
-		<div ng-show="showContactType == 2">
+		<div class="contact-us" ng-show="showContactType == 2">
 			<!-- Tabs for the Contact form type -->
 			<ul class="nav nav-tabs" ng-init="contactForm = 0">
 				<li ng-class="contactForm == 0 ? 'active' : ''" ng-click="contactForm = 0">General</li>
@@ -78,7 +78,7 @@
 		</div>
 
 		<!--HOTLINE PANEL-->
-		<div ng-show="showContactType == 3"></div>
+		<div class="hotline" ng-show="showContactType == 3"></div>
 	</div>
 	
 </div>
