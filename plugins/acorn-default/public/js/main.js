@@ -58,9 +58,6 @@ function CommunityRequestController ($scope, $http){
 	}
 }
 
-
-
-
 // var iconSize = 80,
 //         paddingTopAllowance = 40,
 //     visibleWidthModifier = 160,
