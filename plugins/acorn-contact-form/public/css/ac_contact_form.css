@@ -178,6 +178,10 @@
 	color: #ffffff;
 	text-align: right;
 	overflow: hidden; /* hide content that overflows the contact-panel when animating */
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	   -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	     -o-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .contact-panel p {
@@ -200,7 +204,7 @@
 	padding-right: 50px;
 	background-repeat: no-repeat;
 	background-size: 38px;
-	background-position: 302px 9px;
+	background-position: 302px 10px;
 	transition: background-color 0.2s ease-in-out;
 }
 
