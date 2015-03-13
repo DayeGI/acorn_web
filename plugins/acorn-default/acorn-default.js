@@ -65,16 +65,56 @@ AcornDefault.onStartup = function(cb) {
 				}
 			};
 
-			cos.saveType(contactValues, function(err, contactType) {
-				cb(null, true);
-			});
-		}
-		else {
-			cb(null, true);
+			cos.saveType(contactValues, function(err, contactType) {});
 		}
 	});
 	
-    cb(null, true);
+	cos.loadTypeByName('office-contact-info', function(err, markers) {
+		if(!markers) {
+			var officeType = {
+				name: 'office-contact-info',
+				fields: {
+					name: {field_type: 'text'},
+					office_title: {field_type: 'text'},
+					address: {field_type: 'text'},
+					phone: {field_type: 'text'},
+					fax: {field_type: 'text'},
+					email: {field_type: 'text'}
+				}
+			};
+
+			cos.saveType(officeType, function(err, markers) {
+				//var office = {
+				//	name: '',
+				//	office_title: '',
+				//	address: '',
+				//	phone: '',
+				//	fax: '',
+				//	email: ''
+				//};
+				//
+				//pb.CustomObjectService.formatRawForType(office, officeType);
+				//var customObjectDocument = pb.DocumentCreator.create('custom_object', office);
+                //
+				//cos.save(customObjectDocument, officeType, function(err, result) {});
+			});
+		}
+	});
+	cos.loadTypeByName('company-values', function(err, companyValueType) {
+		if(!companyValueType) {
+			var cvType = {
+				name: 'company-values',
+				fields: {
+					header: {field_type: 'text'},
+					description: {field_type: 'text'}
+				}
+			};
+			cos.saveType(cvType, function(err, result){})
+		}
+	});
+
+
+	cb(null, true);
 };
 
 /**

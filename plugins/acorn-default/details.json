@@ -21,7 +21,16 @@
             }
         ]
     },
-    "settings": [],
+    "settings": [
+      {
+        "name":"mission_statement",
+        "value" : ""
+      },
+      {
+        "name":"company_description",
+        "value" : ""
+      }
+    ],
   "permissions": {
       "ACCESS_USER": [],
         "ACCESS_WRITER": [],
