@@ -1,7 +1,7 @@
 /**
  * Portfolio - A portfolio site theme for PencilBlue
  *
- * @author Shawn Lim <blake@pencilblue.org>
+ * @author Shawn Lim <shawnl@istuary.com>
  * @copyright 2014 PencilBlue, LLC
  */
 function AcornDefault(){}
