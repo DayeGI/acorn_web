@@ -18,29 +18,16 @@ AboutUs.prototype.render = function(cb){
 			// Register the custom directives
 			self.ts.registerLocal('mission_statement', mission);
 			self.ts.registerLocal('company_description', description);
-			
-			//office contact information
 			var cos = new pb.CustomObjectService();
-			cos.loadTypeByName('office-contact-info', function(err, officeContactType){
-				cos.findByType(officeContactType, null, function(err, results){
-					for(var i=0; i<results.length; i++){
-						self.ts.registerLocal(results[i].name+'_title', results[i].office_title);
-						self.ts.registerLocal(results[i].name+'_address', results[i].address);
-						self.ts.registerLocal(results[i].name+'_phone', results[i].phone);
-						self.ts.registerLocal(results[i].name+'_fax', results[i].fax);
-						self.ts.registerLocal(results[i].name+'_email', results[i].email);
+			cos.loadTypeByName('company-values', function(err, companyValuesType){
+				cos.findByType(companyValuesType, null, function(err, results) {
+					for(var i=0; i<results.length; i++) {
+						self.ts.registerLocal('v'+i+'_header', results[i].header);
+						self.ts.registerLocal('v'+i+'_description', results[i].description);
 					}
-					cos.loadTypeByName('company-values', function(err, companyValuesType){
-						cos.findByType(companyValuesType, null, function(err, results) {
-							for(var i=0; i<results.length; i++) {
-								self.ts.registerLocal('v'+i+'_header', results[i].header);
-								self.ts.registerLocal('v'+i+'_description', results[i].description);
-							}
-							self.ts.load('about_us', function(error, result){
-								output.content = result;
-								cb(output);
-							});
-						});
+					self.ts.load('about_us', function(error, result){
+						output.content = result;
+						cb(output);
 					});
 				});
 			});
@@ -49,13 +36,32 @@ AboutUs.prototype.render = function(cb){
 	});
 };
 
+AboutUs.prototype.getOffices = function(cb){
+	//office contact information
+	var cos = new pb.CustomObjectService();
+	cos.loadTypeByName('office-contact-info', function(err, officeContactType){
+		cos.findByType(officeContactType, null, function(err, results){
+			cb({content: pb.BaseController.apiResponse(pb.BaseController.API_SUCCESS, results)});
+		});
+	});
+}
+
 AboutUs.getRoutes = function(cb){
-	var routes = [{
-		method: 'get',
-		path: '/about',
-		auth_required: false,
-		content_type: 'text/html'
-	}];
+	var routes = [
+		{
+			method: 'get',
+			path: '/about',
+			auth_required: false,
+			content_type: 'text/html'
+		},
+		{
+			method: 'get',
+			path: '/api/office_locations',
+			auth_required: false,
+			content_type: 'application/json',
+			handler: 'getOffices'
+		}
+	];
 	cb(null, routes);
 };
 

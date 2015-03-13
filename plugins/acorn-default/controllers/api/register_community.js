@@ -51,14 +51,14 @@ RegisterCommunity.prototype.requestNotification = function(cb) {
 						if (util.isError(err)) {
 							cb({
 								code: 500,
-								content: pb.BaseController.apiResponse(pb.BaseController.API_ERROR, self.ls.get('ERROR_SAVING'))
+								content: pb.BaseController.apiResponse(pb.BaseController.API_FAILURE, self.ls.get('ERROR_SAVING'))
 							});
 							return;
 						}
 						else if (util.isArray(result) && result.length > 0) {
 							cb({
 								code: 500,
-								content: pb.BaseController.apiResponse(pb.BaseController.API_ERROR, self.ls.get('ERROR_SAVING'))
+								content: pb.BaseController.apiResponse(pb.BaseController.API_FAILURE, self.ls.get('ERROR_SAVING'))
 							});
 							return;
 						}
