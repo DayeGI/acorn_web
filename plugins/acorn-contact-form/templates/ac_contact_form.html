@@ -6,16 +6,19 @@
 <!-- WRAPPING DIV - OPTIONAL -->
 <div class="object-container" ng-controller="ContactFormController" ng-cloak>
 	<!-- FLOATING BUTTON -->
-	<div id="object" class="floating-activator" ng-click="showContactPlugin = !showContactPlugin"><p>联系我们</p></div>
+	<!-- <div id="object" class="floating-activator" ng-click="showContactPlugin = !showContactPlugin"><p>联系我们</p></div> -->
+	<div id="object" class="floating-activator toggle-floating-activator" ng-click="showContactPlugin = !showContactPlugin; toggleMe = !toggleMe" ng-show="!toggleMe">
+		<p>联系我们</p>
+	</div>
 	<!-- CONTACT MAIN PANEL -->
-	<div class="contact-panel" ng-show="showContactPlugin">
+	<div class="contact-panel toggle" ng-show="showContactPlugin">
 		<ul class="contact-types">
 			<li>联系我们</li>
 			<li class="SiYuan-ExtraLight" ng-click="showContactType = 0"><p>匡恩圈</p></li>
 			<li ng-click="showContactType = 1"><p>关注我们</p></li>
 			<li ng-click="showContactType = 2"><p>联络我们</p></li>
 			<li ng-click="showContactType = 3"><p>匡恩热线<br>(440) 435-4231</p></li>
-			<li ng-click="showContactPlugin = false"></li>
+			<li ng-click="showContactPlugin = false; toggleMe = false"></li>
 		</ul>
 
 		<!--COMMUNITY PANEL-->
