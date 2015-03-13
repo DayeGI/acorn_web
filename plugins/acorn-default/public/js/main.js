@@ -38,7 +38,7 @@ $( document ).ready(function() {
         }
 
     });
-
+    
 });
 
 function CommunityRequestController ($scope, $http){
@@ -57,9 +57,6 @@ function CommunityRequestController ($scope, $http){
 		}
 	}
 }
-
-
-
 
 // var iconSize = 80,
 //         paddingTopAllowance = 40,

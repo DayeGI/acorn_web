@@ -14,9 +14,14 @@
 	width: 60px;
 	height: 60px;
 	text-align: center;
-	padding: 13px 10px 0px 10px;
+	padding: 13px 12px 0px 12px;
 	border-radius: 50%;
 	transition: box-shadow 0.2s ease-in-out;
+}
+
+
+.floating-activator p {
+	color: #ffffff;
 }
 
 .floating-activator:hover{
@@ -30,6 +35,58 @@
  /*
   *
   * main contact button animation
+  *
+  */
+
+.toggle-floating-activator {
+	-webkit-transition: all 0.45s ease-in-out;
+	   -moz-transition: all 0.45s ease-in-out;
+	    -ms-transition: all 0.45s ease-in-out;
+	     -o-transition: all 0.45s ease-in-out;
+	        transition: all 0.45s ease-in-out;	
+}
+
+.toggle-floating-activator.ng-hide-add {
+	transform: rotate(0deg);
+	opacity: 1;
+}
+
+.toggle-floating-activator.ng-hide-add-active {
+	transform: rotate(-90deg);
+	opacity: 0;
+}
+
+.toggle-floating-activator.ng-hide-remove {
+	transform: rotate(-90deg);
+	opacity: 0;
+}
+
+.toggle-floating-activator.ng-hide-remove-active {
+	transform: rotate(0deg);
+	opacity: 1;
+}
+
+/* animate color change of text to make percieved transition smoother */
+
+.toggle-floating-activator p.ng-hide-add {
+	color: #ffffff;
+}
+
+.toggle-floating-activator p.ng-hide-add-active {
+	color: #314753;
+}
+
+.toggle-floating-activator p.ng-hide-remove {
+	color: #314753;
+}
+
+.toggle-floating-activator p.ng-hide-remove-active {
+	color: #ffffff;
+}
+
+ /*
+  *
+  * old main contact button animation on hover
   *
   */
 
@@ -110,22 +167,21 @@
   *
   */
  
- /* minus 58px, currently community not available */
 .contact-panel{
 	position:fixed;
 	right: 20px;
 	bottom: 20px;
-	height: 290px;
-	width: 348px;
+	height: 290px; /* minus 58px, currently community not available */
+	width: 290px;
 	z-index:999;
 	background-color: #314753;
 	color: #ffffff;
 	text-align: right;
-	transition: all 0.2s ease-in-out;
-}
-
-.contact-panel-animation.ng-enter{
-	opacity: 0;
+	overflow: hidden; /* hide content that overflows the contact-panel when animating */
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	   -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	     -o-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .contact-panel p {
@@ -143,12 +199,13 @@
 
 .contact-panel ul li {
 	width: 100%;
+	height: 58px;
 	float: left;
 	padding: 20px 0px;
 	padding-right: 50px;
 	background-repeat: no-repeat;
 	background-size: 38px;
-	background-position: 302px 9px;
+	background-position: 244px 9px;
 	transition: background-color 0.2s ease-in-out;
 }
 
@@ -173,32 +230,31 @@
 
 .contact-panel ul li:nth-child(5) {
 	background-image: url(/public/acorn-default/img/icons_phone.svg);
-	padding: 11px 50px 11px 0px;
 }
 
 .contact-panel ul li:last-child {
-	width: calc(100% - 318px);
+	width: calc(100% - 260px);
 	height: 30px;
 	background-size: 30px;
 	background-position: 0px 0px;
 	padding: 0;
-	margin: 11px 0px 11px 308px;
+	margin: 14px 0px 14px 248px;
 	background-image: url(/public/acorn-default/img/icon_delete.svg);
 }
 
 .contact-panel ul li:nth-child(3):hover {
 	cursor: pointer;
-	background-color: #F48446;
+	background-color: #C9C9C9;
 }
 
 .contact-panel ul li:nth-child(4):hover {
 	cursor: pointer;
-	background-color: #F48446;
+	background-color: #C9C9C9;
 }
 
 .contact-panel ul li:nth-child(5):hover {
 	cursor: pointer;
-	background-color: #F48446;
+	background-color: #C9C9C9;
 }
 
 .contact-panel ul li:last-child:hover {
@@ -220,6 +276,52 @@
 
  /*
   *
+  * main contact form panel animation
+  *
+  */
+
+.toggle {
+	-webkit-transition: all 0.45s ease-in-out;
+	   -moz-transition: all 0.45s ease-in-out;
+	    -ms-transition: all 0.45s ease-in-out;
+	     -o-transition: all 0.45s ease-in-out;
+	        transition: all 0.45s ease-in-out;
+}
+
+.ng-hide-add, .ng-hide-remove {
+    display: block !important; /* ensure visibility during the transition – yes, important */
+}
+
+.toggle.ng-hide-remove {
+	width: 60px;
+	height: 60px;
+	transform: rotate(90deg);
+	opacity: 0;
+}
+
+.toggle.ng-hide-remove-active {
+	height: 290px;
+	width: 290px;
+	transform: rotate(0deg);
+	opacity: 1;
+}
+
+.toggle.ng-hide-add {
+	height: 290px;
+	width: 290px;
+	transform: rotate(0deg);
+	opacity: 1;
+}
+
+.toggle.ng-hide-add-active {
+	width: 60px;
+	height: 60px;
+	transform: rotate(90deg);
+	opacity: 0;
+}
+
+ /*
+  *
   * contact form tab 2 - WECHAT
   *
   */
@@ -231,6 +333,11 @@
 	z-index: 9999;
 	text-align: center;
 	background-color: #314753;
+    -webkit-transition: all 0.45s ease-in-out;
+	   -moz-transition: all 0.45s ease-in-out;
+	    -ms-transition: all 0.45s ease-in-out;
+	     -o-transition: all 0.45s ease-in-out;
+	        transition: all 0.45s ease-in-out;
 }
 
 .wechat p{
@@ -256,3 +363,74 @@
 	background: black;
 }
 
+/*
+ *
+ * WECHAT animations
+ *
+ */
+
+.wechat.ng-hide-remove {
+	opacity: 0;
+}
+
+.wechat.ng-hide-remove-active {
+	opacity: 1;
+}
+
+.wechat.ng-hide-add {
+	opacity: 1;
+}
+
+.wechat.ng-hide-add-active {
+	opacity: 0;
+}
+
+/*.contact-panel ul li:nth-child(3).ng-hide-remove {
+	background-image: url(/public/acorn-default/img/icons_wechat_white.svg);
+}
+
+.contact-panel ul li:nth-child(3).ng-hide-remove-active {
+	background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
+}
+
+.contact-panel ul li:nth-child(3).ng-hide-add {
+	background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
+}
+
+.contact-panel ul li:nth-child(3).ng-hide-add-active {
+	background-image: url(/public/acorn-default/img/icons_wechat_white.svg);
+}*/
+
+.contact-panel ul li:nth-child(3).my-class {
+  background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
+}
+
+ /*
+  *
+  * contact form tab 3 – CONTACT US
+  *
+  */
+
+.contact-us {
+	width: calc(100% - 50px);
+	height: 100%;
+	position: absolute;
+	z-index: 9999;
+	text-align: center;
+	background-color: #314753;
+}
+
+ /*
+  *
+  * contact form tab 4 - HOTLINE
+  *
+  */
+
+.hotline {
+	width: calc(100% - 50px);
+	height: 100%;
+	position: absolute;
+	z-index: 9999;
+	text-align: center;
+	background-color: #314753;
+}

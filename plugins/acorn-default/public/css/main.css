@@ -52,6 +52,22 @@ p {
 .line {
   border-top: 1px solid gray; }
 
+.news-banner-wrapper {
+  width: 100%;
+  height: 600px; }
+
+.news-main-1 {
+  width: 70%;
+  height: 600px;
+  float: left;
+  background-color: red; }
+
+.news-sub-2 {
+  width: 30%;
+  height: 300px;
+  float: left;
+  background-color: black; }
+
 /*
  *
  * university animation
