@@ -29,15 +29,93 @@
 
  /*
   *
-  * main contact form panel
+  * main contact button animation
   *
   */
 
+/*.floating-activator{
+  -webkit-transition: all .45s ease-in-out;
+     -moz-transition: all .45s ease-in-out;
+      -ms-transition: all .45s ease-in-out;
+       -o-transition: all .45s ease-in-out;
+          transition: all .45s ease-in-out;
+}
+
+.object-container p{
+  -webkit-transition: all .45s ease-in-out;
+     -moz-transition: all .45s ease-in-out;
+      -ms-transition: all .45s ease-in-out;
+       -o-transition: all .45s ease-in-out;
+          transition: all .45s ease-in-out;
+}
+
+.object-container {
+  	width: 348px;
+  	height: 348px;
+  	position: fixed;
+  	z-index: 999;
+  	right: 20px;
+	bottom: 20px;
+	background-color: black;
+}
+
+.object-container .floating-activator {
+	position: absolute;
+	background-color: #314753;
+	z-index: 999;
+	right: 0px;
+	bottom: 0px;
+	width: 60px;
+	height: 60px;
+ 	border-radius: 50%;
+ 	color: #ffffff;
+	text-align: center;
+}
+
+.floating-activator p {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding-top: 22px;
+  color: #ffffff;
+}
+
+.object-container:hover .floating-activator {
+ 	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 348px; 
+	width: 348px;
+  	border-radius: 0px;
+    -webkit-transform: rotate(-90deg);
+       -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+         -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  	cursor: pointer;
+}
+
+.object-container:hover p {
+	padding-top: 0px;
+    -webkit-transform: rotate(90deg) translateX(calc(50%)) translateY(-140px);
+       -moz-transform: rotate(90deg) translateX(calc(50%)) translateY(-140px);
+        -ms-transform: rotate(90deg) translateX(calc(50%)) translateY(-140px);
+         -o-transform: rotate(90deg) translateX(calc(50%)) translateY(-140px);
+            transform: rotate(90deg) translateX(calc(50%)) translateY(-140px) scale(1.5);
+}*/
+
+ /*
+  *
+  * main contact form panel
+  *
+  */
+ 
+ /* minus 58px, currently community not available */
 .contact-panel{
 	position:fixed;
 	right: 20px;
 	bottom: 20px;
-	height: 290px; /* minus 58px, currently community not available */
+	height: 290px;
 	width: 348px;
 	z-index:999;
 	background-color: #314753;

@@ -4,9 +4,9 @@
 <link rel="stylesheet" type="text/css" href="/public/acorn-contact-form/css/ac_contact_form.css">
 
 <!-- WRAPPING DIV - OPTIONAL -->
-<div ng-controller="ContactFormController" ng-cloak>
+<div class="object-container" ng-controller="ContactFormController" ng-cloak>
 	<!-- FLOATING BUTTON -->
-	<div class="floating-activator" ng-click="showContactPlugin = !showContactPlugin">联系我们</div>
+	<div id="object" class="floating-activator" ng-click="showContactPlugin = !showContactPlugin"><p>联系我们</p></div>
 	<!-- CONTACT MAIN PANEL -->
 	<div class="contact-panel" ng-show="showContactPlugin">
 		<ul class="contact-types">
