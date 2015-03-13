@@ -992,12 +992,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/plugins\/acorn-contact-form\/controllers\/api\/min\/ac_contact_submit-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-contact-form\/controllers\/api\/min\/ac_contact_submit-min.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-contact-form\/controllers\/api\/min\/min\/ac_contact_submit-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/plugins\/acorn-contact-form\/public\/js\/ac_contact_form.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-contact-form\/public\/js\/ac_contact_form.js",
 		"outputAbbreviatedPath": "\/plugins\/acorn-contact-form\/public\/js\/min\/ac_contact_form-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-contact-form\/public\/js\/min\/ac_contact_form-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-contact-form\/public\/js\/min\/ac_contact_form-min.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-contact-form\/public\/js\/min\/min\/ac_contact_form-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1012,6 +1034,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-contact-form\/README.md",
 		"outputAbbreviatedPath": "\/plugins\/acorn-contact-form\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/acorn-contact-form\/templates\/ac_contact_form.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-contact-form\/templates\/ac_contact_form.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2409,28 +2440,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/plugins\/acorn-default\/public\/js\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/main.js",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/plugins\/acorn-default\/public\/js\/min\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/min\/main-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/plugins\/acorn-default\/public\/js\/modernizr.custom.09145.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3456,15 +3465,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/footer.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plugins\/acorn-default\/templates\/head.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/head.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

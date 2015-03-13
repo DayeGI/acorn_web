@@ -1,0 +1,1 @@
+function ContactFormController(t,n){t.testVar="something",t.contactInformation={name:"",phone:"",email:"",company:""},t.submitInquiry=function(o){n({method:"POST",url:"/api/contact/ac_contact_submit",data:t.contactInformation}).success(function(n){alert("Your inquire has been submitted."),t.inquirySubmitted=!0}).error(function(t){console.log(t),console.log(t)})}}

@@ -124,6 +124,9 @@
 	transition: all 0.2s ease-in-out;
 }
 
+.contact-panel-animation.ng-enter{
+	opacity: 0;
+}
 
 .contact-panel p {
 	color: #ffffff;

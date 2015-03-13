@@ -1,3 +1,5 @@
+var app = angular.module('acorn', ['ngAnimate']);
+
 $( document ).ready(function() {
     
     $(".coverflow-btn").click(function() {
@@ -55,6 +57,8 @@ function CommunityRequestController ($scope, $http){
 		}
 	}
 }
+
+
 
 
 // var iconSize = 80,
