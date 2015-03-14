@@ -6,7 +6,7 @@ careers
 
 <br><br><br>
 <div ng-cloak>
-	<div ng-repeat="job in jobs">
+	<div ng-repeat="job in jobs | filter:{active:true}">
 		<h3>{{job.name}}</h3>
 		<div>{{job.location}}  |  {{job.experience}}  |  {{job.education}}</div>
 		<div>
