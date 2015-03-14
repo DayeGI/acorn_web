@@ -54,12 +54,12 @@ ContentSearchController.prototype.render = function(cb) {
 	var pattern = new RegExp(patternStr, "i");
     var opts = {
         select: {
-            headline: 1,
+            headline: 1
         },
         where: {
             $or: [
                 {headline: pattern},
-                {subheading: pattern},
+                {subheading: pattern}
             ]
         },
         order: pb.DAO.NATURAL_ORDER,

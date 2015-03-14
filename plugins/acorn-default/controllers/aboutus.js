@@ -39,7 +39,7 @@ AboutUs.prototype.render = function(cb){
 AboutUs.prototype.getOffices = function(cb){
 	//office contact information
 	var cos = new pb.CustomObjectService();
-	cos.loadTypeByName('office-contact-info', function(err, officeContactType){
+	cos.loadTopic('office-contact-info', function(err, officeContactType){
 		cos.findByType(officeContactType, null, function(err, results){
 			cb({content: pb.BaseController.apiResponse(pb.BaseController.API_SUCCESS, results)});
 		});

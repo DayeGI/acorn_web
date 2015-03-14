@@ -1,0 +1,16 @@
+^tmp_head^
+<script type="text/javascript" src="/public/acorn-default/js/university_controller.js"></script>
+<body ng-controller="UniversityController">
+^tmp_elements=top_menu^
+
+UNIVERSITY
+<br><br><br><br><br>
+<!-- NG CLOAK is used to prevent the page from displaying the HTML element before the Angular contoller loads, so that {{office.name}} and etc does not show up.-->
+<div ng-cloak>
+	<div ng-repeat="image in images">
+		<img ng-src="{{image.location}}"/>
+		<h2>{{image.caption}}</h2>
+	</div>
+</div>
+</body>
+^tmp_footer^
