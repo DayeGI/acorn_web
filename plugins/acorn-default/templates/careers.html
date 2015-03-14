@@ -1,0 +1,25 @@
+^tmp_head^
+<script type="text/javascript" src="/public/acorn-default/js/careers_controller.js"></script>
+
+<body ng-controller="CareersController">
+careers
+
+<br><br><br>
+<div ng-cloak>
+	<div ng-repeat="job in jobs">
+		<h3>{{job.name}}</h3>
+		<div>{{job.location}}  |  {{job.experience}}  |  {{job.education}}</div>
+		<div>
+			Responsibilities:<br>
+			<div ng-bind-html="job.responsibilities | to_trusted"></div>
+
+			Skills:<br>
+			<div ng-bind-html="job.skills | to_trusted"></div>
+
+			Compensation:<br>
+			<div ng-bind-html="job.compensation | to_trusted"></div>
+		</div>
+	</div>
+</div>
+</body>
+^tmp_footer^

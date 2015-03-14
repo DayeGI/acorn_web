@@ -1,4 +1,10 @@
 var app = angular.module('acorn', ['ngAnimate']);
+angular.module('acorn')
+		.filter('to_trusted', ['$sce', function($sce){
+			return function(text) {
+				return $sce.trustAsHtml(text);
+			};
+		}]);
 
 $( document ).ready(function() {
     

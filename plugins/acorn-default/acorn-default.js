@@ -112,6 +112,23 @@ AcornDefault.onStartup = function(cb) {
 			cos.saveType(cvType, function(err, result){})
 		}
 	});
+	cos.loadTypeByName('job-listing', function(err, jobListingType) {
+		if(!jobListingType) {
+			var cvType = {
+				name: 'job-listings',
+				"fields" : {
+					"active" : { "field_type" : "boolean" },
+					"location" : { "field_type" : "text" }, 
+					"experience" : { "field_type" : "text" }, 
+					"education" : { "field_type" : "text" }, 
+					"responsibilities" : { "field_type" : "wysiwyg" }, 
+					"skills" : { "field_type" : "wysiwyg" }, 
+					"compensation" : { "field_type" : "wysiwyg" }
+				}
+			};
+			cos.saveType(cvType, function(err, result){})
+		}
+	});
 
 
 	cb(null, true);
