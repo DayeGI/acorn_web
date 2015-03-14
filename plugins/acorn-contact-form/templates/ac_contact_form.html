@@ -11,13 +11,13 @@
 		<p>联系我们</p>
 	</div>
 	<!-- CONTACT MAIN PANEL -->
-	<div class="contact-panel toggle" ng-show="showContactPlugin">
+	<div class="contact-panel toggle toggle2" ng-show="showContactPlugin" ng-class="contactPanelVar">
 		<ul class="contact-types">
 			<li>联系我们</li>
 			<li ng-click="showContactType = 0"><p>匡恩圈</p></li>
-			<li ng-click="showContactType = 1; myVar='my-class'" ng-class="myVar"><p>关注我们</p></li>
-			<li ng-click="showContactType = 2"><p>联络我们</p></li>
-			<li ng-click="showContactType = 3"><p>(440) 435-4231 匡恩热线</p></li>
+			<li ng-click="showContactType = 1; myVar='my-class'; myVar1='my-class1'; myVar2='!my-class2'; myVar3='!my-class3'; contactPanelVar='!contactPanelVar'" ng-class="[myVar1, myVar]"><p>关注我们</p></li>
+			<li ng-click="showContactType = 2; myVar='my-class'; myVar1='!my-class1'; myVar2='my-class2'; myVar3='!my-class3'; contactPanelVar='contactPanelVar'" ng-class="[myVar2, myVar]"><p>联络我们</p></li>
+			<li ng-click="showContactType = 3; myVar='!my-class'; myVar1='!my-class1'; myVar2='!my-class2'; myVar3='my-class3'; contactPanelVar='!contactPanelVar'" ng-class="[myVar3, myVar]"><p>(440) 435-4231 匡恩热线</p></li>
 			<li ng-click="showContactPlugin = false; toggleMe = false"></li>
 		</ul>
 
@@ -34,7 +34,7 @@
 		<!--CONTACT US PANEL-->
 		<div class="contact-us" ng-show="showContactType == 2">
 			<!-- Tabs for the Contact form type -->
-			<ul class="nav nav-tabs" ng-init="contactForm = 0">
+			<!-- <ul class="nav nav-tabs" ng-init="contactForm = 0">
 				<li ng-class="contactForm == 0 ? 'active' : ''" ng-click="contactForm = 0">General</li>
 				<li ng-class="contactForm == 1 ? 'active' : ''" ng-click="contactForm = 1">Demo</li>
 				<li ng-class="contactForm == 2 ? 'active' : ''" ng-click="contactForm = 2">Sign Up</li>
@@ -49,9 +49,9 @@
 				<label>Company</label><input ng-model="contactInformation.company"/><br>
 				
 				<button ng-click="submitInquiry()" ng-disabled="inquirySubmitted">SUBMIT</button>
-			</div>	
+			</div> -->	
 			<!-- These tabs look identical now, but their contents can be change independantly of each other. Angular will take care of the data sharing. -->
-			<div ng-show="contactForm == 1">
+			<!-- <div ng-show="contactForm == 1">
 				REQUEST PRODUCT DEMO<br>
 				
 				<label>Name</label><input ng-model="contactInformation.name"/><br>
@@ -74,11 +74,13 @@
 				<label>Phone</label><input ng-model="contactInformation.phone"/><br>
 				<label>Email</label><input ng-model="contactInformation.email"/><br>
 				<label>Company</label><input ng-model="contactInformation.company"/><br>
-			</div>	
+			</div>	 -->
 		</div>
 
 		<!--HOTLINE PANEL-->
-		<div class="hotline" ng-show="showContactType == 3"></div>
+		<div class="hotline" ng-show="showContactType == 3">
+			<p>匡恩热线</p>
+		</div>
 	</div>
 	
 </div>

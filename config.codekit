@@ -1055,12 +1055,56 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/plugins\/acorn-default\/acorn-default.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/acorn-default.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/min\/acorn-default-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/controllers\/aboutus.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/aboutus.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/min\/aboutus-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/controllers\/api\/register_community.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/api\/register_community.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/api\/min\/register_community-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/plugins\/acorn-default\/controllers\/article.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/article.js",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/min\/article-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/controllers\/careers.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/careers.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/min\/careers-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1083,6 +1127,39 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/index.js",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/controllers\/products.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/products.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/min\/products-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/controllers\/solutions.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/solutions.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/min\/solutions-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/controllers\/university.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/university.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/min\/university-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1989,6 +2066,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/js\/about_us_controller.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/about_us_controller.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/about_us_controller-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/public\/js\/careers_controller.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/careers_controller.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/careers_controller-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/plugins\/acorn-default\/public\/js\/greensock-js\/docs.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2458,6 +2557,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/plugins\/acorn-default\/public\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/main.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/plugins\/acorn-default\/public\/js\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -2475,6 +2585,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/modernizr.custom.09145.js",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/modernizr.custom.09145-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/public\/js\/university_controller.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/university_controller.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/university_controller-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -2559,6 +2680,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/plugins\/acorn-default\/templates\/about_us.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/about_us.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/plugins\/acorn-default\/templates\/admin\/content\/articles\/article_form.html": {
 		"fileType": 8192,
@@ -3406,6 +3536,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/plugins\/acorn-default\/templates\/careers.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/careers.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/acorn-default\/templates\/elements\/article.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3456,6 +3595,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/elements\/privacy_policy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/acorn-default\/templates\/elements\/top_menu.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/elements\/top_menu.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3532,6 +3680,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/plugins\/acorn-default\/templates\/products.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/products.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/acorn-default\/templates\/products\/product1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/products\/product1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/acorn-default\/templates\/robots.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3546,6 +3712,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/setup.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/acorn-default\/templates\/solutions.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/solutions.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/acorn-default\/templates\/university.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/university.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4665,6 +4849,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/api\/content\/get_media_embed.js",
 		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/api\/content\/min\/get_media_embed-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/pencilblue\/controllers\/api\/content\/search.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/api\/content\/search.js",
+		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/api\/content\/min\/search-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

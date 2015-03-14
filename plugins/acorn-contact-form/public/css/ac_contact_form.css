@@ -202,11 +202,12 @@
 	height: 58px;
 	float: left;
 	padding: 20px 0px;
-	padding-right: 50px;
+	padding-right: 54px;
 	background-repeat: no-repeat;
 	background-size: 38px;
 	background-position: 244px 9px;
 	transition: background-color 0.2s ease-in-out;
+	line-height: 1.33;
 }
 
 .contact-panel ul li:first-child {
@@ -245,33 +246,24 @@
 .contact-panel ul li:nth-child(3):hover {
 	cursor: pointer;
 	background-color: #C9C9C9;
+	background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
 }
 
 .contact-panel ul li:nth-child(4):hover {
 	cursor: pointer;
 	background-color: #C9C9C9;
+	background-image: url(/public/acorn-default/img/icon_mail_select.svg);
 }
 
 .contact-panel ul li:nth-child(5):hover {
 	cursor: pointer;
 	background-color: #C9C9C9;
+	background-image: url(/public/acorn-default/img/icon_phone_select.svg);
 }
 
 .contact-panel ul li:last-child:hover {
 	cursor: pointer;
 	background-image: url(/public/acorn-default/img/icon_delete_select.svg);
-}
-
-.wechat-active {
-	background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
-}
-
-.mail-active {
-	background-image: url(/public/acorn-default/img/icon_mail _select.svg);
-}
-
-.phone-active {
-	background-image: url(/public/acorn-default/img/icon_phone_select.svg);
 }
 
  /*
@@ -320,6 +312,27 @@
 	opacity: 0;
 }
 
+.contact-panel ul li:nth-child(3).my-class1 {
+  	background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
+}
+
+.contact-panel ul li:nth-child(4).my-class2 {
+  	background-image: url(/public/acorn-default/img/icon_mail_select.svg);
+}
+
+.contact-panel ul li:nth-child(5).my-class3 {
+  	background-image: url(/public/acorn-default/img/icon_phone_select.svg);
+}
+
+/* disable display for p tag on click to make percieved transition smoother */
+.contact-panel ul li.my-class p {
+  	display: none;
+}
+
+/*.contact-panel ul li:nth-child(5).my-class3 p {
+	color: #F48446;
+}*/
+
  /*
   *
   * contact form tab 2 - WECHAT
@@ -327,7 +340,7 @@
   */
 
 .wechat {
-	width: calc(100% - 50px);
+	width: calc(100% - 54px);
 	height: 100%;
 	position: absolute;
 	z-index: 9999;
@@ -341,31 +354,33 @@
 }
 
 .wechat p{
+	margin-left: 54px;
 	display: block;
 }
 
 .wechat p:nth-child(1){
 	font-size: 18px;
-	margin: 20px 0px;
+	padding: 20px 0px;
+	line-height: 1.33;
 }
 
 .wechat p:nth-child(2){
-	font-size: 16px;
-	margin-bottom: 20px;
+	font-size: 14px;
+	padding-bottom: 20px;
 }
 
 .wechat img{
 	width: 120px;
 	height: 120px;
 	display: block;
-	margin-left: calc(50% - 60px);
+	margin-left: calc(50% - 33px);
 	/*margin-top: calc(50% - 60px);*/
 	background: black;
 }
 
 /*
  *
- * WECHAT animations
+ * contact form tab 2 - WECHAT animations
  *
  */
 
@@ -385,39 +400,61 @@
 	opacity: 0;
 }
 
-/*.contact-panel ul li:nth-child(3).ng-hide-remove {
-	background-image: url(/public/acorn-default/img/icons_wechat_white.svg);
-}
-
-.contact-panel ul li:nth-child(3).ng-hide-remove-active {
-	background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
-}
-
-.contact-panel ul li:nth-child(3).ng-hide-add {
-	background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
-}
-
-.contact-panel ul li:nth-child(3).ng-hide-add-active {
-	background-image: url(/public/acorn-default/img/icons_wechat_white.svg);
-}*/
-
-.contact-panel ul li:nth-child(3).my-class {
-  background-image: url(/public/acorn-default/img/icon_wechat_select.svg);
-}
-
  /*
   *
   * contact form tab 3 – CONTACT US
   *
   */
 
+.toggle2 {
+	transition-property: none;
+}
+
+.toggle2.contactPanelVar {
+	width: 580px;
+	height: 580px;
+}
+
 .contact-us {
-	width: calc(100% - 50px);
+	width: calc(100% - 54px);
 	height: 100%;
 	position: absolute;
 	z-index: 9999;
 	text-align: center;
 	background-color: #314753;
+}
+
+/*.contactPanelVar.add ul li{
+	background-position: 534px 9px;
+}
+
+.contactPanelVar.add-active ul li{
+	background-position: 534px 9px;
+}
+
+.contactPanelVar.remove ul li{
+	background-position: 534px 9px;
+}
+
+.contactPanelVar.remove-active ul li{
+	background-position: 534px 9px;
+}*/
+
+.toggle2.contactPanelVar ul li {
+	background-position: 534px 9px;
+/*	-webkit-transition: none 0.45s ease-in-out;
+	   -moz-transition: none 0.45s ease-in-out;
+	    -ms-transition: none 0.45s ease-in-out;
+	     -o-transition: none 0.45s ease-in-out;
+	        transition: none 0.45s ease-in-out;*/
+}
+
+.toggle2.contactPanelVar ul li:nth-child(3) {
+	margin-top: 290px; /* fixing all the icons at its original location before transition */
+}
+
+.toggle2.contactPanelVar ul li:last-child {
+	margin: 14px 0px 14px 538px; /* fixing all the icons at its original location before transition */
 }
 
  /*
@@ -427,10 +464,43 @@
   */
 
 .hotline {
-	width: calc(100% - 50px);
-	height: 100%;
+	width: 100%;
+	height: 58px;
 	position: absolute;
 	z-index: 9999;
 	text-align: center;
 	background-color: #314753;
+    -webkit-transition: all 0.45s ease-in-out;
+	   -moz-transition: all 0.45s ease-in-out;
+	    -ms-transition: all 0.45s ease-in-out;
+	     -o-transition: all 0.45s ease-in-out;
+	        transition: all 0.45s ease-in-out;
+}
+
+.hotline p{
+	font-size: 18px;
+	padding: 20px 0px;
+	line-height: 1.33;
+}
+
+/*
+ *
+ * contact form tab 4 - HOTLINE animations
+ *
+ */
+
+.hotline.ng-hide-remove {
+	opacity: 0;
+}
+
+.hotline.ng-hide-remove-active {
+	opacity: 1;
+}
+
+.hotline.ng-hide-add {
+	opacity: 1;
+}
+
+.hotline.ng-hide-add-active {
+	opacity: 0;
 }
