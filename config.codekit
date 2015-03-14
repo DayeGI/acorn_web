@@ -1055,28 +1055,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/plugins\/acorn-default\/acorn-default.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/acorn-default.js",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/min\/acorn-default-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/plugins\/acorn-default\/controllers\/api\/register_community.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/api\/register_community.js",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/api\/min\/register_community-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/plugins\/acorn-default\/controllers\/article.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -2480,17 +2458,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/plugins\/acorn-default\/public\/js\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/main.js",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/plugins\/acorn-default\/public\/js\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3489,15 +3456,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/elements\/privacy_policy.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plugins\/acorn-default\/templates\/elements\/top_menu.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/elements\/top_menu.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4707,17 +4665,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/api\/content\/get_media_embed.js",
 		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/api\/content\/min\/get_media_embed-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/plugins\/pencilblue\/controllers\/api\/content\/search.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/api\/content\/search.js",
-		"outputAbbreviatedPath": "\/plugins\/pencilblue\/controllers\/api\/content\/min\/search-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
