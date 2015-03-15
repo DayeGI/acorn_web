@@ -1267,7 +1267,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 35365,
+		"initialSize": 38076,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_community.jpg",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_community.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1278,7 +1278,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 189511,
+		"initialSize": 147533,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_companyValues1440.jpg",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_companyValues1440.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1428,442 +1428,442 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/1.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 253085,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/1.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/1.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/1.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/10.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/10.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 267744,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/10.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/10.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/10.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/10.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/11.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/11.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 261421,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/11.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/11.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/11.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/11.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/12.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/12.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 255029,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/12.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/12.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/12.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/12.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/13.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/13.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 250329,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/13.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/13.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/13.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/13.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/14.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/14.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 261985,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/14.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/14.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/14.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/14.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/15.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/15.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 267745,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/15.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/15.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/15.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/15.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/16.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/16.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 272737,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/16.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/16.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/16.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/16.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/17.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/17.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 273922,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/17.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/17.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/17.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/17.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/18.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/18.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 264757,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/18.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/18.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/18.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/18.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/19.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/19.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 259828,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/19.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/19.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/19.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/19.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/2.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 258186,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/2.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/2.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/2.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/20.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/20.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 255326,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/20.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/20.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/20.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/20.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/21.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/21.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 245755,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/21.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/21.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/21.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/21.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/22.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/22.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 249666,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/22.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/22.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/22.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/22.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/23.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/23.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 247802,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/23.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/23.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/23.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/23.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/24.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/24.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 255630,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/24.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/24.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/24.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/24.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/25.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/25.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 265289,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/25.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/25.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/25.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/25.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/26.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/26.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 272431,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/26.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/26.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/26.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/26.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/27.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/27.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 265821,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/27.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/27.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/27.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/27.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/28.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/28.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 261373,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/28.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/28.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/28.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/28.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/29.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/29.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 267228,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/29.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/29.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/29.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/29.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/3.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 261286,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/3.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/3.png",
+		"initialSize": 32768,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/3.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/30.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/30.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 264020,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/30.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/30.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/30.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/30.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/31.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/31.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 258108,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/31.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/31.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/31.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/31.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/32.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/32.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 269381,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/32.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/32.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/32.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/32.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/33.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/33.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 277204,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/33.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/33.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/33.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/33.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/34.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/34.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 284390,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/34.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/34.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/34.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/34.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/35.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/35.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 291535,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/35.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/35.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/35.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/35.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/36.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/36.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 287794,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/36.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/36.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/36.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/36.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/37.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/37.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 274463,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/37.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/37.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/37.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/37.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/38.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/38.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 249995,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/38.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/38.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/38.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/38.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/39.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/39.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 211673,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/39.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/39.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/39.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/39.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/4.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 264137,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/4.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/4.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/4.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/5.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/5.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 276121,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/5.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/5.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/5.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/6.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/6.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 284964,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/6.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/6.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/6.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/7.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/7.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 286686,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/7.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/7.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/7.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/7.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/8.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/8.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 283504,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/8.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/8.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/8.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/8.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/9.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/9.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 273435,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/9.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/3d\/9.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/9.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/3d\/9.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/img_vulnerabilityFront.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/img_vulnerabilityFront.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 277545,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/img_vulnerabilityFront.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerabilityPlatform\/img_vulnerabilityFront.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/img_vulnerabilityFront.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/img_vulnerabilityFront.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2674,6 +2674,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/news.scss",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/news.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/plugins\/acorn-default\/public\/scss\/products.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/products.scss",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/products.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
