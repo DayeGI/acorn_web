@@ -146,6 +146,7 @@ p {
   height: 250px;
   position: relative;
   z-index: 2;
+  text-align: center;
   background: #ffffff;
   /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
@@ -225,21 +226,22 @@ p {
 
 .product-intro h3 {
   width: 100%;
+  height: 50px;
+  padding-top: 10px;
   text-align: center;
-  margin: 10px 0px; }
+  float: left; }
 
-.product-intro img {
-  width: 100%;
-  height: 100%; }
+.four-product img {
+  width: 190px;
+  height: 190px;
+  float: left;
+  margin-left: calc(50% - 95px); }
 
-.proportionate-box {
-  width: 100%;
-  height: 100%;
-  background-color: gray;
-  margin: 0 auto;
-  background-image: url(/public/acorn-default/img/index/icon_communityEmail.svg);
-  background-repeat: no-repeat;
-  background-position: 0 auto; }
+.two-product img {
+  width: 440px;
+  height: 190px;
+  float: left;
+  margin-left: calc(50% - 220px); }
 
 /*
  *
@@ -249,12 +251,14 @@ p {
 .product-intro-overlay {
   width: 100%;
   height: 250px;
-  background-color: black;
-  opacity: 0;
-  transition: all 0.45s ease-in-out;
   position: absolute;
   top: 0;
-  z-index: 3; }
+  z-index: 3;
+  transition: all 0.45s ease-in-out;
+  -webkit-box-shadow: inset 0px 0px 50px 0px rgba(138, 131, 138, 0.75);
+  -moz-box-shadow: inset 0px 0px 50px 0px rgba(138, 131, 138, 0.75);
+  box-shadow: inset 0px 0px 50px 0px rgba(138, 131, 138, 0.75);
+  opacity: 0; }
 
 /*
  *
@@ -266,7 +270,7 @@ p {
   margin: 8px 0px 8px 8px; }
 
 .four-product-overlay1:hover {
-  opacity: 0.15;
+  opacity: 1;
   cursor: pointer; }
 
 .four-product-overlay2 {
@@ -275,7 +279,7 @@ p {
   margin-left: calc(25% + 6px); }
 
 .four-product-overlay2:hover {
-  opacity: 0.15;
+  opacity: 1;
   cursor: pointer; }
 
 .four-product-overlay3 {
@@ -284,7 +288,7 @@ p {
   margin-left: calc(50% + 4px); }
 
 .four-product-overlay3:hover {
-  opacity: 0.15;
+  opacity: 1;
   cursor: pointer; }
 
 .four-product-overlay4 {
@@ -293,7 +297,7 @@ p {
   margin-left: calc(75% + 2px); }
 
 .four-product-overlay4:hover {
-  opacity: 0.15;
+  opacity: 1;
   cursor: pointer; }
 
 /*
@@ -306,7 +310,7 @@ p {
   margin: 8px 0px 8px 8px; }
 
 .two-product-overlay1:hover {
-  opacity: 0.15;
+  opacity: 1;
   cursor: pointer; }
 
 .two-product-overlay2 {
@@ -315,7 +319,7 @@ p {
   margin-left: calc(50% + 4px); }
 
 .two-product-overlay2:hover {
-  opacity: 0.15;
+  opacity: 1;
   cursor: pointer; }
 
 /*
