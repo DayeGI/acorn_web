@@ -406,10 +406,6 @@
   *
   */
 
-.toggle2 {
-	transition-property: none;
-}
-
 .toggle2.contactPanelVar {
 	width: 580px;
 	height: 580px;
@@ -440,7 +436,7 @@
 	background-position: 534px 9px;
 }*/
 
-.toggle2.contactPanelVar ul li {
+.contactPanelVar ul li {
 	background-position: 534px 9px;
 /*	-webkit-transition: none 0.45s ease-in-out;
 	   -moz-transition: none 0.45s ease-in-out;
@@ -449,11 +445,11 @@
 	        transition: none 0.45s ease-in-out;*/
 }
 
-.toggle2.contactPanelVar ul li:nth-child(3) {
+.contactPanelVar ul li:nth-child(3) {
 	margin-top: 290px; /* fixing all the icons at its original location before transition */
 }
 
-.toggle2.contactPanelVar ul li:last-child {
+.contactPanelVar ul li:last-child {
 	margin: 14px 0px 14px 538px; /* fixing all the icons at its original location before transition */
 }
 

@@ -1003,15 +1003,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/plugins\/acorn-contact-form\/public\/css\/ac_contact_form.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-contact-form\/public\/css\/ac_contact_form.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/plugins\/acorn-contact-form\/public\/js\/ac_contact_form.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1170,15 +1161,6 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/animation.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plugins\/acorn-default\/public\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1424,6 +1406,226 @@
 		"initialSize": 98196,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/news\/img_mostRecent2_560.jpg",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/news\/img_mostRecent2_560.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataAngle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 254352,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataAngle.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataAngle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataCombo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 300869,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataCombo.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataCombo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADAngle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 274131,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADAngle.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADAngle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADcombo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 294078,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADcombo.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADcombo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_attackProd.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 459896,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_attackProd.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_attackProd.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_data.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93949,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_data.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_data.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_data380.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34961,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_data380.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_data380.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_IAD.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96310,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_IAD.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_IAD.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_IAD380.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35272,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_IAD380.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_IAD380.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_monitor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104005,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_monitor.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_monitor.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_monitor380.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35248,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_monitor380.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_monitor380.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_regulatory.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55672,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_regulatory.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_regulatory.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_dataCombo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7277,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_dataCombo.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_dataCombo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_IADcombo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6889,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_IADcombo.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_IADcombo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_monitorCombo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6684,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_monitorCombo.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_monitorCombo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_threat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6392,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_threat.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_threat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_vulnerability.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6183,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_vulnerability.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_vulnerability.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorAngle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317279,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorAngle.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorAngle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorCombo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 303020,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorCombo.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorCombo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/threat\/prod_threatAngle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 225203,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/threat\/prod_threatAngle.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/threat\/prod_threatAngle.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1864,6 +2066,17 @@
 		"initialSize": 277545,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/img_vulnerabilityFront.png",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/img_vulnerabilityFront.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/prod_vulnerabilityAngle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198400,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/prod_vulnerabilityAngle.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/prod_vulnerabilityAngle.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2674,22 +2887,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/news.scss",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/news.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/plugins\/acorn-default\/public\/scss\/products.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/products.scss",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/products.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3692,15 +3889,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/news.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plugins\/acorn-default\/templates\/products.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/products.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -7058,7 +7246,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "yeeloong",
+"lastSavedByUser": "Yee Loong Ooi",
 "manualImportLinks": {
 	},
 "projectAttributes": {
