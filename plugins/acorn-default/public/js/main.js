@@ -9,9 +9,17 @@ angular.module('acorn')
 $( document ).ready(function() {
 
     //solutions
-    $('.infocards').click(function(){
-        $('.infocards').css('transform','translateX(-605%);');
+    $('.solutions-intro-infographics').click(function(){
+        console.log('test');
+        $('#infocard6').css('transform','translateX(calc(-250% - 37.5px)');
     });
+
+     $('.solutions-intro-infographics').click(function(){
+        console.log('test');
+        $('#infocard4').css('transform','translateX(calc(-250% - 37.5px)');
+        $('#infocard5').css('transform','translateX(calc(-250% - 37.5px)');
+    });
+
     //university
     $('.type1').click(function(){
         $('#triangle-up').css('marginLeft','calc(12.5% - 20px)');
