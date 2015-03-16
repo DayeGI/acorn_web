@@ -8,16 +8,21 @@ angular.module('acorn')
 
 $( document ).ready(function() {
 
-    //solutions
     $('.solutions-intro-infographics').click(function(){
         console.log('test');
-        $('#infocard6').css('transform','translateX(calc(-250% - 37.5px)');
+        $('#infocard1').css('transform','translateX(calc(-700% - 105px)');
+        $('#infocard2').css('transform','translateX(calc(-700% - 105px)');
+        $('#infocard3').css('transform','translateX(calc(-700% - 105px)');
+        $('#infocard4').css('transform','translateX(calc(-700% - 105px)');
+        $('#infocard5').css('transform','translateX(calc(-700% - 105px)');
+        $('#infocard6').css('transform','translateX(calc(-250% - 22.5px)');
     });
 
-     $('.solutions-intro-infographics').click(function(){
+     $('.solutions-intro-infocards').click(function(){
         console.log('test');
-        $('#infocard4').css('transform','translateX(calc(-250% - 37.5px)');
-        $('#infocard5').css('transform','translateX(calc(-250% - 37.5px)');
+        $('#infocard4').css('transform','translateX(calc(-150% - 37.5px)');
+        $('#infocard5').css('transform','translateX(calc(-150% - 22.5px)');
+        $('#infocard6').css('transform','translateX(calc(-150% - 7.5px)');
     });
 
     //university
