@@ -6,6 +6,23 @@ angular.module('acorn')
 			};
 		}]);
 
+$( document ).ready(function() {
+
+    //university page
+    $('.type1').click(function(){
+        $('#triangle-up').css('marginLeft','calc(12.5% - 20px)');
+    });
+    $('.type2').click(function(){
+        $('#triangle-up').css('marginLeft','calc(37.5% - 20px)');
+    });
+    $('.type3').click(function(){
+        $('#triangle-up').css('marginLeft','calc(62.5% - 20px)');
+    });
+    $('.type4').click(function(){
+        $('#triangle-up').css('marginLeft','calc(87.5% - 20px)');
+    });
+    
+});
 
 function CommunityRequestController ($scope, $http){
 	$scope.submit = function(){

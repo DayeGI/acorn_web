@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b23910-3023-4b75-8da0-bb1852ad18eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/about_us.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/about_us.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/university/carousel_recentEvent1140.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/university.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/min/index-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/university.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/img/university/carousel_recentEvent1440.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/main.scssc" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/products.scssc" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/products.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/js/min/main-min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/min/main-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/css/main.css" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/js/main.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/main.scss" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/products.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/products.scss" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/products.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/university.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/university.html" />
     </list>
     <ignored path="acorn_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,21 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_us.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about_us.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/about_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42754662" vertical-offset="234" max-vertical-offset="950">
+            <state vertical-scroll-proportion="-10.642858" vertical-offset="234" max-vertical-offset="950">
               <caret line="28" column="167" selection-start-line="28" selection-start-column="167" selection-end-line="28" selection-end-column="167" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-default/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.088236" vertical-offset="20513" max-vertical-offset="21318">
-              <caret line="1112" column="30" selection-start-line="1112" selection-start-column="30" selection-end-line="1112" selection-end-column="30" />
+            <state vertical-scroll-proportion="3.88712" vertical-offset="21729" max-vertical-offset="24548">
+              <caret line="1285" column="1" selection-start-line="1285" selection-start-column="1" selection-end-line="1285" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -71,8 +85,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-default/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5624">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="5947">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,8 +95,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-85.5" vertical-offset="0" max-vertical-offset="2565">
-              <caret line="126" column="86" selection-start-line="126" selection-start-column="86" selection-end-line="126" selection-end-column="86" />
+            <state vertical-scroll-proportion="-85.5" vertical-offset="38" max-vertical-offset="2603">
+              <caret line="128" column="12" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -165,8 +179,8 @@
         <option value="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" />
         <option value="$PROJECT_DIR$/plugins/acorn-default/templates/footer.html" />
         <option value="$PROJECT_DIR$/plugins/acorn-default/templates/head.html" />
-        <option value="$PROJECT_DIR$/plugins/acorn-default/public/css/main.css" />
         <option value="$PROJECT_DIR$/plugins/acorn-default/templates/about_us.html" />
+        <option value="$PROJECT_DIR$/plugins/acorn-default/public/css/main.css" />
       </list>
     </option>
   </component>
@@ -1047,16 +1061,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/acorn-default/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5624">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="5947">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-85.5" vertical-offset="0" max-vertical-offset="2565">
-          <caret line="126" column="86" selection-start-line="126" selection-start-column="86" selection-end-line="126" selection-end-column="86" />
+        <state vertical-scroll-proportion="-85.5" vertical-offset="38" max-vertical-offset="2603">
+          <caret line="128" column="12" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1092,18 +1106,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/public/css/main.css">
+    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/about_us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.088236" vertical-offset="20513" max-vertical-offset="21318">
-          <caret line="1112" column="30" selection-start-line="1112" selection-start-column="30" selection-end-line="1112" selection-end-column="30" />
+        <state vertical-scroll-proportion="-10.642858" vertical-offset="234" max-vertical-offset="950">
+          <caret line="28" column="167" selection-start-line="28" selection-start-column="167" selection-end-line="28" selection-end-column="167" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/templates/about_us.html">
+    <entry file="file://$PROJECT_DIR$/plugins/acorn-default/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42754662" vertical-offset="234" max-vertical-offset="950">
-          <caret line="28" column="167" selection-start-line="28" selection-start-column="167" selection-end-line="28" selection-end-column="167" />
+        <state vertical-scroll-proportion="3.88712" vertical-offset="21729" max-vertical-offset="24548">
+          <caret line="1285" column="1" selection-start-line="1285" selection-start-column="1" selection-end-line="1285" selection-end-column="1" />
           <folding />
         </state>
       </provider>

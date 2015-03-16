@@ -1,0 +1,190 @@
+/*
+ *
+ * university
+ *
+ */
+
+.university-banner {
+	width: 100%;
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.university-banner img {
+	/* Set rules to fill background */
+	min-width: 1140px;
+	min-height: 100%;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+}
+
+.university-banner-caption {
+	width: 100%;
+	padding: 30px 8%;
+	height: auto;
+	background: #314753;
+}
+
+.university-banner-caption h2 {
+	color: #ffffff;
+	padding: 0px 0px 10px 0px;
+}
+
+.university-banner-caption p {
+	color: #ffffff;
+	line-height: 1.8;
+}
+
+/*
+ *
+ * university description
+ *
+ */
+
+.university-description {
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	padding: 0px 8%;
+
+	//http://www.colorzilla.com/gradient-editor
+	//#FFFFFF to #DDDDDD – pivot point at 90%
+	background: #ffffff; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(90%,#dddddd), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#dddddd 90%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #ffffff 0%,#dddddd 90%,#dddddd 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%,#dddddd 90%,#dddddd 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, #ffffff 0%,#dddddd 90%,#dddddd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.university-description h3 {
+	padding-bottom: 20px;
+}
+.university-description p {
+	line-height: 1.8;
+}
+
+.university-description-wrapper {
+	position: relative;
+	height: auto;
+	top: 50%;
+  	transform: translateY(-50%);
+}
+
+/*
+ *
+ * university course types
+ *
+ */
+
+.course-type {
+	width: 25%;
+	height: 150px;
+	background-color: #314753;
+	float: left;
+	border-right: 1px solid white;
+}
+
+.course-type:hover{
+	cursor: pointer;
+}
+
+.type4{
+	border-right: 0px solid white;
+}
+
+/*
+ *
+ * university course description
+ *
+ */
+
+.university-course-description {
+	width: 100%;
+	background-color: #57798A;
+}
+
+ #triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #57798A;
+	margin-top: -20px;
+	margin-left: calc(12.5% - 20px);
+	position: relative;
+	z-index: 10;
+	transition: margin-left 0.45s ease-in-out;
+}
+
+.university-course-description h3{
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.university-course-description p {
+	color: #ffffff;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.university-course-description img {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	margin-top: -2px; //adjustment to center inline image with text
+	margin-left: -5px; //adjustment to center inline image with text
+}
+
+.university-course-description-one {
+	width: 84%;
+	margin: 0px 8%;
+	border-bottom: 1px solid gray;
+}
+
+.course-name {
+	width: 100%;
+	height: auto;
+	padding: 30px 0px 15px 0px;
+}
+
+.course-date {
+	width: 40%;
+	height: auto;
+	float: left;
+	padding: 0px 0px 30px 0px;
+}
+
+.course-time {
+	width: 30%;
+	height: auto;
+	float: left;
+	padding: 0px 0px 30px 0px;
+}
+
+.course-venue{
+	width: 30%;
+	height: auto;
+	float: left;
+	padding: 0px 0px 30px 0px;
+}
+
+.course-description {
+	width: 100%;
+	height: auto;
+	padding: 0px 0px 30px 0px;
+}
+
+.university-course-description form {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.university-course-description-two {
+	width: 84%;
+	margin: 0px 8%;
+}
