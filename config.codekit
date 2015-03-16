@@ -1210,6 +1210,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/plugins\/acorn-default\/public\/css\/solution.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/solution.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/acorn-default\/public\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -1494,6 +1503,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_attackProd.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 315710,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_attackProd.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_attackProd.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_protectionProd.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1501,6 +1521,17 @@
 		"initialSize": 314386,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_protectionProd.png",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_protectionProd.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_simulation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 457116,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_simulation.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_simulation.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1578,6 +1609,17 @@
 		"initialSize": 61901,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_regulatory.png",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_regulatory.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_simulation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58366,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_simulation.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_simulation.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3442,6 +3484,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/plugins\/acorn-default\/public\/scss\/footer.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/footer.scss",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/plugins\/acorn-default\/public\/scss\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -3515,6 +3573,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/products.scss",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/products.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/plugins\/acorn-default\/public\/scss\/solution.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/solution.scss",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/solution.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

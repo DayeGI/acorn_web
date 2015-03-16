@@ -21,7 +21,7 @@ $( document ).ready(function() {
         document.getElementById('brand-image').src="/public/acorn-default/img/index/logoWhite.png";
     } else {
         $('.navbar').removeClass('not-past-navbar');
-        $('.navbar-default .navbar-nav > li > a').css('color', '#5F5F5F');
+        $('.navbar-default .navbar-nav > li > a').css('color', '#314753');
         document.getElementById('brand-image').src="/public/acorn-default/img/index/logo.png";
     }
 
@@ -35,7 +35,7 @@ $( document ).ready(function() {
             document.getElementById('brand-image').src="/public/acorn-default/img/index/logoWhite.png";
         } else {
             $('.navbar').removeClass('not-past-navbar');
-            $('.navbar-default .navbar-nav > li > a').css('color', '#5F5F5F');
+            $('.navbar-default .navbar-nav > li > a').css('color', '#314753');
             document.getElementById('brand-image').src="/public/acorn-default/img/index/logo.png";
         }
 

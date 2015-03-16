@@ -8,6 +8,11 @@ angular.module('acorn')
 
 $( document ).ready(function() {
 
+    //solutions
+    $('.infocards').click(function(){
+        $('.infocards').css('transform','translateX(-605%);');
+    });
+    //university
     $('.type1').click(function(){
         $('#triangle-up').css('marginLeft','calc(12.5% - 20px)');
         $(this).addClass( "active-course1");
