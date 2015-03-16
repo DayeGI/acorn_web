@@ -18,9 +18,11 @@ $( document ).ready(function() {
     if (stop <= mainbottom) {
         $('.navbar').addClass('not-past-navbar');
         $('.navbar-default .navbar-nav > li > a').css('color', '#FFFFFF');
+        document.getElementById('brand-image').src="/public/acorn-default/img/index/logoWhite.png";
     } else {
         $('.navbar').removeClass('not-past-navbar');
         $('.navbar-default .navbar-nav > li > a').css('color', '#5F5F5F');
+        document.getElementById('brand-image').src="/public/acorn-default/img/index/logo.png";
     }
 
     // on scroll, activate class to turn navbar visible
@@ -30,9 +32,11 @@ $( document ).ready(function() {
         if (stop <= mainbottom) {
             $('.navbar').addClass('not-past-navbar');
             $('.navbar-default .navbar-nav > li > a').css('color', '#FFFFFF');
+            document.getElementById('brand-image').src="/public/acorn-default/img/index/logoWhite.png";
         } else {
             $('.navbar').removeClass('not-past-navbar');
             $('.navbar-default .navbar-nav > li > a').css('color', '#5F5F5F');
+            document.getElementById('brand-image').src="/public/acorn-default/img/index/logo.png";
         }
 
     });

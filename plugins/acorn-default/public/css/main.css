@@ -318,14 +318,23 @@ p {
  */
 .course-type {
   width: 25%;
-  height: 150px;
   background-color: #314753;
   float: left;
   border-right: 1px solid white;
-  transition: box-shadow 0.45s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
   -webkit-box-shadow: inset 0px 0px 50px 0px transparent;
   -moz-box-shadow: inset 0px 0px 50px 0px transparent;
-  box-shadow: inset 0px 0px 50px 0px transparent; }
+  box-shadow: inset 0px 0px 50px 0px transparent;
+  text-align: center;
+  padding: 10px 5% 25px 5%; }
+
+.course-type img {
+  width: 62px;
+  height: 62px; }
+
+.course-type p {
+  font-size: 18px;
+  color: white; }
 
 .course-type:hover {
   cursor: pointer;
@@ -335,6 +344,30 @@ p {
 
 .type4 {
   border-right: 0px solid white; }
+
+.type1:hover {
+  background-image: url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.type2:hover {
+  background-image: url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.type3:hover {
+  background-image: url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.type4:hover {
+  background-image: url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
 
 /*
  *
@@ -351,10 +384,10 @@ p {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 20px solid #57798A;
-  margin-top: -20px;
   margin-left: calc(12.5% - 20px);
   position: relative;
   z-index: 10;
+  top: -20px;
   transition: margin-left 0.45s ease-in-out; }
 
 .university-course-description h3 {
@@ -1144,82 +1177,3 @@ form input:nth-child(1) {
 .submit-button:hover {
   color: white;
   background-color: #F48446; }
-
-/**
-*
-* about us page
-*
-**/
-
-.mission-statement{
-	background:
-	linear-gradient(
-			rgba(100, 100, 100, 0.7),
-			rgba(100, 100, 100, 0.7)
-	),
-	url(/public/acorn-default/img/aboutUs/cover_intro1440.jpg)
-	no-repeat;
-	background-position:0px -70px;
-	width:100%;
-	height:370px;
-	margin-top:50px;
-	/* for vertical alignment */
-	-webkit-transform-style: preserve-3d;
-	-moz-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	/*end vertical alignment*/
-}
-.mission-statement h1{
-	/*for vertical alignment */
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	/*end vertical alignment*/
-	text-align: center;
-	color:white;
-}
-.company-description h2{
-	text-align: justify;
-	padding: 50px 200px 50px 200px;
-	color:grey;	
-}
-
-.company-values{
-	background:
-	linear-gradient(
-			rgba(100, 100, 100, 0.9),
-			rgba(100, 100, 100, 0.9)
-	),
-	url(/public/acorn-default/img/aboutUs/bg_values1440.jpg)
-	no-repeat;
-	background-position:0px -70px;
-	width:100%;
-	display:table;
-}
-.company-values>h2{
-	text-align: center;
-	padding: 50px 50px 50px 50px;
-	color: white;
-}
-.value-table{
-	display:table;
-	padding-bottom:80px;
-}
-.company-value{
-	display:table-row;
-}
-.company-value>h2{
-	display:table-cell;
-	width: 30%;
-	text-align: right;
-	padding: 10px 30px 20px 50px;
-	color:white;
-}
-.company-value>h3{
-	display:table-cell;
-	width: 70%;
-	text-align: left;
-	padding: 10px 150px 20px 0;
-	font-size: 18px;
-	color:white;
-}

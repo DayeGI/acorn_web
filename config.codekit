@@ -1505,6 +1505,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_protectionProd.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 314386,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_protectionProd.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_protectionProd.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_data.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2759,13 +2770,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/university\/carousel_recentEvent1440.jpg": {
+	"\/plugins\/acorn-default\/public\/img\/university\/carousel_recentEvent1140.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 171683,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/carousel_recentEvent1440.jpg",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/carousel_recentEvent1440.jpg",
+		"initialSize": 160008,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/carousel_recentEvent1140.jpg",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/carousel_recentEvent1140.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2777,6 +2788,17 @@
 		"initialSize": 85221,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/tab_attackCourse320.jpg",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/tab_attackCourse320.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/university\/tab_attackCourse320X150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40389,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/tab_attackCourse320X150.jpg",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/tab_attackCourse320X150.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3305,12 +3327,45 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/plugins\/acorn-default\/public\/js\/index-header-script.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/index-header-script.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/index-header-script-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/public\/js\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/index.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/plugins\/acorn-default\/public\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/main.js",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/public\/js\/min\/index-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/index-min.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/min\/index-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

@@ -83,14 +83,25 @@
 
 .course-type {
 	width: 25%;
-	height: 150px;
 	background-color: #314753;
 	float: left;
 	border-right: 1px solid white;
-	transition: box-shadow 0.45s ease-in-out;
+	transition: box-shadow 0.1s ease-in-out;
 	-webkit-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0);
        -moz-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0);
             box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0);
+    text-align: center; 
+    padding: 10px 5% 25px 5%;
+}
+
+.course-type img {
+	width: 62px;
+	height: 62px;
+}
+
+.course-type p {
+	font-size: 18px;
+	color: white;
 }
 
 .course-type:hover{
@@ -102,6 +113,34 @@
 
 .type4{
 	border-right: 0px solid white;
+}
+
+.type1:hover {
+	background-image: url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.type2:hover {
+	background-image: url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.type3:hover {
+	background-image: url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.type4:hover {
+	background-image: url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 /*
@@ -121,10 +160,10 @@
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
 	border-bottom: 20px solid #57798A;
-	margin-top: -20px;
 	margin-left: calc(12.5% - 20px);
 	position: relative;
 	z-index: 10;
+	top: -20px;
 	transition: margin-left 0.45s ease-in-out;
 }
 
