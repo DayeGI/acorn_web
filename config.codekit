@@ -1494,17 +1494,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_attackProd.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 316305,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_attackProd.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_attackProd.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/plugins\/acorn-default\/public\/img\/product\/landing\/hero_protectionProd.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2814,6 +2803,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/university\/tab_employeeTraining320X150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37744,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/tab_employeeTraining320X150.jpg",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/tab_employeeTraining320X150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/university\/tab_safetyCourse320.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2825,6 +2825,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/university\/tab_safetyCourse320X150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37397,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/tab_safetyCourse320X150.jpg",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/tab_safetyCourse320X150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/university\/tab_standardCourse320.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2832,6 +2843,17 @@
 		"initialSize": 52271,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/tab_standardCourse320.jpg",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/tab_standardCourse320.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/university\/tab_standardCourse320X150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36204,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/tab_standardCourse320X150.jpg",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/university\/tab_standardCourse320X150.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -8,18 +8,33 @@ angular.module('acorn')
 
 $( document ).ready(function() {
 
-    //university page
     $('.type1').click(function(){
         $('#triangle-up').css('marginLeft','calc(12.5% - 20px)');
+        $(this).addClass( "active-course1");
+        $('.type2').removeClass( "active-course2");
+        $('.type3').removeClass( "active-course3");
+        $('.type4').removeClass( "active-course4");
     });
     $('.type2').click(function(){
         $('#triangle-up').css('marginLeft','calc(37.5% - 20px)');
+        $(this).addClass( "active-course2");
+        $('.type1').removeClass( "active-course1");
+        $('.type3').removeClass( "active-course3");
+        $('.type4').removeClass( "active-course4");
     });
     $('.type3').click(function(){
         $('#triangle-up').css('marginLeft','calc(62.5% - 20px)');
+        $(this).addClass( "active-course3");
+        $('.type1').removeClass( "active-course1");
+        $('.type2').removeClass( "active-course2");
+        $('.type4').removeClass( "active-course4");
     });
     $('.type4').click(function(){
         $('#triangle-up').css('marginLeft','calc(87.5% - 20px)');
+        $(this).addClass( "active-course4");
+        $('.type1').removeClass( "active-course1");
+        $('.type2').removeClass( "active-course2");
+        $('.type3').removeClass( "active-course3");
     });
     
 });
