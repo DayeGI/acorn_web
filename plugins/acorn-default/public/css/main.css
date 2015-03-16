@@ -1218,7 +1218,7 @@ form input:nth-child(1) {
 			rgba(100, 100, 100, 0.7),
 			rgba(100, 100, 100, 0.7)
 	),
-	url(/public/acorn-default/img/index/cover_intro1440.jpg)
+	url(/public/acorn-default/img/aboutUs/cover_intro1440.jpg)
 	no-repeat;
 	background-position:0px -70px;
 	width:100%;
@@ -1248,8 +1248,8 @@ form input:nth-child(1) {
 .company-values{
 	background:
 	linear-gradient(
-			rgba(100, 100, 100, 0.7),
-			rgba(100, 100, 100, 0.7)
+			rgba(100, 100, 100, 0.9),
+			rgba(100, 100, 100, 0.9)
 	),
 	url(/public/acorn-default/img/aboutUs/bg_values1440.jpg)
 	no-repeat;

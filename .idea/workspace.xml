@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b23910-3023-4b75-8da0-bb1852ad18eb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/img/university/carousel_recentEvent1140.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/university.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/min/index-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/university.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/img/university/carousel_recentEvent1440.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/main.scssc" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/products.scssc" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/.sass-cache/af5ad8b80da66ce4a4fc3fe5eabc45bd660ef32a/products.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/js/min/main-min.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/min/main-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/css/main.css" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/js/main.js" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/main.scss" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/products.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/public/scss/products.scss" afterPath="$PROJECT_DIR$/plugins/acorn-default/public/scss/products.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/acorn-default/templates/university.html" afterPath="$PROJECT_DIR$/plugins/acorn-default/templates/university.html" />
     </list>
     <ignored path="acorn_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,8 +59,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/acorn-default/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.88712" vertical-offset="21729" max-vertical-offset="24548">
-              <caret line="1285" column="1" selection-start-line="1285" selection-start-column="1" selection-end-line="1285" selection-end-column="1" />
+            <state vertical-scroll-proportion="-0.12735167" vertical-offset="23857" max-vertical-offset="24548">
+              <caret line="1251" column="36" selection-start-line="1251" selection-start-column="36" selection-end-line="1251" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -1116,8 +1100,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/acorn-default/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.88712" vertical-offset="21729" max-vertical-offset="24548">
-          <caret line="1285" column="1" selection-start-line="1285" selection-start-column="1" selection-end-line="1285" selection-end-column="1" />
+        <state vertical-scroll-proportion="-0.12735167" vertical-offset="23857" max-vertical-offset="24548">
+          <caret line="1251" column="36" selection-start-line="1251" selection-start-column="36" selection-end-line="1251" selection-end-column="36" />
           <folding />
         </state>
       </provider>
