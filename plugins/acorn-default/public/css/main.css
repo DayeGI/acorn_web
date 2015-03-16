@@ -1048,7 +1048,7 @@ form input:nth-child(1) {
 			rgba(100, 100, 100, 0.7),
 			rgba(100, 100, 100, 0.7)
 	),
-	url(/public/acorn-default/img/index/bg_companyValues1440.jpg)
+	url(/public/acorn-default/img/index/cover_intro1440.jpg)
 	no-repeat;
 	background-position:0px -70px;
 	width:100%;
@@ -1067,5 +1067,50 @@ form input:nth-child(1) {
 	transform: translateY(-50%);
 	/*end vertical alignment*/
 	text-align: center;
+	color:white;
+}
+.company-description h2{
+	text-align: justify;
+	padding: 50px 200px 50px 200px;
+	color:grey;	
+}
+
+.company-values{
+	background:
+	linear-gradient(
+			rgba(100, 100, 100, 0.7),
+			rgba(100, 100, 100, 0.7)
+	),
+	url(/public/acorn-default/img/aboutUs/bg_values1440.jpg)
+	no-repeat;
+	background-position:0px -70px;
+	width:100%;
+	display:table;
+}
+.company-values>h2{
+	text-align: center;
+	padding: 50px 50px 50px 50px;
+	color: white;
+}
+.value-table{
+	display:table;
+	padding-bottom:80px;
+}
+.company-value{
+	display:table-row;
+}
+.company-value>h2{
+	display:table-cell;
+	width: 30%;
+	text-align: right;
+	padding: 10px 30px 20px 50px;
+	color:white;
+}
+.company-value>h3{
+	display:table-cell;
+	width: 70%;
+	text-align: left;
+	padding: 10px 150px 20px 0;
+	font-size: 18px;
 	color:white;
 }
