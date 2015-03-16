@@ -8,21 +8,40 @@ angular.module('acorn')
 
 $( document ).ready(function() {
 
-    $('.solutions-intro-infographics').click(function(){
-        console.log('test');
-        $('#infocard1').css('transform','translateX(calc(-700% - 105px)');
-        $('#infocard2').css('transform','translateX(calc(-700% - 105px)');
-        $('#infocard3').css('transform','translateX(calc(-700% - 105px)');
-        $('#infocard4').css('transform','translateX(calc(-700% - 105px)');
-        $('#infocard5').css('transform','translateX(calc(-700% - 105px)');
-        $('#infocard6').css('transform','translateX(calc(-250% - 22.5px)');
+    $('#infographics1').click(function(){
+        $('#infocard1').css('transform','translateX(calc(200% + 60px)');
+        $('#infocard2').css('transform','translateX(calc(200% + 60px)');
+        $('#infocard3').css('transform','translateX(calc(700% + 210px)');
+        $('#infocard4').css('transform','translateX(calc(700% + 210px)');
+        $('#infocard5').css('transform','translateX(calc(700% + 210px)');
+        $('#infocard6').css('transform','translateX(calc(700% + 210px)');
     });
 
-     $('.solutions-intro-infocards').click(function(){
-        console.log('test');
-        $('#infocard4').css('transform','translateX(calc(-150% - 37.5px)');
-        $('#infocard5').css('transform','translateX(calc(-150% - 22.5px)');
-        $('#infocard6').css('transform','translateX(calc(-150% - 7.5px)');
+    $('#infographics2').click(function(){
+        $('#infocard1').css('transform','translateX(calc(150% + 45px)');
+        $('#infocard2').css('transform','translateX(calc(150% + 45px)');
+        $('#infocard3').css('transform','translateX(calc(150% + 45px)');
+        $('#infocard4').css('transform','translateX(calc(700% + 210px)');
+        $('#infocard5').css('transform','translateX(calc(700% + 210px)');
+        $('#infocard6').css('transform','translateX(calc(700% + 210px)');
+    });
+
+    $('#infographics3').click(function(){
+        $('#infocard1').css('transform','translateX(calc(0%)');
+        $('#infocard2').css('transform','translateX(calc(0%)');
+        $('#infocard3').css('transform','translateX(calc(0%)');
+        $('#infocard4').css('transform','translateX(calc(0%)');
+        $('#infocard5').css('transform','translateX(calc(0%)');
+        $('#infocard6').css('transform','translateX(calc(0%)');
+    });
+
+    $('#infographics4').click(function(){
+        $('#infocard1').css('transform','translateX(calc(0%)');
+        $('#infocard2').css('transform','translateX(calc(0%)');
+        $('#infocard3').css('transform','translateX(calc(0%)');
+        $('#infocard4').css('transform','translateX(calc(0%)');
+        $('#infocard5').css('transform','translateX(calc(0%)');
+        $('#infocard6').css('transform','translateX(calc(0%)');
     });
 
     //university
