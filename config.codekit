@@ -1174,15 +1174,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/plugins\/acorn-default\/public\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/plugins\/acorn-default\/public\/css\/master.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1554,6 +1545,17 @@
 		"initialSize": 46340,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_data380.png",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_data380.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_honeycomb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4549,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_honeycomb.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/landing\/prodLanding_honeycomb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3413,34 +3415,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/plugins\/acorn-default\/public\/js\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/main.js",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/plugins\/acorn-default\/public\/js\/min\/index-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/index-min.js",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/min\/index-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/plugins\/acorn-default\/public\/js\/min\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3557,38 +3537,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/news.scss",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/news.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/plugins\/acorn-default\/public\/scss\/products.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/products.scss",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/products.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/plugins\/acorn-default\/public\/scss\/solution.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/solution.scss",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/solution.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -7973,7 +7921,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Yee Loong Ooi",
+"lastSavedByUser": "yeeloong",
 "manualImportLinks": {
 	},
 "projectAttributes": {
