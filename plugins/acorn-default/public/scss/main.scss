@@ -169,11 +169,14 @@ body {
 	z-index: 6;
 	text-align: left;
 	padding: 5px 0px 5px 10px;
-	color: white;
 }
 
 .news-flash:hover {
 	cursor: pointer;
+}
+
+.news-flash p {
+	color: white;
 }
 
 .news-flash p:nth-child(1) {

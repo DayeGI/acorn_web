@@ -87,10 +87,17 @@
 	background-color: #314753;
 	float: left;
 	border-right: 1px solid white;
+	transition: box-shadow 0.45s ease-in-out;
+	-webkit-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0);
+       -moz-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0);
+            box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0);
 }
 
 .course-type:hover{
 	cursor: pointer;
+	-webkit-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.75);
+       -moz-box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.75);
+            box-shadow: inset 0px 0px 50px 0px rgba(0,0,0,0.75);
 }
 
 .type4{
