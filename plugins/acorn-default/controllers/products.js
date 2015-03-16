@@ -16,7 +16,18 @@ Products.prototype.render = function(cb){
 		cb(output);
 	});
 };
-
+Products.prototype.getAllProducts = function(cb){
+	var cos = new pb.CustomObjectService();
+	cos.loadTypeByName('product_line', function(err, custObjType) {
+		var options = {
+			fetch_depth: 3
+		};
+		cos.findByTypeWithOrdering(custObjType, options, function(err, parents) {
+			console.log(parents);
+			cb({content: pb.BaseController.apiResponse(pb.BaseController.API_SUCCESS, parents)});
+		});
+	});
+};
 Products.prototype.getProduct = function(cb){
 	var self    = this;
 	var product = this.pathVars.product;
@@ -51,6 +62,13 @@ Products.getRoutes = function(cb){
 			auth_required: false,
 			content_type: 'text/html',
 			handler: 'getProduct'
+		},
+		{
+			method: 'get',
+			path: 'api/products/all',
+			auth_required: false,
+			content_type: 'text/html',
+			handler: 'getAllProducts'
 		}
 	];
 	cb(null, routes);
