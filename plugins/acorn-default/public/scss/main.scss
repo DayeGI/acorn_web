@@ -85,6 +85,7 @@ body {
 .coverflow-video-wrapper {
 	position: relative;
 	padding-bottom: 41.61%; //original 56.25% – 16:9
+	// padding-bottom: 56.25%;
 	// padding-top: 25px;
 	height: 0px;
 	z-index: 2;
@@ -153,14 +154,19 @@ body {
  	transition: all 0.3s ease-in-out;
 }
 
-.coverflow-btn-img {
-	font-size: 20px;
- 	position: relative;
-	top: 15px;
- 	transform: rotate(90deg);
- 	color: white;
+.coverflow-btn img {
+	width: 40px;
+	height: 40px;
+	margin-top: 1px;
 }
 
+// .coverflow-btn-img {
+// 	font-size: 20px;
+//  	position: relative;
+// 	top: 15px;
+//  	transform: rotate(90deg);
+//  	color: white;
+// }
 
 .coverflow-btn:hover { 
 	background: transparent;
@@ -196,6 +202,20 @@ body {
 	width: calc(100% - 20px);
 	margin-top: 5px;
 	padding-top: 5px;
+}
+
+.news-flash p:nth-child(5){
+	display: inline-block;
+}
+
+.news-flash img {
+	width: 20px;
+	height: 20px;
+	margin-top: -2px; //adjust inline block image to center with inline text
+}
+
+.news-flash img:nth-child(6){
+	display: inline-block;
 }
 
  /*
