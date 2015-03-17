@@ -38,7 +38,7 @@ $( document ).ready(function() {
         $('#infocard5').css('transform','translateX(calc(700% + 210px)');
         $('#infocard6').css('transform','translateX(calc(700% + 210px)');
 
-        $('#infographics1').css('opacity','0.5');
+        $('#infographics1').css('opacity','1');
         $(this).css('opacity','1');
         $('#infographics3').css('opacity','0.5');
         $('#infographics4').css('opacity','0.5');
@@ -55,8 +55,8 @@ $( document ).ready(function() {
         $('#infocard5').css('transform','translateX(calc(0%)');
         $('#infocard6').css('transform','translateX(calc(0%)');
 
-        $('#infographics1').css('opacity','0.5');
-        $('#infographics2').css('opacity','0.5');
+        $('#infographics1').css('opacity','1');
+        $('#infographics2').css('opacity','1');
         $(this).css('opacity','1');
         $('#infographics4').css('opacity','0.5');
         $('.infographics-line:nth-child(2)').css('border-bottom','3px solid #314753');
@@ -72,9 +72,9 @@ $( document ).ready(function() {
         $('#infocard5').css('transform','translateX(calc(0%)');
         $('#infocard6').css('transform','translateX(calc(0%)');
 
-        $('#infographics1').css('opacity','0.5');
-        $('#infographics2').css('opacity','0.5');
-        $('#infographics3').css('opacity','0.5');
+        $('#infographics1').css('opacity','1');
+        $('#infographics2').css('opacity','1');
+        $('#infographics3').css('opacity','1');
         $(this).css('opacity','1');
         $('.infographics-line:nth-child(2)').css('border-bottom','3px solid #314753');
         $('.infographics-line:nth-child(4)').css('border-bottom','3px solid #314753');
