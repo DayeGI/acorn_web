@@ -6,16 +6,16 @@
     <div class="col-md-12 coverflow">
 		
 		<!--ng-repeat version-->
-		<div ng-repeat="productLine in productLines">
-			<div class="product1-banner">
-				<div class="product-hero-responsive-margin-left"></div>
+		<div class="product-line" ng-repeat="productLine in productLines">
+			<div class="product-banner">
+				<div class="product-hero-responsive"></div>
 				<img ng-src="{{productLine.image.location}}" alt="">
-				<div class="product1-banner-caption SiYuan-ExtraLight">
+				<div class="product-banner-caption SiYuan-ExtraLight">
 					<h1>{{productLine.name}}</h1>
 					<h2>{{productLine.tagline}}</h2>
 				</div>
 			</div>
-			<div class="product1-wrapper">
+			<div class="product-wrapper">
 				<div class="product-intro four-product" ng-repeat="product in productLine.products">
 					<h3>{{product.name}}</h3>
 					<img ng-src="{{product.image.location}}" alt="">
