@@ -364,7 +364,8 @@ ul.footer-elem li p:first-child {
 .solutions-intro-infographics {
   width: 100%;
   height: 180px;
-  padding-bottom: 25px; }
+  padding-bottom: 25px;
+  margin-bottom: 15px; }
 
 .infographics:hover {
   cursor: pointer; }
