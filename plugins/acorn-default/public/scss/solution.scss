@@ -6,7 +6,7 @@
 
 .solutions-wrapper {
 	width: 100%;
-	height: 900px;
+	height: 800px;
 	margin-top: 50px;
 	padding: 0px 8%;
 	//http://www.colorzilla.com/gradient-editor
@@ -44,27 +44,53 @@
 
 .solutions-intro-infographics {
 	width: 100%;
-	height: 300px;
-	background: black;
+	height: 180px;
 	padding-bottom: 25px;
 }
 
-.solutions-intro-infographics:hover {
+.infographics:hover {
 	cursor: pointer;
 }
 
 .infographics {
-	width: 25%;
-	height: 300px;
+	width: 13%;
+	height: 180px;
 	float: left;
+	text-align: center;
+	opacity: 0.5;
+	transition: opacity 0.3s ease-in-out;
 }
 
-#infographics1 {
-	background-color: yellow;
+.infographics img {
+	width: 120px;
+	height: 120px;
+	margin: 5px 0px 0px 0px;
 }
 
-#infographics3 {
-	background-color: yellow;
+.infographics .circle {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	margin: 0 auto;
+	background-color: #314753;;
+}
+
+.infographics h3 {
+	color: #314753;
+	font-size: 22px;
+	padding-top: 5px;
+}
+
+.infographics-line {
+	width: 16%;
+	float: left;
+	margin-top: 133px;
+	border-bottom: 3px dashed #314753;
+	transition: border-bottom 0.45s ease-in-out;
+}
+
+.infographics:hover{
+	opacity: 1;
 }
 
 /*
@@ -80,7 +106,7 @@
 }
 
 .infocard {
-	width: calc(15% - 30px);
+	width: calc(16.5% - 30px);
 	height: 240px;
 	float: left;
 	margin: 20px 10px 20px 20px;
@@ -118,9 +144,9 @@
 }
 
 #infocard1 {
-	margin-left: calc(5% + 15px);
+	margin-left: calc(0.5% + 15px);
 }
 
 #infocard6 {
-	margin-right: calc(5% + 15px);
+	margin-right: calc(0.5% + 15px);
 }

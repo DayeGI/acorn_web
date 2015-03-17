@@ -150,14 +150,14 @@ body {
  	border-radius: 50%;
  	background: #314753;
  	text-align: center;
- 	border: 4px solid #314753;
+ 	border: 3px solid #314753;
  	transition: all 0.3s ease-in-out;
 }
 
 .coverflow-btn img {
 	width: 40px;
 	height: 40px;
-	margin-top: 1px;
+	margin-top: 4px;
 }
 
 // .coverflow-btn-img {
@@ -170,7 +170,7 @@ body {
 
 .coverflow-btn:hover { 
 	background: transparent;
- 	border: 4px solid #ffffff;
+ 	border: 3px solid #ffffff;
     cursor: pointer;
 }
 
