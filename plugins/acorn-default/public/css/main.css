@@ -52,6 +52,675 @@ p {
 .line {
   border-top: 1px solid gray; }
 
+ul.footer-elem {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+ul.footer-elem li {
+  width: 10%;
+  height: 120px;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #2D2D2D; }
+
+ul.footer-elem li:nth-child(1) {
+  width: 20%;
+  padding-left: 10%; }
+
+ul.footer-elem li:nth-child(4) {
+  width: 35%; }
+
+ul.footer-elem li:nth-child(5) {
+  width: 25%;
+  padding-right: 10%; }
+
+ul.footer-elem li:nth-child(5) img {
+  width: 80px;
+  height: 80px; }
+
+ul.footer-elem li:nth-child(6) {
+  width: 100%;
+  height: auto;
+  padding: 10px 10%; }
+
+ul.footer-elem li p:first-child {
+  font-size: 14px;
+  padding-bottom: 5px; }
+
+/*
+ *
+ * main product landing page
+ *
+ */
+.product1-banner, .product2-banner, .product3-banner {
+  width: 100%;
+  height: 500px;
+  background: red;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(90%, #dddddd), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.product2-banner {
+  background: #57798a;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #57798a 0%, #314753 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #57798a), color-stop(100%, #314753));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #57798a 0%, #314753 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #57798a 0%, #314753 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #57798a 0%, #314753 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #57798a 0%, #314753 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57798a', endColorstr='#314753',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.product3-banner {
+  background: #b2b2b2;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #b2b2b2 0%, #5f5f5f 97%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #b2b2b2), color-stop(97%, #5f5f5f));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #b2b2b2 0%, #5f5f5f 97%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #b2b2b2 0%, #5f5f5f 97%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #b2b2b2 0%, #5f5f5f 97%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #b2b2b2 0%, #5f5f5f 97%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2b2b2', endColorstr='#5f5f5f',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.product1-banner {
+  margin-top: 50px;
+  /* account for 50px top navbar */ }
+
+.product-hero-responsive-margin-left {
+  width: calc(100% - 1440px);
+  min-width: 0%;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+  float: left; }
+
+.product1-banner img, .product3-banner img {
+  width: 1440px;
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+  right: 0; }
+
+.product-hero-responsive-margin-right {
+  width: calc(100% - 1440px);
+  min-width: 0%;
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+  right: 0; }
+
+.product2-banner img {
+  width: 1440px;
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+  left: 0; }
+
+.product1-wrapper, .product2-wrapper, .product3-wrapper {
+  width: 100%;
+  height: 266px;
+  /* 250px + 16px margin-top and margin-bottom */
+  position: relative;
+  z-index: 1; }
+
+.product-intro {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  overflow: hidden;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(90%, #dddddd), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  transition: box-shadow 0.45s ease-in-out;
+  -webkit-box-shadow: inset 0px 0px 50px 0px rgba(138, 131, 138, 0);
+  -moz-box-shadow: inset 0px 0px 50px 0px rgba(138, 131, 138, 0);
+  box-shadow: inset 0px 0px 50px 0px rgba(138, 131, 138, 0); }
+
+.product-intro:hover {
+  -webkit-box-shadow: inset 0px 0px 50px 0px rgba(138, 131, 138, 0.75);
+  -moz-box-shadow: inset 0px 0px 50px 0px rgba(138, 131, 138, 0.75);
+  box-shadow: inset 0px 0px 50px 0px rgba(138, 131, 138, 0.75);
+  cursor: pointer; }
+
+.one-product {
+  width: calc(100% - 8px);
+  margin: 8px; }
+
+.two-product {
+  width: calc(50% - 12px);
+  /* divide additional 8px padding over 2 additional blocks */
+  height: 250px;
+  float: left;
+  margin: 8px 0px 8px 8px; }
+
+.three-product {
+  width: calc(33.333333% - 10.666667px);
+  /* divide additional 8px padding over 3 additional blocks */
+  float: left;
+  margin: 8px 0px 8px 8px; }
+
+.four-product {
+  width: calc(25% - 10px);
+  /* divide additional 8px padding over 4 additional blocks */
+  float: left;
+  margin: 8px 0px 8px 8px; }
+
+.clear {
+  clear: both; }
+
+.product1-banner-caption {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  margin-left: 5%; }
+
+.product2-banner-caption {
+  width: 40%;
+  height: auto;
+  margin-left: 55%;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: right;
+  margin-right: 5%; }
+
+.product3-banner-caption {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  margin-left: 5%; }
+
+.product1-banner-caption h2, .product2-banner-caption h2, .product3-banner-caption h2 {
+  color: #5F5F5F;
+  font-size: 18px; }
+
+.product-intro h3 {
+  width: 100%;
+  height: 50px;
+  padding-top: 40px;
+  text-align: center;
+  float: left;
+  color: #5F5F5F;
+  font-size: 18px; }
+
+.four-product img {
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin-left: calc(50% - 125px);
+  margin-top: -25px; }
+
+.two-product img {
+  width: 440px;
+  height: 190px;
+  float: left;
+  margin-left: calc(50% - 220px);
+  margin-top: -30px; }
+
+/*
+ *
+ * solutions intro
+ *
+ */
+.solutions-wrapper {
+  width: 100%;
+  height: 900px;
+  margin-top: 50px;
+  padding: 0px 8%;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(90%, #dddddd), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.solutions-intro-description {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0px; }
+
+.solutions-intro-description h2 {
+  padding-bottom: 25px; }
+
+.solutions-intro-description p {
+  line-height: 1.8;
+  text-align: left; }
+
+/*
+ *
+ * solutions infographics
+ *
+ */
+.solutions-intro-infographics {
+  width: 100%;
+  height: 300px;
+  background: black;
+  padding-bottom: 25px; }
+
+.solutions-intro-infographics:hover {
+  cursor: pointer; }
+
+.infographics {
+  width: 25%;
+  height: 300px;
+  float: left; }
+
+#infographics1 {
+  background-color: yellow; }
+
+#infographics3 {
+  background-color: yellow; }
+
+/*
+ *
+ * solutions infocards
+ *
+ */
+.solutions-intro-infocards {
+  width: 100%;
+  height: 280px;
+  overflow: hidden; }
+
+.infocard {
+  width: calc(15% - 30px);
+  height: 240px;
+  float: left;
+  margin: 20px 10px 20px 20px;
+  background: #D8D8D8;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px;
+  transition: all 1s ease;
+  transform: translateX(calc(700% + 210px)); }
+
+.infocard-image-wrapper {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #314753;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
+.infocard-image-wrapper img {
+  width: 60px;
+  height: 60px;
+  margin-top: 5px; }
+
+.infocard h3 {
+  padding-bottom: 10px;
+  color: #314753; }
+
+.infocard p {
+  line-height: 1.6;
+  color: #314753; }
+
+#infocard1 {
+  margin-left: calc(5% + 15px); }
+
+#infocard6 {
+  margin-right: calc(5% + 15px); }
+
+/*
+ *
+ * university
+ *
+ */
+.university-banner {
+  width: 100%;
+  margin-top: 50px;
+  overflow: hidden; }
+
+.university-banner img {
+  /* Set rules to fill background */
+  min-width: 1140px;
+  min-height: 100%;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto; }
+
+.university-banner-caption {
+  width: 100%;
+  padding: 30px 8%;
+  height: auto;
+  background: #314753; }
+
+.university-banner-caption h2 {
+  color: #ffffff;
+  padding: 0px 0px 10px 0px; }
+
+.university-banner-caption p {
+  color: #ffffff;
+  line-height: 1.8; }
+
+/*
+ *
+ * university description
+ *
+ */
+.university-description {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  padding: 0px 8%;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(90%, #dddddd), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.university-description h3 {
+  padding-bottom: 20px; }
+
+.university-description p {
+  line-height: 1.8; }
+
+.university-description-wrapper {
+  position: relative;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%); }
+
+/*
+ *
+ * university course types
+ *
+ */
+.course-type {
+  width: 25%;
+  background-color: #314753;
+  float: left;
+  border-right: 1px solid white;
+  transition: box-shadow 0.1s ease-in-out;
+  -webkit-box-shadow: inset 0px 0px 50px 0px transparent;
+  -moz-box-shadow: inset 0px 0px 50px 0px transparent;
+  box-shadow: inset 0px 0px 50px 0px transparent;
+  text-align: center;
+  padding: 10px 5% 25px 5%; }
+
+.course-type img {
+  width: 62px;
+  height: 62px; }
+
+.course-type p {
+  font-size: 18px;
+  color: white; }
+
+.course-type:hover {
+  cursor: pointer;
+  -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75); }
+
+.type4 {
+  border-right: 0px solid white; }
+
+.type1:hover {
+  background-image: url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.type2:hover {
+  background-image: url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.type3:hover {
+  background-image: url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.type4:hover {
+  background-image: url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.active-course1 {
+  background-image: url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.active-course2 {
+  background-image: url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.active-course3 {
+  background-image: url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.active-course4 {
+  background-image: url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+/*
+ *
+ * university course description
+ *
+ */
+.university-course-description {
+  width: 100%;
+  background-color: #57798A; }
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #57798A;
+  margin-left: calc(12.5% - 20px);
+  position: relative;
+  z-index: 10;
+  top: -20px;
+  transition: margin-left 0.3s ease-in-out; }
+
+.university-course-description h3 {
+  color: #ffffff;
+  font-size: 18px; }
+
+.university-course-description p {
+  color: #ffffff;
+  font-size: 14px;
+  display: inline-block; }
+
+.university-course-description img {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-top: -2px;
+  margin-left: -5px; }
+
+.university-course-description-one {
+  width: 84%;
+  margin: 0px 8%;
+  border-bottom: 1px solid gray; }
+
+.course-name {
+  width: 100%;
+  height: auto;
+  padding: 30px 0px 15px 0px; }
+
+.course-date {
+  width: 40%;
+  height: auto;
+  float: left;
+  padding: 0px 0px 30px 0px; }
+
+.course-time {
+  width: 30%;
+  height: auto;
+  float: left;
+  padding: 0px 0px 30px 0px; }
+
+.course-venue {
+  width: 30%;
+  height: auto;
+  float: left;
+  padding: 0px 0px 30px 0px; }
+
+.course-description {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 30px 0px; }
+
+.university-course-description form {
+  text-align: center;
+  padding-bottom: 30px; }
+
+.university-course-description-two {
+  width: 84%;
+  margin: 0px 8%; }
+
+/**
+*
+* about us page
+*
+**/
+.mission-statement {
+  background: linear-gradient(rgba(100, 100, 100, 0.7), rgba(100, 100, 100, 0.7)), url(/public/acorn-default/img/aboutUs/cover_intro1440.jpg) no-repeat;
+  background-position: 0px -70px;
+  width: 100%;
+  height: 370px;
+  margin-top: 50px;
+  /* for vertical alignment */
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  /*end vertical alignment*/ }
+  .mission-statement h1 {
+    /*for vertical alignment */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /*end vertical alignment*/
+    text-align: center;
+    color: white; }
+
+.company-description h2 {
+  text-align: justify;
+  padding: 50px 200px 50px 200px;
+  color: grey; }
+
+.company-values {
+  background: linear-gradient(rgba(100, 100, 100, 0.9), rgba(100, 100, 100, 0.9)), url(/public/acorn-default/img/aboutUs/bg_values1440.jpg) no-repeat;
+  background-position: 0px -70px;
+  width: 100%;
+  display: table; }
+  .company-values > h2 {
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    color: white; }
+
+.company-values
+.value-table {
+  display: table;
+  padding-bottom: 80px; }
+
+.company-value {
+  display: table-row; }
+  .company-value > h2 {
+    display: table-cell;
+    width: 30%;
+    text-align: right;
+    padding: 10px 30px 20px 50px;
+    color: white; }
+  .company-value > h3 {
+    display: table-cell;
+    width: 70%;
+    text-align: left;
+    padding: 10px 150px 20px 0;
+    font-size: 18px;
+    color: white; }
+
 .news-banner-wrapper {
   width: 100%;
   height: 600px; }
@@ -266,8 +935,14 @@ body {
   margin: 0 auto; }
 
 .navbar {
-  background-color: transparent;
-  background: transparent;
+  background-color: #ffffff;
+  background: #ffffff;
+  color: #000000;
+  opacity: 0.95;
+  -webkit-box-shadow: 0px 1px 7px #646464;
+  -moz-box-shadow: 0px 1px 7px #646464;
+  -o-box-shadow: 0px 1px 7px #646464;
+  box-shadow: 0px 1px 7px #646464;
   border: none; }
 
 .navbar-brand {
@@ -278,24 +953,25 @@ body {
   height: 50px; }
 
 .navbar-default .navbar-nav > li > a {
-  color: #fff; }
+  color: #314753; }
 
 .navbar-default .navbar-brand {
-  color: #fff; }
+  color: #314753; }
 
-.past-navbar-pre {
-  top: -50px; }
-
-.past-navbar {
-  background-color: #ffffff;
-  background: #ffffff;
-  color: #000000;
-  opacity: 0.95;
-  -webkit-box-shadow: 0px 1px 7px #646464;
-  -moz-box-shadow: 0px 1px 7px #646464;
-  -o-box-shadow: 0px 1px 7px #646464;
-  box-shadow: 0px 1px 7px #646464;
+.not-past-navbar {
+  background-color: transparent;
+  background: transparent;
+  color: #ffffff;
+  opacity: 1;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
   transition: all 0.2s ease-in-out; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  background: #F48446; }
 
 .coverflow {
   position: relative;
@@ -359,12 +1035,10 @@ body {
   border: 4px solid #314753;
   transition: all 0.3s ease-in-out; }
 
-.coverflow-btn-img {
-  font-size: 20px;
-  position: relative;
-  top: 15px;
-  transform: rotate(90deg);
-  color: white; }
+.coverflow-btn img {
+  width: 40px;
+  height: 40px;
+  margin-top: 1px; }
 
 .coverflow-btn:hover {
   background: transparent;
@@ -379,11 +1053,13 @@ body {
   bottom: 25px;
   z-index: 6;
   text-align: left;
-  padding: 5px 0px 5px 10px;
-  color: white; }
+  padding: 5px 0px 5px 10px; }
 
 .news-flash:hover {
   cursor: pointer; }
+
+.news-flash p {
+  color: white; }
 
 .news-flash p:nth-child(1) {
   color: #F48446; }
@@ -393,6 +1069,17 @@ body {
   width: calc(100% - 20px);
   margin-top: 5px;
   padding-top: 5px; }
+
+.news-flash p:nth-child(5) {
+  display: inline-block; }
+
+.news-flash img {
+  width: 20px;
+  height: 20px;
+  margin-top: -2px; }
+
+.news-flash img:nth-child(6) {
+  display: inline-block; }
 
 /*
  *
@@ -777,3 +1464,5 @@ form input:nth-child(1) {
 .submit-button:hover {
   color: white;
   background-color: #F48446; }
+
+/*# sourceMappingURL=main.css.map */

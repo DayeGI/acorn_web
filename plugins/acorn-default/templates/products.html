@@ -1,4 +1,5 @@
 ^tmp_head^
+<<<<<<< HEAD
 <script type="text/javascript" src="/public/acorn-default/js/product_landing_controller.js"></script>
 <div class="products-landing" ng-controller="ProductLandingController">
 	{{testcontrollerlink}}
@@ -10,5 +11,114 @@
 		</div>
 		<div class="product"></div>
 	</div>
+=======
+ <!-- MAIN CONTENT START -->
+<script type="text/javascript" src="/public/acorn-default/js/products_controller.js"></script>
+
+<div class="main SiYuanRegular" ng-controller="ProductsController">
+    <div class="col-md-12 coverflow">
+		
+		<!--ng-repeat version-->
+		<div ng-repeat="productLine in productLines">
+			<div class="product1-banner">
+				<div class="product-hero-responsive-margin-left"></div>
+				<img ng-src="{{productLine.image.location}}" alt="">
+				<div class="product1-banner-caption SiYuan-ExtraLight">
+					<h1>{{productLine.name}}</h1>
+					<h2>{{productLine.tagline}}</h2>
+				</div>
+			</div>
+			<div class="product1-wrapper">
+				<div class="product-intro four-product" ng-repeat="product in productLine.products">
+					<h3>{{product.name}}</h3>
+					<img ng-src="{{product.image.location}}" alt="">
+				</div>
+				<div class="clear"></div>
+				<!-- <div class="product-intro-overlay four-product-overlay1"></div>
+                <div class="product-intro-overlay four-product-overlay2"></div>
+                <div class="product-intro-overlay four-product-overlay3"></div>
+                <div class="product-intro-overlay four-product-overlay4"></div> -->
+			</div>
+		</div>
+    	<!--&lt;!&ndash; PRODUCT CATEGORY ONE &ndash;&gt;-->
+    	<!--<div class="product1-banner">-->
+			<!--<div class="product-hero-responsive-margin-left"></div>-->
+			<!--<img src="public/acorn-default/img/product/landing/hero_protectionProd.png" alt="">-->
+    		<!--<div class="product1-banner-caption SiYuan-ExtraLight">-->
+				<!--<h1>保护产品</h1>-->
+				<!--<h2>针对工业控制系统研发的高端漏洞挖掘工具</h2>-->
+    		<!--</div>-->
+    	<!--</div>-->
+        <!--<div class="product1-wrapper">-->
+        	<!--<div class="product-intro four-product">-->
+        		<!--<h3>产品一</h3>-->
+        		<!--<img src="public/acorn-default/img/product/landing/prodLanding_regulatory.png" alt="">-->
+        	<!--</div>-->
+        	<!--<div class="product-intro four-product">-->
+                <!--<h3>产品二</h3>-->
+                <!--<img src="public/acorn-default/img/product/landing/prodLanding_regulatory.png" alt="">-->
+            <!--</div>-->
+        	<!--<div class="product-intro four-product">-->
+                <!--<h3>产品三</h3>-->
+                <!--<img src="public/acorn-default/img/product/landing/prodLanding_regulatory.png" alt="">-->
+            <!--</div>-->
+        	<!--<div class="product-intro four-product">-->
+                <!--<h3>产品四</h3>-->
+                <!--<img src="public/acorn-default/img/product/landing/prodLanding_regulatory.png" alt="">-->
+            <!--</div>-->
+        	<!--<div class="clear"></div>-->
+        	<!--&lt;!&ndash; <div class="product-intro-overlay four-product-overlay1"></div>-->
+        	<!--<div class="product-intro-overlay four-product-overlay2"></div>-->
+        	<!--<div class="product-intro-overlay four-product-overlay3"></div>-->
+        	<!--<div class="product-intro-overlay four-product-overlay4"></div> &ndash;&gt;-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; PRODUCT CATEGORY TWO &ndash;&gt;-->
+    	<!--<div class="product2-banner">-->
+			<!--<img src="public/acorn-default/img/product/landing/hero_attackProd.png" alt="">-->
+			<!--<div class="product-hero-responsive-margin-right"></div>-->
+    		<!--<div class="product2-banner-caption SiYuan-ExtraLight">-->
+    			<!--<h1>保护产品</h1>-->
+				<!--<h2>针对工业控制系统研发的高端漏洞挖掘工具</h2>-->
+    		<!--</div>-->
+    	<!--</div>-->
+        <!--<div class="product2-wrapper">-->
+        	<!--<div class="product-intro two-product">-->
+                <!--<h3>产品一</h3>-->
+                <!--<img src="public/acorn-default/img/product/landing/prodLanding_threat.png" alt="">-->
+            <!--</div>-->
+        	<!--<div class="product-intro two-product">-->
+                <!--<h3>产品二</h3>-->
+                <!--<img src="public/acorn-default/img/product/landing/prodLanding_threat.png" alt="">-->
+            <!--</div>-->
+        	<!--<div class="clear"></div>-->
+        	<!--<div class="product-intro-overlay two-product-overlay1"></div>-->
+        	<!--<div class="product-intro-overlay two-product-overlay2"></div>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; PRODUCT CATEGORY THREE &ndash;&gt;-->
+    	<!--<div class="product3-banner">-->
+    		<!--<div class="product-hero-responsive-margin-left"></div>-->
+			<!--<img src="public/acorn-default/img/product/landing/hero_simulation.png" alt="">-->
+    		<!--<div class="product3-banner-caption SiYuan-ExtraLight">-->
+    			<!--<h1>保护产品</h1>-->
+				<!--<h2>针对工业控制系统研发的高端漏洞挖掘工具</h2>-->
+    		<!--</div>-->
+    	<!--</div>-->
+        <!--<div class="product3-wrapper">-->
+        	<!--<div class="product-intro two-product">-->
+                <!--<h3>产品一</h3>-->
+                <!--<img src="public/acorn-default/img/product/landing/prodLanding_simulation.png" alt="">-->
+            <!--</div>-->
+        	<!--<div class="product-intro two-product">-->
+                <!--<h3>产品二</h3>-->
+                <!--<img src="public/acorn-default/img/product/landing/prodLanding_honeycomb.png" alt="">-->
+            <!--</div>-->
+        	<!--<div class="clear"></div>-->
+        	<!--<div class="product-intro-overlay two-product-overlay1"></div>-->
+        	<!--<div class="product-intro-overlay two-product-overlay2"></div>-->
+        <!--</div>-->
+    </div>
+>>>>>>> master
 </div>
 ^tmp_footer^

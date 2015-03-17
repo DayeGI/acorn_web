@@ -112,7 +112,7 @@ AcornDefault.onStartup = function(cb) {
 			cos.saveType(cvType, function(err, result){})
 		}
 	});
-	cos.loadTypeByName('job-listing', function(err, jobListingType) {
+	cos.loadTypeByName('job-listings', function(err, jobListingType) {
 		if(!jobListingType) {
 			var cvType = {
 				name: 'job-listings',
@@ -129,6 +129,82 @@ AcornDefault.onStartup = function(cb) {
 			cos.saveType(cvType, function(err, result){})
 		}
 	});
+
+	var course_type_checker = function(){
+		cos.loadTypeByName('course_type', function(err, courseTypeType) {
+			if(!courseTypeType) {
+				var cTType = {
+					name: 'course_type',
+					"fields" : {
+						"active" : { "field_type" : "boolean" },
+						"courses" : { "field_type" : "child_objects" , "object_type" : "custom:courses" },
+						"hover_image" : { "field_type" : "peer_object", "object_type" : "media" }
+					}
+				};
+				cos.saveType(cTType, function(err, result){})
+			}
+		});
+	};
+	cos.loadTypeByName('courses', function(err, coursesType) {
+		if(err) console.log(err);
+		else if(!coursesType) {
+			var cType = {
+				name: 'courses',
+				"fields" : {
+					"active" : { "field_type" : "boolean" },
+					"dates" : { "field_type" : "text" },
+					"time" : { "field_type" : "text" },
+					"venue" : { "field_type" : "text" },
+					"course_details" : { "field_type" : "wysiwyg" }
+				}
+			};
+			cos.saveType(cType, function(err, result){
+				if(err) console.log(err);
+				else course_type_checker();
+			})
+		}
+		else{
+			course_type_checker();
+		}
+	});
+	var product_type_checker = function(){
+		cos.loadTypeByName('product_line', function(err, type) {
+			if(!type) {
+				var pLType = {
+					name: 'product_line',
+					"fields" : {
+						"active" : { "field_type" : "boolean" },
+						"name" : { "field_type" : "text" },
+						"tagline" : { "field_type" : "text" },
+						"image" : { "field_type" : "peer_object", "object_type" : "media" },
+						"products" : { "field_type" : "child_objects" , "object_type" : "custom:products" }
+					}
+				};
+				cos.saveType(pLType, function(err, result){})
+			}
+		});
+	};
+	cos.loadTypeByName('products', function(err, type) {
+		if(err) console.log(err);
+		else if(!type) {
+			var pType = {
+				name: 'products',
+				"fields" : {
+					"active" : { "field_type" : "boolean" },
+					"product_id" : { "field_type" : "text" },
+					"image" : { "field_type" : "peer_object", "object_type" : "media" }
+				}
+			};
+			cos.saveType(pType, function(err, result){
+				if(err) console.log(err);
+				else product_type_checker();
+			})
+		}
+		else{
+			product_type_checker();
+		}
+	});
+
 
 
 	cb(null, true);

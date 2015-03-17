@@ -7,42 +7,71 @@ angular.module('acorn')
 		}]);
 
 $( document ).ready(function() {
-    
-    $(".coverflow-btn").click(function() {
-        var offset = 1; //Offset of 1px to account for top nav bar appearing
 
-        $('html, body').animate({
-            scrollTop: $(".background-wrapper").offset().top + offset
-        }, 500);
+    $('#infographics1').click(function(){
+        $('#infocard1').css('transform','translateX(calc(200% + 60px)');
+        $('#infocard2').css('transform','translateX(calc(200% + 60px)');
+        $('#infocard3').css('transform','translateX(calc(700% + 210px)');
+        $('#infocard4').css('transform','translateX(calc(700% + 210px)');
+        $('#infocard5').css('transform','translateX(calc(700% + 210px)');
+        $('#infocard6').css('transform','translateX(calc(700% + 210px)');
     });
 
-    // get the value of the bottom of the video element by adding the offset of that element plus its height, set it as a variable
-    // minus 50px due to navbar height + 1px to trigger the activation
-    var mainbottom = $('.scroll-marker').offset().top + $('.scroll-marker').height();
+    $('#infographics2').click(function(){
+        $('#infocard1').css('transform','translateX(calc(150% + 45px)');
+        $('#infocard2').css('transform','translateX(calc(150% + 45px)');
+        $('#infocard3').css('transform','translateX(calc(150% + 45px)');
+        $('#infocard4').css('transform','translateX(calc(700% + 210px)');
+        $('#infocard5').css('transform','translateX(calc(700% + 210px)');
+        $('#infocard6').css('transform','translateX(calc(700% + 210px)');
+    });
 
-    var stop = Math.round($(window).scrollTop());
+    $('#infographics3').click(function(){
+        $('#infocard1').css('transform','translateX(calc(0%)');
+        $('#infocard2').css('transform','translateX(calc(0%)');
+        $('#infocard3').css('transform','translateX(calc(0%)');
+        $('#infocard4').css('transform','translateX(calc(0%)');
+        $('#infocard5').css('transform','translateX(calc(0%)');
+        $('#infocard6').css('transform','translateX(calc(0%)');
+    });
 
-    //check navbar status on initialization
-    if (stop >= mainbottom) {
-        $('.navbar').addClass('past-navbar');
-        $('.navbar-default .navbar-nav > li > a').css('color', '#5F5F5F');
-    } else {
-        $('.navbar').removeClass('past-navbar');
-        $('.navbar-default .navbar-nav > li > a').css('color', '#FFFFFF');
-    }
+    $('#infographics4').click(function(){
+        $('#infocard1').css('transform','translateX(calc(0%)');
+        $('#infocard2').css('transform','translateX(calc(0%)');
+        $('#infocard3').css('transform','translateX(calc(0%)');
+        $('#infocard4').css('transform','translateX(calc(0%)');
+        $('#infocard5').css('transform','translateX(calc(0%)');
+        $('#infocard6').css('transform','translateX(calc(0%)');
+    });
 
-    // on scroll, activate class to turn navbar visible
-    $(window).on('scroll',function(){
-
-        stop = Math.round($(window).scrollTop());
-        if (stop >= mainbottom) {
-            $('.navbar').addClass('past-navbar');
-            $('.navbar-default .navbar-nav > li > a').css('color', '#5F5F5F');
-        } else {
-            $('.navbar').removeClass('past-navbar');
-            $('.navbar-default .navbar-nav > li > a').css('color', '#FFFFFF');
-        }
-
+    //university
+    $('.type1').click(function(){
+        $('#triangle-up').css('marginLeft','calc(12.5% - 20px)');
+        $(this).addClass( "active-course1");
+        $('.type2').removeClass( "active-course2");
+        $('.type3').removeClass( "active-course3");
+        $('.type4').removeClass( "active-course4");
+    });
+    $('.type2').click(function(){
+        $('#triangle-up').css('marginLeft','calc(37.5% - 20px)');
+        $(this).addClass( "active-course2");
+        $('.type1').removeClass( "active-course1");
+        $('.type3').removeClass( "active-course3");
+        $('.type4').removeClass( "active-course4");
+    });
+    $('.type3').click(function(){
+        $('#triangle-up').css('marginLeft','calc(62.5% - 20px)');
+        $(this).addClass( "active-course3");
+        $('.type1').removeClass( "active-course1");
+        $('.type2').removeClass( "active-course2");
+        $('.type4').removeClass( "active-course4");
+    });
+    $('.type4').click(function(){
+        $('#triangle-up').css('marginLeft','calc(87.5% - 20px)');
+        $(this).addClass( "active-course4");
+        $('.type1').removeClass( "active-course1");
+        $('.type2').removeClass( "active-course2");
+        $('.type3').removeClass( "active-course3");
     });
     
 });
