@@ -215,6 +215,11 @@ ul.footer-elem li p:first-child {
     float: left;
     color: #5F5F5F;
     font-size: 18px; }
+  .product-intro:hover {
+    -webkit-box-shadow: inset 0px 0px 50px 0px rgba(138, 131, 138, 0.75);
+    -moz-box-shadow: inset 0px 0px 50px 0px rgba(138, 131, 138, 0.75);
+    box-shadow: inset 0px 0px 50px 0px rgba(138, 131, 138, 0.75);
+    cursor: pointer; }
 
 .clear {
   clear: both; }
@@ -762,11 +767,9 @@ ul.footer-elem li p:first-child {
     text-align: center;
     padding: 50px 50px 50px 50px;
     color: white; }
-
-.company-values
-.value-table {
-  display: table;
-  padding-bottom: 80px; }
+  .company-values .value-table {
+    display: table;
+    padding-bottom: 80px; }
 
 .company-value {
   display: table-row; }
