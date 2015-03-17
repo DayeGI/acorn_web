@@ -78,6 +78,46 @@
 	text-align: center;
 	overflow: hidden;
 
+	margin: 8px 0px 8px 8px;
+	float: left;
+	&.count-1{width: calc(100% - 8px);}
+	&.count-2{
+		width: calc(50% - 12px);
+		img{
+			width: 440px; //added 250px for img 
+			height: 190px;
+			float:left;
+			margin-left: calc(50% - 220px);
+			margin-top: -30px;
+		}
+	}
+	&.count-3{width: calc(33.333333% - 10.666667px);}
+	&.count-4{
+		width: calc(25% - 10px);
+		img{
+			width: 250px;
+			height: 250px;
+			float:left;
+			margin-left: calc(50% - 125px);
+			margin-top: -25px;
+		}
+	}
+
+	h3{
+		width: 100%;
+		height: 50px;
+		padding-top: 40px;
+		text-align: center;
+		float:left;
+		color: #5F5F5F;
+		font-size: 18px;
+	}
+	:hover {
+		-webkit-box-shadow: inset 0px 0px 50px 0px rgba(138,131,138,0.75);
+		-moz-box-shadow: inset 0px 0px 50px 0px rgba(138,131,138,0.75);
+		box-shadow: inset 0px 0px 50px 0px rgba(138,131,138,0.75);
+		cursor: pointer;
+	}
 	//http://www.colorzilla.com/gradient-editor
 	//#FFFFFF to #DDDDDD – pivot point at 90%
 	background: #ffffff; /* Old browsers */
@@ -96,76 +136,8 @@
             box-shadow: inset 0px 0px 50px 0px rgba(138,131,138,0);
 }
 
-//product thumbnail hover animation transition
-.product-intro:hover {
-	-webkit-box-shadow: inset 0px 0px 50px 0px rgba(138,131,138,0.75);
-       -moz-box-shadow: inset 0px 0px 50px 0px rgba(138,131,138,0.75);
-            box-shadow: inset 0px 0px 50px 0px rgba(138,131,138,0.75);
-    cursor: pointer;
-}
 
-.one-product {
-	width: calc(100% - 8px);
-	margin: 8px;
-}
-
-.two-product {
-	width: calc(50% - 12px); /* divide additional 8px padding over 2 additional blocks */
-	height: 250px;
-	float: left;
-	margin: 8px 0px 8px 8px;
-}
-
-.three-product {
-	width: calc(33.333333% - 10.666667px); /* divide additional 8px padding over 3 additional blocks */
-	float: left;
-	margin: 8px 0px 8px 8px;
-}
-
-.four-product {
-	width: calc(25% - 10px); /* divide additional 8px padding over 4 additional blocks */
-	float: left;
-	margin: 8px 0px 8px 8px;
-}
 
 .clear {
 	clear: both;
-}
-
-//.product-banner-caption {
-//	width: 40%;
-//	height: auto;
-//	position: absolute;
-//	z-index: 2;
-//	top: 50%;
-//  	transform: translateY(-50%);
-//  	text-align: left;
-//  	margin-left: 5%;
-//}
-
-
-.product-intro h3{
-	width: 100%;
-	height: 50px;
-	padding-top: 40px;
-	text-align: center;
-	float:left;
-	color: #5F5F5F;
-	font-size: 18px;
-}
-
-.four-product img{
-	width: 250px;
-	height: 250px;
-	float:left;
-	margin-left: calc(50% - 125px);
-	margin-top: -25px;
-}
-
-.two-product img{
-	width: 440px; //added 250px for img 
-	height: 190px;
-	float:left;
-	margin-left: calc(50% - 220px);
-	margin-top: -30px;
 }

@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<div class="product-wrapper">
-				<div class="product-intro four-product" ng-repeat="product in productLine.products">
+				<div class="product-intro" ng-class="'count-'+productLine.products.length" ng-repeat="product in productLine.products">
 					<h3>{{product.name}}</h3>
 					<img ng-src="{{product.image.location}}" alt="">
 				</div>
