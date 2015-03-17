@@ -8,6 +8,11 @@ angular.module('acorn')
 
 $( document ).ready(function() {
 
+    //solutions
+    $('#infocard1').css('transform','translateX(calc(200% + 60px)'); //initialize default state
+    $('#infocard2').css('transform','translateX(calc(200% + 60px)'); //initialize default state
+    $('#infographics1').css('opacity','1');                          //initialize default state
+
     $('#infographics1').click(function(){
         $('#infocard1').css('transform','translateX(calc(200% + 60px)');
         $('#infocard2').css('transform','translateX(calc(200% + 60px)');
