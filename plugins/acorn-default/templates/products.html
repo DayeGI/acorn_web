@@ -1,25 +1,12 @@
 ^tmp_head^
-<<<<<<< HEAD
-<script type="text/javascript" src="/public/acorn-default/js/product_landing_controller.js"></script>
-<div class="products-landing" ng-controller="ProductLandingController">
-	{{testcontrollerlink}}
-	<div class="product-category">
-		<div class="category-hero">
-			<h4>PRODUCT LINE NAME</h4>
-			<p>Product tag line and abstract</p>
-			<img src=""/>
-		</div>
-		<div class="product"></div>
-	</div>
-=======
  <!-- MAIN CONTENT START -->
 <script type="text/javascript" src="/public/acorn-default/js/products_controller.js"></script>
 
 <div class="main SiYuanRegular" ng-controller="ProductsController">
     <div class="col-md-12 coverflow">
-		
+
 		<!--ng-repeat version-->
-		<div class="product-line" ng-repeat="productLine in productLines">
+		<div class="product-line" ng-repeat="productLine in productLines" ng-cloak>
 			<div class="product-banner">
 				<div class="product-hero-responsive"></div>
 				<img ng-src="{{productLine.image.location}}" alt="">
@@ -119,6 +106,5 @@
         	<!--<div class="product-intro-overlay two-product-overlay2"></div>-->
         <!--</div>-->
     </div>
->>>>>>> master
 </div>
 ^tmp_footer^
