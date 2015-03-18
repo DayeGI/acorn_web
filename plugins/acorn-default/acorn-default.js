@@ -114,7 +114,7 @@ AcornDefault.onStartup = function(cb) {
 	});
 	cos.loadTypeByName('job-listings', function(err, jobListingType) {
 		if(!jobListingType) {
-			var cvType = {
+			var jLType = {
 				name: 'job-listings',
 				"fields" : {
 					"active" : { "field_type" : "boolean" },
@@ -126,7 +126,20 @@ AcornDefault.onStartup = function(cb) {
 					"compensation" : { "field_type" : "wysiwyg" }
 				}
 			};
-			cos.saveType(cvType, function(err, result){})
+			cos.saveType(jLType, function(err, result){
+				cos.loadTypeByName('job-category', function(err, jobCategoryType) {
+					if(!jobCategoryType) {
+						var jCType = {
+							name: 'job-category',
+							"fields" : {
+								"active" : { "field_type" : "boolean" },
+								"jobs" : { "field_type" : "child_objects" , "object_type" : "custom:job-listings" }
+							}
+						};
+						cos.saveType(jCType, function(err, result){})
+					}
+				});
+			})
 		}
 	});
 
