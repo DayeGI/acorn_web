@@ -1,4 +1,13 @@
 $( document ).ready(function() {
+
+    //workaround for chrome intro video not looping
+    //note that loop has been disabled in the html markup for this to work
+    // $('video').on('ended', function () {
+    //     this.load();
+    //     this.play();
+    // });
+    // var vid = document.getElementById("video");
+    // vid.loop = true;
     
     $(".coverflow-btn").click(function() {
         var offset = 1; //Offset of 1px to account for top nav bar appearing
