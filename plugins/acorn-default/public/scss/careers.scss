@@ -1,0 +1,123 @@
+/*
+ *
+ * careers
+ *
+ */
+
+.careers-wrapper {
+	width: 100%;
+	height: 500px;
+	padding: 0px 8%;
+	margin-top: 50px;
+	//http://www.colorzilla.com/gradient-editor
+	//#FFFFFF to #DDDDDD – pivot point at 90%
+	background: #ffffff; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(90%,#dddddd), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#dddddd 90%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #ffffff 0%,#dddddd 90%,#dddddd 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%,#dddddd 90%,#dddddd 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, #ffffff 0%,#dddddd 90%,#dddddd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.dropdown-filter-wrapper {
+	position: relative;
+	top: 50px;
+	float: left;
+	margin-right: 50px;
+}
+
+.myDropdownCheckbox {
+
+}
+
+/*
+ *
+ * career banner image
+ *
+ */
+
+/*
+ *
+ * dropdown menu styling
+ *
+ */
+
+.dropdown-btn-style {
+	background-color: #F48446;
+	background-image: url(/public/acorn-default/img/index/btn_scrollDown.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+	border: none;
+	color: #D8D8D8;
+	font-size: 17px;
+	padding: 6px 50px 6px 32px;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.dropdown-btn-style:hover {
+	-webkit-box-shadow: inset 0px 0px 30px 0px rgba(184,73,18,1);
+       -moz-box-shadow: inset 0px 0px 30px 0px rgba(184,73,18,1);
+         -o-box-shadow: inset 0px 0px 30px 0px rgba(184,73,18,1);
+            box-shadow: inset 0px 0px 30px 0px rgba(184,73,18,1);
+}
+
+.dropdown-btn-style:focus {
+	-webkit-box-shadow: inset 0px 0px 30px 0px rgba(184,73,18,1);
+       -moz-box-shadow: inset 0px 0px 30px 0px rgba(184,73,18,1);
+         -o-box-shadow: inset 0px 0px 30px 0px rgba(184,73,18,1);
+            box-shadow: inset 0px 0px 30px 0px rgba(184,73,18,1);
+}
+
+.dropdown-btn-style2 {
+	background-color: #314753;										//2nd filter button style override
+}
+
+.dropdown-btn-style2:hover {
+	-webkit-box-shadow: inset 0px 0px 30px 0px rgba(38,36,35,1);	//2nd filter button style override
+	   -moz-box-shadow: inset 0px 0px 30px 0px rgba(38,36,35,1);	//2nd filter button style override
+	        box-shadow: inset 0px 0px 30px 0px rgba(38,36,35,1);	//2nd filter button style override
+}
+
+.dropdown-btn-style2:focus {
+	-webkit-box-shadow: inset 0px 0px 30px 0px rgba(38,36,35,1);	//2nd filter button style override
+	   -moz-box-shadow: inset 0px 0px 30px 0px rgba(38,36,35,1);	//2nd filter button style override
+	        box-shadow: inset 0px 0px 30px 0px rgba(38,36,35,1);	//2nd filter button style override
+}
+
+.dropdown-checkbox .dropdown-checkbox-content {
+	box-shadow: none !important;
+	border: none !important;
+	border-radius: 0px !important;
+	background-color: #D8D8D8 !important;
+	margin-top: 10px;
+	width: 150px;
+}
+
+.dropdown-checkbox-menu {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.dropdown-checkbox-menu li {
+	width: 75px;
+	float: left;
+	color: #5F5F5F;
+}
+
+.dropdown-checkbox-menu li:nth-child(odd) .layout{
+	padding-left: 20px !important;
+}
+
+.dropdown-checkbox-menu li:nth-child(even) .layout{
+	padding-right: 20px !important;
+}
+
+.dropdown-checkbox-menu li:nth-child(odd) .layout label{
+	padding-left: 20px !important;
+}
+
+.dropdown-checkbox-menu li:nth-child(even) .layout label{
+	padding-left: 20px !important;
+}
