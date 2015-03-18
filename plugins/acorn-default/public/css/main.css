@@ -371,9 +371,13 @@ ul.footer-elem li p:first-child {
  * solutions infocards
  *
  */
+.solutions-thumbnails-header {
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center; }
+
 .solutions-thumbnails {
   width: 100%;
-  height: 800px;
   background: #57798a;
   /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover, #57798a 0%, #314753 100%);
@@ -497,6 +501,61 @@ ul.footer-elem li p:first-child {
  * solutions descriptions
  *
  */
+.solutions-description {
+  width: 100%;
+  padding: 0px 8%; }
+
+.solutions-description h5 {
+  text-align: left;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 30px 0px 25px 0px; }
+
+.solution-description-column p {
+  text-align: left;
+  color: #ffffff;
+  line-height: 1.8;
+  padding: 0px 0px; }
+
+.solution-description-column p:first-child {
+  padding: 0px 0px 10px 0px;
+  color: #F48446; }
+
+.solution-description-three-column {
+  width: calc(33.333333% - 20px);
+  margin-right: 30px;
+  margin-bottom: 15px;
+  float: left; }
+
+.solution-description-three-column:nth-child(3n+1) {
+  margin-right: 0; }
+
+.solution-description-four-column {
+  width: calc(25% - 24px);
+  margin-right: 32px;
+  margin-bottom: 15px;
+  float: left; }
+
+.solution-description-four-column:nth-child(4n+1) {
+  margin-right: 0; }
+
+.solutions-description-line {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
+  border-bottom: 1px solid #8D999F; }
+
+.solutions-description-submit-wrapper {
+  text-align: center; }
+
+.solutions-description-submit-wrapper p {
+  font-size: 16px;
+  color: #ffffff;
+  padding: 25px 0px; }
+
+.solutions-description-submit-wrapper input {
+  margin-bottom: 25px; }
+
 /*
  *
  * university
@@ -1530,5 +1589,3 @@ form input:nth-child(1) {
 .submit-button:hover {
   color: white;
   background-color: #F48446; }
-
-/*# sourceMappingURL=main.css.map */

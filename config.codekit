@@ -57,6 +57,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/min\/Gruntfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/include\/access_management.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1174,15 +1185,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/plugins\/acorn-default\/public\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/plugins\/acorn-default\/public\/css\/master.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1298,7 +1300,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 77433,
+		"initialSize": 113657,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_video.jpg",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_video.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1312,6 +1314,17 @@
 		"initialSize": 89798,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_video2.jpg",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_video2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/index\/btn_scrollDown.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1252,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/btn_scrollDown.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/btn_scrollDown.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1774,6 +1787,17 @@
 		"initialSize": 178681,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorFront.png",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorFront.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/simulation\/cover_prodSimulation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 993590,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/simulation\/cover_prodSimulation.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/simulation\/cover_prodSimulation.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3501,6 +3525,22 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/plugins\/acorn-default\/public\/scss\/about_us.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/about_us.scss",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/about_us.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/plugins\/acorn-default\/public\/scss\/animation.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -3590,22 +3630,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/news.scss",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/news.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/plugins\/acorn-default\/public\/scss\/products.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/scss\/products.scss",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/products.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -4640,15 +4664,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/news.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/plugins\/acorn-default\/templates\/products.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/products.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
