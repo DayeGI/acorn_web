@@ -1,25 +1,37 @@
 ^tmp_head^
+<!-- PAGE SPECIFIC CSS -->
+<link rel="stylesheet" type="text/css" href="/public/acorn-default/css/bootstrap-dropdown-checkbox.css">
 <script type="text/javascript" src="/public/acorn-default/js/careers_controller.js"></script>
 
 <body ng-controller="CareersController">
-careers
 
-<br><br><br>
-<div ng-cloak>
-	<div ng-repeat="job in jobs">
-		<h3>{{job.name}}</h3>
-		<div>{{job.location}}  |  {{job.experience}}  |  {{job.education}}</div>
-		<div>
-			Responsibilities:<br>
-			<div ng-bind-html="job.responsibilities | to_trusted"></div>
+	<!-- <div ng-cloak>
+		<div ng-repeat="job in jobs">
+			<h3>{{job.name}}</h3>
+			<div>{{job.location}}  |  {{job.experience}}  |  {{job.education}}</div>
+			<div>
+				Responsibilities:<br>
+				<div ng-bind-html="job.responsibilities | to_trusted"></div>
 
-			Skills:<br>
-			<div ng-bind-html="job.skills | to_trusted"></div>
+				Skills:<br>
+				<div ng-bind-html="job.skills | to_trusted"></div>
 
-			Compensation:<br>
-			<div ng-bind-html="job.compensation | to_trusted"></div>
+				Compensation:<br>
+				<div ng-bind-html="job.compensation | to_trusted"></div>
+			</div>
 		</div>
+	</div> -->
+
+	<!-- CAREERS WRAPPER -->
+	<div class="careers-wrapper">
+
+		<!-- DROPDWON FILTER CHECKBOX -->
+		<div class="myDropdownCheckbox"></div>
+
 	</div>
-</div>
+
 </body>
 ^tmp_footer^
+<!-- PAGE SPECIFIC JS -->
+<script type="text/javascript" src="/public/acorn-default/js/bootstrap-dropdown-checkbox.min.js"></script>
+<script type="text/javascript" src="/public/acorn-default/js/careers.js"></script>

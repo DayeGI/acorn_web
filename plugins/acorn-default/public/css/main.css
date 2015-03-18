@@ -787,6 +787,31 @@ ul.footer-elem li p:first-child {
   width: 84%;
   margin: 0px 8%; }
 
+/*
+ *
+ * careers
+ *
+ */
+.careers-wrapper {
+  margin-top: 50px;
+  height: 500px; }
+
+.news-banner-wrapper {
+  width: 100%;
+  height: 600px; }
+
+.news-main-1 {
+  width: 70%;
+  height: 600px;
+  float: left;
+  background-color: red; }
+
+.news-sub-2 {
+  width: 30%;
+  height: 300px;
+  float: left;
+  background-color: black; }
+
 /**
 *
 * about us page
@@ -845,22 +870,6 @@ ul.footer-elem li p:first-child {
     padding: 10px 150px 20px 0;
     font-size: 18px;
     color: white; }
-
-.news-banner-wrapper {
-  width: 100%;
-  height: 600px; }
-
-.news-main-1 {
-  width: 70%;
-  height: 600px;
-  float: left;
-  background-color: red; }
-
-.news-sub-2 {
-  width: 30%;
-  height: 300px;
-  float: left;
-  background-color: black; }
 
 /*
  *

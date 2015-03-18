@@ -1,0 +1,1 @@
+$(document).ready(function(){console.log("ready!");var o=[{id:1,label:"Test"}];$(".myDropdownCheckbox").dropdownCheckbox({data:o,title:"Dropdown Checkbox"})});
