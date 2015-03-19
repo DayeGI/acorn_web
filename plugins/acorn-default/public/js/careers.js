@@ -27,6 +27,25 @@ $( document ).ready(function() {
 	  btnClass: "dropdown-btn-style dropdown-btn-style2"
 	});
 
-	var returnChecks = $(".jobTypeDropdownCheckbox").dropdownCheckbox("checked");
-	console.log(returnChecks);
+	// var returnJobCategoryChecks = $(".jobTypeDropdownCheckbox").dropdownCheckbox("checked");
+	// var returnJobLocationChecks = $(".jobAreaDropdownCheckbox").dropdownCheckbox("checked");
+	// //check which of the id has been checked
+	// console.log(returnJobCategoryChecks[0].isChecked);
+	// console.log(returnJobLocationChecks[0].isChecked);
+
+	//toggle active career class amongst all li items
+	$(".career-category-listing li").click(function(){
+		if ($(this).hasClass("activeCareer")) {
+			$(".career-category-listing li").removeClass("activeCareer");
+		} else {
+			$(".career-category-listing li").removeClass("activeCareer");
+			$(this).addClass("activeCareer");
+		}
+	});
+
+	//remove active class when cancel button is clicked
+	$(".career-detail-display ul li:nth-child(2)").click(function(){
+		$(".career-category-listing li").removeClass("activeCareer");
+	});
+
 });

@@ -1041,13 +1041,16 @@ ul.career-category-listing li p {
   padding: 5px 0px 0px 0px; }
 
 .career-detail-display ul li:nth-child(6) {
-  width: 50%; }
+  width: 50%;
+  line-height: 1.6; }
 
 .career-detail-display ul li:nth-child(7) {
-  width: 50%; }
+  width: 50%;
+  line-height: 1.6; }
 
 .career-detail-display ul li:nth-child(8) {
-  width: 100%; }
+  width: 100%;
+  line-height: 1.6; }
 
 .career-detail-display ul:after {
   content: "";

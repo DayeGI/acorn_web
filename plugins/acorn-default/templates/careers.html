@@ -58,9 +58,7 @@
 				</div>
 				<!-- LIST OF JOBS IN THIS CATEGORY -->
 				<ul class="career-category-listing">
-					<li ng-class="{'': !isActive, 'activeCareer': isActive}"
-						ng-init="isActive = false"
-						ng-click="showCareerDetails = !showCareerDetails; isActive = !isActive">
+					<li ng-click="showCareerDetails = !showCareerDetails">
 						<h4>高级网络安全工程师</h4>
 						<p>北京</p>
 					</li>
@@ -81,7 +79,7 @@
 				<div class="career-detail-display" ng-show="showCareerDetails">
 					<ul>
 						<li>高级网络安全工程师</li>
-						<li ng-click="showCareerDetails = false; isActive = !isActive">X</li>
+						<li ng-click="showCareerDetails = false">X</li>
 						<li>
 							<img src="public/acorn-default/img/careers/icon_career_location.svg" alt="">北京
 						</li>
@@ -92,20 +90,37 @@
 							<img src="public/acorn-default/img/careers/icon_career_education.svg" alt="">专业要求：计算机科学与技术
 						</li>
 						<li>
-							岗位职责
+							岗位职责:<br>
+							+ 岗位职责1<br>
+							+ 岗位职责2<br>
+							+ 岗位职责3<br>
+							+ 岗位职责4<br>
+							+ 岗位职责5<br>
+							+ 岗位职责6<br>
 						</li>
 						<li>
-							任职资
+							任职资:<br>
+							+ 任职资1<br>
+							+ 任职资2<br>
+							+ 任职资3<br>
+							+ 任职资4<br>
+							+ 任职资5<br>
+							+ 任职资6<br>
 						</li>
 						<li>
-							薪水福利
+							薪水福利:<br>
+							薪水福利 DESCRIPTION<br><br>
+							+ 薪水福利1<br>
+							+ 薪水福利2<br>
+							+ 薪水福利3<br>
+							+ 薪水福利4<br>
 						</li>
 					</ul>
 					<div class="career-apply-btn">
 						<a href="#" class="button SiYuanRegular">申请职位</a>
 					</div>
 				</div>
-				<!-- END DETAILS OF ONE JOB -->
+				<!-- START DETAILS OF ONE JOB -->
 			</div>
 		</div>
 

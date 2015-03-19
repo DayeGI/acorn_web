@@ -317,17 +317,19 @@ ul.career-category-listing li p{
 //job.responsibilities
 .career-detail-display ul li:nth-child(6) {
 	width: 50%;
+	line-height: 1.6;
 }
 
 //job.skills
 .career-detail-display ul li:nth-child(7) {
 	width: 50%;
+	line-height: 1.6;
 }
 
 //job.compensation
 .career-detail-display ul li:nth-child(8) {
 	width: 100%;
-	// margin-bottom: 10px; //10px button padding + 20px standard padding
+	line-height: 1.6;
 }
 
 .career-detail-display ul:after {
