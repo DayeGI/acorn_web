@@ -7,23 +7,18 @@
 
 	<!-- <div ng-cloak>
 		<div ng-repeat="job in jobs | filter:{active:true}">
->>>>>>> master
+
 			<h3>{{job.name}}</h3>
 			<div>{{job.location}}  |  {{job.experience}}  |  {{job.education}}</div>
 			<div>
 				Responsibilities:<br>
-				<div ng-bind-html="job.responsibilities | to_trusted"></div>
-<<<<<<< HEAD
 
 				Skills:<br>
 				<div ng-bind-html="job.skills | to_trusted"></div>
 
-=======
-
 				Skills:<br>
 				<div ng-bind-html="job.skills | to_trusted"></div>
 
->>>>>>> master
 				Compensation:<br>
 				<div ng-bind-html="job.compensation | to_trusted"></div>
 			</div>
@@ -53,11 +48,15 @@
 
 		<!-- JOB DETAILS -->
 		<div class="career-details">
+
+			<!-- LIST ALL JOBS IN ONE JOB CATEGORY -->
 			<div class="career-category" id="career-category-1">
+				<!-- CATEGORY NAME -->
 				<div class="career-category-header">
 					<img src="public/acorn-default/img/careers/icon_career_operation.svg" alt="">
 					<h3>研发</h3>
 				</div>
+				<!-- LIST OF JOBS IN THIS CATEGORY -->
 				<ul class="career-category-listing">
 					<li>
 						<h4>高级网络安全工程师</h4>
@@ -76,17 +75,19 @@
 						<p>北京</p>
 					</li>
 				</ul>
+				<!-- DETAILS OF ONE JOB -->
 				<div class="career-detail-display">
 					<ul>
 						<li>高级网络安全工程师</li>
+						<li>X</li>
 						<li>
-							<img src="public/acorn-default/img/careers/icon_career_location.svg" alt="">研发
+							<img src="public/acorn-default/img/careers/icon_career_location.svg" alt="">北京
 						</li>
 						<li>
-							<img src="public/acorn-default/img/careers/icon_career_exp.svg" alt="">研发
+							<img src="public/acorn-default/img/careers/icon_career_exp.svg" alt="">工作经验：3年以上
 						</li>
 						<li>
-							<img src="public/acorn-default/img/careers/icon_career_education.svg" alt="">研发
+							<img src="public/acorn-default/img/careers/icon_career_education.svg" alt="">专业要求：计算机科学与技术
 						</li>
 						<li>
 							岗位职责
@@ -97,8 +98,10 @@
 						<li>
 							薪水福利
 						</li>
-						<a href="#" class="button SiYuanRegular">申请职位</a>
 					</ul>
+					<div class="career-apply-btn">
+						<a href="#" class="button SiYuanRegular">申请职位</a>
+					</div>
 				</div>
 			</div>
 		</div>
