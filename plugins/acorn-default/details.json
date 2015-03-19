@@ -43,11 +43,10 @@
     "theme": {
         "settings": [],
         "content_templates":[
-          {            
-            "file": "index",
-            "name": "Default"
+          {
+            "file": "article",
+            "name": "Acorn-Article_1"
           }
-          
         ]
     }
 }
