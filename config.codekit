@@ -1099,17 +1099,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/plugins\/acorn-default\/controllers\/article.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/article.js",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/controllers\/min\/article-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/plugins\/acorn-default\/controllers\/careers.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1230,6 +1219,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/plugins\/acorn-default\/public\/css\/products-landing.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/css\/products-landing.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/plugins\/acorn-default\/public\/css\/solution.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1292,6 +1290,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/careers\/cover_intro1140.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104045,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/careers\/cover_intro1140.jpg",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/careers\/cover_intro1140.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/index\/bg_community.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1318,7 +1327,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 113657,
+		"initialSize": 77433,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_video.jpg",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_video.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1501,6 +1510,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataAnglePlatform.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 329892,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataAnglePlatform.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataAnglePlatform.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataCombo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1512,13 +1532,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataFront.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataFrontPlatform.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 177546,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataFront.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataFront.png",
+		"initialSize": 251371,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataFrontPlatform.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/data\/prod_dataFrontPlatform.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1534,6 +1554,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADAnglePlatform.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 339431,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADAnglePlatform.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADAnglePlatform.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADcombo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1545,13 +1576,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADFront.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADFrontPlatform.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 177655,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADFront.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADFront.png",
+		"initialSize": 250595,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADFrontPlatform.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/iad\/prod_IADFrontPlatform.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1721,6 +1752,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_honeycomb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5348,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_honeycomb.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_honeycomb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/product\/menu\/prodThumbnail_IADcombo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1787,6 +1829,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorAngleplatform.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 329172,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorAngleplatform.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorAngleplatform.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorCombo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1798,13 +1851,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorFront.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorFront2Platform.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 178681,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorFront.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorFront.png",
+		"initialSize": 249971,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorFront2Platform.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/monitor\/prod_monitorFront2Platform.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/regulatory\/prod_regulatoryAngle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 260639,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/regulatory\/prod_regulatoryAngle.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/regulatory\/prod_regulatoryAngle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/regulatory\/prod_regulatoryFamily.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 525610,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/regulatory\/prod_regulatoryFamily.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/regulatory\/prod_regulatoryFamily.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1820,6 +1895,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/product\/simulation\/prod_simulationFactory.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 475786,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/simulation\/prod_simulationFactory.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/simulation\/prod_simulationFactory.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/simulation\/prod_simulationTopo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 574544,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/simulation\/prod_simulationTopo.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/simulation\/prod_simulationTopo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/product\/threat\/prod_threatAngle.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1827,6 +1924,28 @@
 		"initialSize": 225203,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/threat\/prod_threatAngle.png",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/threat\/prod_threatAngle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/threat\/prod_threatAngle2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126189,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/threat\/prod_threatAngle2.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/threat\/prod_threatAngle2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/product\/threat\/prod_threatFront.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125066,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/threat\/prod_threatFront.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/threat\/prod_threatFront.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2271,464 +2390,442 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/img_vulnerabilityFront.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0001.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 277545,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/img_vulnerabilityFront.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/img_vulnerabilityFront.png",
+		"initialSize": 123522,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0001.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0001.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/prod_vulnerabilityAngle.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0002.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 198400,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/prod_vulnerabilityAngle.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/prod_vulnerabilityAngle.png",
+		"initialSize": 130495,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0002.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0002.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0001.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0003.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 102756,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0001.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0001.png",
+		"initialSize": 136153,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0003.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0003.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0002.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0004.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 106245,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0002.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0002.png",
+		"initialSize": 140797,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0004.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0004.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0003.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0005.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 109699,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0003.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0003.png",
+		"initialSize": 144651,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0005.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0005.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0004.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0006.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 112585,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0004.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0004.png",
+		"initialSize": 141301,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0006.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0006.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0005.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0007.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 115763,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0005.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0005.png",
+		"initialSize": 136536,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0007.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0007.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0006.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 112164,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0006.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0006.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0007.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 109223,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0007.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0007.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0008.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0008.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 102311,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0008.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0008.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0008.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0008.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0009.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0009.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 93074,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0009.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0009.png",
+		"initialSize": 114992,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0009.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0009.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0010.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0010.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 92983,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0010.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0010.png",
+		"initialSize": 114082,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0010.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0010.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0011.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0011.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 89619,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0011.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0011.png",
+		"initialSize": 109917,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0011.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0011.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0012.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0012.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 90708,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0012.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0012.png",
+		"initialSize": 113964,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0012.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0012.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0013.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0013.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 92240,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0013.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0013.png",
+		"initialSize": 117848,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0013.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0013.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0014.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0014.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 100986,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0014.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0014.png",
+		"initialSize": 128117,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0014.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0014.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0015.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0015.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 108254,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0015.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0015.png",
+		"initialSize": 137974,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0015.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0015.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0016.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0016.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 112980,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0016.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0016.png",
+		"initialSize": 142173,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0016.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0016.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0017.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0017.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 111184,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0017.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0017.png",
+		"initialSize": 136664,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0017.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0017.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0018.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0018.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 102506,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0018.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0018.png",
+		"initialSize": 126270,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0018.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0018.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0019.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0019.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 101540,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0019.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0019.png",
+		"initialSize": 125439,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0019.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0019.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0020.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0020.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 96636,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0020.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0020.png",
+		"initialSize": 118728,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0020.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0020.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0021.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0021.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 94161,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0021.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0021.png",
+		"initialSize": 118787,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0021.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0021.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0022.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0022.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 99925,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0022.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0022.png",
+		"initialSize": 129123,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0022.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0022.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0023.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0023.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 99686,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0023.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0023.png",
+		"initialSize": 127960,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0023.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0023.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0024.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0024.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 103788,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0024.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0024.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0024.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0024.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0025.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0025.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 104699,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0025.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0025.png",
+		"initialSize": 134460,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0025.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0025.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0026.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0026.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 103403,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0026.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0026.png",
+		"initialSize": 131376,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0026.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0026.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0027.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0027.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 97203,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0027.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0027.png",
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0027.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0027.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0028.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0028.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 92131,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0028.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0028.png",
+		"initialSize": 113600,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0028.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0028.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0029.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0029.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 89032,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0029.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0029.png",
+		"initialSize": 110986,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0029.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0029.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0030.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0030.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 91245,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0030.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0030.png",
+		"initialSize": 111298,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0030.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0030.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0031.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0031.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 93938,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0031.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0031.png",
+		"initialSize": 115694,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0031.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0031.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0032.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0032.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 92373,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0032.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0032.png",
+		"initialSize": 115653,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0032.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0032.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0033.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0033.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 103668,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0033.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0033.png",
+		"initialSize": 131413,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0033.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0033.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0034.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0034.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 114484,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0034.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0034.png",
+		"initialSize": 147426,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0034.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0034.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0035.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0035.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 123203,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0035.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0035.png",
+		"initialSize": 150650,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0035.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0035.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0036.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0036.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 124035,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0036.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0036.png",
+		"initialSize": 157840,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0036.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0036.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0037.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0037.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 119038,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0037.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0037.png",
+		"initialSize": 155124,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0037.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0037.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0038.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0038.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 113886,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0038.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0038.png",
+		"initialSize": 135576,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0038.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0038.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0039.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0039.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 108767,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0039.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0039.png",
+		"initialSize": 141425,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0039.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0039.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0040.png": {
+	"\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0040.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 101136,
-		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0040.png",
-		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate_vulnerability\/Rotate0040.png",
+		"initialSize": 121728,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0040.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/product\/vulnerability\/rotate\/Rotate0040.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3560,6 +3657,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/modernizr.custom.09145.js",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/modernizr.custom.09145-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/plugins\/acorn-default\/public\/js\/product_landing_controller.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/product_landing_controller.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/product_landing_controller-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -4614,6 +4722,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/angular\/admin\/users\/user_form.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/acorn-default\/templates\/article.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/article.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8124,7 +8241,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "yeeloong",
+"lastSavedByUser": "Yee Loong Ooi",
 "manualImportLinks": {
 	},
 "projectAttributes": {

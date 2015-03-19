@@ -58,28 +58,30 @@
 				</div>
 				<!-- LIST OF JOBS IN THIS CATEGORY -->
 				<ul class="career-category-listing">
-					<li>
+					<li ng-class="{'': !isActive, 'activeCareer': isActive}"
+						ng-init="isActive = false"
+						ng-click="showCareerDetails = !showCareerDetails; isActive = !isActive">
 						<h4>高级网络安全工程师</h4>
 						<p>北京</p>
 					</li>
-					<li>
+					<li ng-click="showCareerDetails = !showCareerDetails">
 						<h4>前端网页工程师</h4>
 						<p>北京</p>
 					</li>
-					<li>
+					<li ng-click="showCareerDetails = !showCareerDetails">
 						<h4>底层软件研发</h4>
 						<p>北京</p>
 					</li>
-					<li>
+					<li ng-click="showCareerDetails = !showCareerDetails">
 						<h4>底层软件研发</h4>
 						<p>北京</p>
 					</li>
 				</ul>
-				<!-- DETAILS OF ONE JOB -->
-				<div class="career-detail-display">
+				<!-- START DETAILS OF ONE JOB -->
+				<div class="career-detail-display" ng-show="showCareerDetails">
 					<ul>
 						<li>高级网络安全工程师</li>
-						<li>X</li>
+						<li ng-click="showCareerDetails = false; isActive = !isActive">X</li>
 						<li>
 							<img src="public/acorn-default/img/careers/icon_career_location.svg" alt="">北京
 						</li>
@@ -103,6 +105,7 @@
 						<a href="#" class="button SiYuanRegular">申请职位</a>
 					</div>
 				</div>
+				<!-- END DETAILS OF ONE JOB -->
 			</div>
 		</div>
 

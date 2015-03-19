@@ -50,7 +50,7 @@
 
 .careers-wrapper {
 	width: 100%;
-	height: 800px;
+	// height: 800px;
 	padding: 50px 8% 0px 8%;
 	//http://www.colorzilla.com/gradient-editor
 	//#FFFFFF to #DDDDDD – pivot point at 90%
@@ -271,6 +271,7 @@ ul.career-category-listing li p{
 //job.experience svg image adjustment
 .career-detail-display ul li:nth-child(4) img{
 	margin-right: 3px;
+	top: 0px;
 }
 
 //job.education svg image adjustment
@@ -339,4 +340,15 @@ ul.career-category-listing li p{
 .career-apply-btn {
 	width: 100%;
 	padding: 50px 0px;
+}
+
+//active career class
+//!important to overide the higher specificity of the hover state
+.activeCareer{
+	h4{
+		color: #F48446 !important;
+	}
+	p {
+		color: #F48446 !important;
+	}
 }
