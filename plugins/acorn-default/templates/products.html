@@ -4,9 +4,9 @@
 
 <div class="main SiYuanRegular" ng-controller="ProductsController">
     <div class="col-md-12 coverflow">
-		
+
 		<!--ng-repeat version-->
-		<div class="product-line" ng-repeat="productLine in productLines">
+		<div class="product-line" ng-repeat="productLine in productLines" ng-cloak>
 			<div class="product-banner">
 				<div class="product-hero-responsive"></div>
 				<img ng-src="{{productLine.image.location}}" alt="">
