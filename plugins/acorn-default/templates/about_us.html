@@ -2,13 +2,18 @@
 <script type="text/javascript" src="/public/acorn-default/js/about_us_controller.js"></script>
 <body ng-controller="AboutUsController">
 	^tmp_elements=top_menu^
+	
+	<!-- MISSION STATEMENT -->
 	<div class="mission-statement">
 		<h1>^mission_statement^</h1>
 	</div>
+
+	<!-- COMPANY DESCRIPTION -->
 	<div class="company-description">
 		<h2>^company_description^</h2>
 	</div>
 
+	<!-- COMPANY VALUES -->
 	<div class="company-values">
 		<h2> Our core values </h2>
 		<div class="value-table">
@@ -38,9 +43,16 @@
 		</div>
 	</div> -->
 	<!-- etc -->
+	<!-- COMPANY MAP -->
 	<div class="map-wrapper">
 		<div class="map"></div>
-		<div class="office-details"></div>
+		<div class="office-details-wrapper">
+			<div class="details-wrapper">
+				<h4>我们的所在地</h4>
+				<p>工控网络安全精英团队,平均十五年业界经验 全球人工智能顶级专家领衔、获得多项国际金奖的技术团队</p>
+				<div class="office-details"></div>
+			</div>
+		</div>
 	</div>
 </div>
 ^tmp_footer^
