@@ -27,9 +27,9 @@ $( document ).ready(function() {
 	  btnClass: "dropdown-btn-style dropdown-btn-style2"
 	});
 
+	// check which ID has been checked (USE THIS)
 	// var returnJobCategoryChecks = $(".jobTypeDropdownCheckbox").dropdownCheckbox("checked");
 	// var returnJobLocationChecks = $(".jobAreaDropdownCheckbox").dropdownCheckbox("checked");
-	// //check which of the id has been checked
 	// console.log(returnJobCategoryChecks[0].isChecked);
 	// console.log(returnJobLocationChecks[0].isChecked);
 
