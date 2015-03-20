@@ -8,6 +8,31 @@ angular.module('acorn')
 
 $( document ).ready(function() {
 
+    //top nav
+    //toggle active career class amongst all li items
+     if (window.location.pathname === '/') {
+        $("#navbar ul li").removeClass("current");
+        $("#navbar ul li:nth-child(1)").addClass("current");
+     } else if (window.location.pathname === '/products') {
+        $("#navbar ul li").removeClass("current");
+        $("#navbar ul li:nth-child(2)").addClass("current");
+     } else if (window.location.pathname === '/solutions') {
+        $("#navbar ul li").removeClass("current");
+        $("#navbar ul li:nth-child(3)").addClass("current");
+     } else if (window.location.pathname === '/university') {
+        $("#navbar ul li").removeClass("current");
+        $("#navbar ul li:nth-child(4)").addClass("current");
+     } else if (window.location.pathname === '/careers') {
+        $("#navbar ul li").removeClass("current");
+        $("#navbar ul li:nth-child(5)").addClass("current");
+     } else if (window.location.pathname === '/news') {
+        $("#navbar ul li").removeClass("current");
+        $("#navbar ul li:nth-child(6)").addClass("current");
+     } else {
+        $("#navbar ul li").removeClass("current");
+        $("#navbar ul li:nth-child(7)").addClass("current");
+     } 
+
     //solutions
     $('#infocard1').css('transform','translateX(calc(200% + 60px)'); //initialize default state
     $('#infocard2').css('transform','translateX(calc(200% + 60px)'); //initialize default state

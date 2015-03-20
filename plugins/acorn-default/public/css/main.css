@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  *
  * Baseline Styles
@@ -1541,7 +1542,7 @@ ul.career-category-listing li p {
 
 /*
  *
- * university animation
+ * university animation – NOT IN USE CURRENTLY / REPLACED BY ANIMATE.CSS
  *
  */
 /* -------------------------
@@ -2020,11 +2021,7 @@ body {
   position: absolute;
   z-index: 3;
   top: 300px;
-  padding-bottom: 10px;
-  -webkit-animation: bounce 1500ms ease-in-out;
-  -moz-animation: bounce 1500ms ease-in-out;
-  -o-animation: bounce 1500ms ease-in-out;
-  animation: bounce 1500ms ease-in-out; }
+  padding-bottom: 10px; }
 
 .marker1 {
   left: calc(25% - 90px);

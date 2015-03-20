@@ -1279,6 +1279,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/plugins\/acorn-default\/public\/img\/aboutUs\/dropshadow_pin_aboutUs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1513,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/aboutUs\/dropshadow_pin_aboutUs.png",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/aboutUs\/dropshadow_pin_aboutUs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/plugins\/acorn-default\/public\/img\/aboutUs\/pin_aboutUs.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1308,6 +1319,17 @@
 		"initialSize": 104045,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/careers\/cover_intro1140.jpg",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/careers\/cover_intro1140.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/plugins\/acorn-default\/public\/img\/careers\/cover_intro1140v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59652,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/careers\/cover_intro1140v2.jpg",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/careers\/cover_intro1140v2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3618,6 +3640,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/plugins\/acorn-default\/public\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/main.js",
+		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/plugins\/acorn-default\/public\/js\/min\/careers-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -4794,6 +4827,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/elements\/privacy_policy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/plugins\/acorn-default\/templates\/elements\/top_menu.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/acorn-default\/templates\/elements\/top_menu.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
