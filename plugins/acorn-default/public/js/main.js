@@ -110,6 +110,9 @@ $( document ).ready(function() {
         $('.type2').removeClass( "active-course2");
         $('.type3').removeClass( "active-course3");
     });
+
+    //about us
+    
     
 });
 

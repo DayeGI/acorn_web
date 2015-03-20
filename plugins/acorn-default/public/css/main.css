@@ -397,7 +397,6 @@ ul.footer-elem li p:first-child {
 
 .solution-thumbnail {
   width: 16.6666667%;
-  background-color: #314753;
   float: left;
   border-right: 2px solid #57798A;
   transition: box-shadow 0.1s ease-in-out;
@@ -424,41 +423,59 @@ ul.footer-elem li p:first-child {
 .field6 {
   border-right: 0px solid white; }
 
+.field1 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/solution/tab_transportation203.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
 .field1:hover {
-  background-image: url(/public/acorn-default/img/solution/tab_transportation203.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/solution/tab_transportation203.jpg); }
+
+.field2 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/solution/tab_gold203.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .field2:hover {
-  background-image: url(/public/acorn-default/img/solution/tab_gold203.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/solution/tab_gold203.jpg); }
+
+.field3 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/solution/tab_electricity203.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .field3:hover {
-  background-image: url(/public/acorn-default/img/solution/tab_electricity203.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/solution/tab_electricity203.jpg); }
+
+.field4 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/solution/tab_tobacco203.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .field4:hover {
-  background-image: url(/public/acorn-default/img/solution/tab_tobacco203.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/solution/tab_tobacco203.jpg); }
+
+.field5 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/solution/tab_oil203.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .field5:hover {
-  background-image: url(/public/acorn-default/img/solution/tab_oil203.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/solution/tab_oil203.jpg); }
+
+.field6 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/solution/tab_manufacture203.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .field6:hover {
-  background-image: url(/public/acorn-default/img/solution/tab_manufacture203.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; }
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/solution/tab_manufacture203.jpg); }
 
 .active-field1 {
   background-image: url(/public/acorn-default/img/solution/tab_transportation203.jpg);
@@ -634,7 +651,6 @@ ul.footer-elem li p:first-child {
  */
 .course-type {
   width: 25%;
-  background-color: #314753;
   float: left;
   border-right: 1px solid white;
   transition: box-shadow 0.1s ease-in-out;
@@ -661,29 +677,41 @@ ul.footer-elem li p:first-child {
 .type4 {
   border-right: 0px solid white; }
 
+.type1 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
 .type1:hover {
-  background-image: url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg); }
+
+.type2 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .type2:hover {
-  background-image: url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg); }
+
+.type3 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .type3:hover {
-  background-image: url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg); }
+
+.type4 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .type4:hover {
-  background-image: url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; }
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg); }
 
 .active-course1 {
   background-image: url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
@@ -809,7 +837,6 @@ ul.footer-elem li p:first-child {
 .career-banner-caption {
   width: 100%;
   padding: 30px 8%;
-  background: rgba(49, 71, 83, 0.7);
   position: absolute;
   z-index: 2;
   top: 50%;
@@ -1046,21 +1073,260 @@ ul.career-category-listing li p {
 .activeCareer p {
   color: #F48446 !important; }
 
+/*
+ *
+ * featured news
+ *
+ */
 .news-banner-wrapper {
   width: 100%;
-  height: 600px; }
+  height: 500px;
+  margin-top: 50px; }
 
 .news-main-1 {
-  width: 70%;
-  height: 600px;
+  width: 60%;
+  height: 500px;
   float: left;
-  background-color: red; }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/acorn-default/img/news/img_featureNews1_845.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 0px 50px 0px transparent;
+  -moz-box-shadow: inset 0px 0px 50px 0px transparent;
+  box-shadow: inset 0px 0px 50px 0px transparent;
+  transition: box-shadow 0.3s ease-in-out;
+  position: relative; }
+  .news-main-1 .multi-line-caption {
+    position: absolute;
+    bottom: 25px;
+    left: 25px; }
+    .news-main-1 .multi-line-caption h1 {
+      font-size: 28px;
+      color: white; }
+    .news-main-1 .multi-line-caption p {
+      font-size: 18px;
+      color: white; }
+
+.news-main-1:hover {
+  -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75); }
 
 .news-sub-2 {
-  width: 30%;
-  height: 300px;
+  width: 40%;
+  height: 250px;
   float: left;
-  background-color: black; }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/acorn-default/img/news/img_featureNews2_447.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 0px 50px 0px transparent;
+  -moz-box-shadow: inset 0px 0px 50px 0px transparent;
+  box-shadow: inset 0px 0px 50px 0px transparent;
+  transition: box-shadow 0.3s ease-in-out;
+  position: relative; }
+  .news-sub-2 h1 {
+    font-size: 18px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    color: white; }
+
+.news-sub-2:hover {
+  -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75); }
+
+.news-sub-3 {
+  width: 40%;
+  height: 250px;
+  float: left;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/acorn-default/img/news/img_featureNews3_447.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 0px 50px 0px transparent;
+  -moz-box-shadow: inset 0px 0px 50px 0px transparent;
+  box-shadow: inset 0px 0px 50px 0px transparent;
+  transition: box-shadow 0.3s ease-in-out;
+  position: relative; }
+  .news-sub-3 h1 {
+    font-size: 18px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    color: white; }
+
+.news-sub-3:hover {
+  -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75); }
+
+/*
+ *
+ * news body wrapper
+ *
+ */
+.news-body-wrapper {
+  width: 100%;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(90%, #dddddd), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #ffffff 0%, #dddddd 90%, #dddddd 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+/*
+ *
+ * video section
+ *
+ */
+.video-carousel-wrapper {
+  width: 100%; }
+  .video-carousel-wrapper h2 {
+    padding-top: 20px;
+    padding-left: 3.5%;
+    color: #5F5F5F;
+    font-size: 18px; }
+
+.video-carousel {
+  position: relative;
+  padding-bottom: 9.375%;
+  height: 0px;
+  z-index: 2;
+  width: 22.5%;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.video-carousel-wrapper .video-carousel:nth-child(2) {
+  margin-left: 3.5%; }
+
+.video-carousel-wrapper .video-carousel:nth-child(3) {
+  margin-left: 1%; }
+
+.video-carousel-wrapper .video-carousel:nth-child(4) {
+  margin-left: 1%; }
+
+.video-carousel-wrapper .video-carousel:nth-child(5) {
+  margin-left: 1%;
+  margin-right: 3.5%; }
+
+.video-carousel video,
+.video-carousel iframe,
+.video-carousel object,
+.video-carousel embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.video-carousel-wrapper:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.video-caption-wrapper {
+  width: 100%; }
+  .video-caption-wrapper .video-caption {
+    width: 22.5%;
+    float: left;
+    padding-bottom: 20px;
+    color: #5F5F5F; }
+  .video-caption-wrapper .video-caption:nth-child(1) {
+    margin-left: 3.5%; }
+  .video-caption-wrapper .video-caption:nth-child(2) {
+    margin-left: 1%; }
+  .video-caption-wrapper .video-caption:nth-child(3) {
+    margin-left: 1%; }
+  .video-caption-wrapper .video-caption:nth-child(4) {
+    margin-left: 1%;
+    margin-right: 3.5%; }
+
+.video-caption-wrapper:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+/*
+ *
+ * news section
+ *
+ */
+.news-body-wrapper h2 {
+  padding-top: 20px;
+  padding-left: 3.5%;
+  color: #5F5F5F;
+  font-size: 18px; }
+
+.news-archive-wrapper {
+  width: 100%; }
+  .news-archive-wrapper .individual-news-wrapper {
+    width: 45%;
+    float: left;
+    margin-top: 20px; }
+    .news-archive-wrapper .individual-news-wrapper .news-archive {
+      width: 100%;
+      height: 200px;
+      -webkit-box-shadow: inset 0px 0px 50px 0px transparent;
+      -moz-box-shadow: inset 0px 0px 50px 0px transparent;
+      box-shadow: inset 0px 0px 50px 0px transparent;
+      transition: box-shadow 0.3s ease-in-out; }
+    .news-archive-wrapper .individual-news-wrapper .news-archive:hover {
+      -webkit-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75); }
+    .news-archive-wrapper .individual-news-wrapper .news-archive-caption {
+      margin-top: 20px; }
+      .news-archive-wrapper .individual-news-wrapper .news-archive-caption h3 {
+        padding-bottom: 3px;
+        color: #57798A; }
+      .news-archive-wrapper .individual-news-wrapper .news-archive-caption p {
+        padding-bottom: 5px;
+        color: #5F5F5F; }
+      .news-archive-wrapper .individual-news-wrapper .news-archive-caption p:last-child {
+        padding: 0; }
+  .news-archive-wrapper .individual-news-wrapper:nth-child(odd) {
+    margin-left: 3.5%; }
+  .news-archive-wrapper .individual-news-wrapper:nth-child(even) {
+    margin-left: 3%;
+    margin-right: 3.5%; }
+  .news-archive-wrapper .individual-news-wrapper:last-child {
+    margin-bottom: 20px; }
+
+#news1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(/public/acorn-default/img/news/img_mostRecent1_560.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+#news2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(/public/acorn-default/img/news/img_mostRecent2_560.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+#news3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(/public/acorn-default/img/news/img_featureNews2_447.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.news-archive-wrapper:after {
+  content: "";
+  display: block;
+  clear: both; }
 
 /*
  *
@@ -1207,7 +1473,11 @@ ul.career-category-listing li p {
     top: 518px;
     left: 490px; }
   .map ul li:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    background: url(/public/acorn-default/img/aboutUs/dropshadow_pin_aboutUs.png);
+    background-size: 35px 54px;
+    width: 35px;
+    height: 54px; }
 
 .office-details-wrapper {
   width: 45%;
@@ -1802,6 +2072,9 @@ body {
   position: relative;
   z-index: 2;
   color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/public/acorn-default/img/index/bg_companyValues1440.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
   /* Crop off image when viewport smaller than image min-width */
   overflow: hidden; }
 
@@ -1900,6 +2173,9 @@ body {
   height: 400px;
   position: relative;
   z-index: 2;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(/public/acorn-default/img/index/bg_community.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
   /* Crop off image when viewport smaller than image min-width */
   overflow: hidden; }
 
