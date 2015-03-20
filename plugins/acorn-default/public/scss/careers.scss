@@ -245,91 +245,71 @@ ul.career-category-listing li p{
 .career-detail-display {
 	border-top: 1px solid #D8D8D8;
 	border-bottom: 1px solid #D8D8D8;
-}
-
-.career-detail-display ul {
-	padding: 0;
-	margin: 0;
-}
-
-.career-detail-display ul li {
-	list-style-type: none;
-	float: left;
-	color: #5F5F5F;
-	padding: 20px 0px 0px 0px;
-	font-size: 14px;
-}
-
-.career-detail-display ul li img {
-	width: 25px;
-	height: 25px;
-	display: inline-block;
-	position: relative;
-	top: -1px;
-}
-
-//job.experience svg image adjustment
-.career-detail-display ul li:nth-child(4) img{
-	margin-right: 3px;
-	top: 0px;
-}
-
-//job.education svg image adjustment
-.career-detail-display ul li:nth-child(5) img{
-	margin-right: 3px;
-}
-
-//job.name
-.career-detail-display ul li:nth-child(1) {
-	width: 95%;
-	font-size: 18px;
-}
-
-//cancel button
-.career-detail-display ul li:nth-child(2) {
-	width: 5%;
-	font-size: 18px;
-}
-
-.career-detail-display ul li:nth-child(2):hover {
-	cursor: pointer;
-	color: #F48446;
-}
-
-//job.location
-.career-detail-display ul li:nth-child(3) {
-	width: 25%;
-	padding: 5px 0px 0px 0px;
-}
-
-//job.experience
-.career-detail-display ul li:nth-child(4) {
-	width: 25%;
-	padding: 5px 0px 0px 0px;
-}
-
-//job.education
-.career-detail-display ul li:nth-child(5) {
-	width: 50%;
-	padding: 5px 0px 0px 0px;
-}
-
-//job.responsibilities
-.career-detail-display ul li:nth-child(6) {
-	width: 50%;
-	line-height: 1.6;
-}
-
-//job.skills
-.career-detail-display ul li:nth-child(7) {
-	width: 50%;
-	line-height: 1.6;
-}
-
-//job.compensation
-.career-detail-display ul li:nth-child(8) {
-	width: 100%;
-	line-height: 1.6;
+	> ul {
+		padding: 0;
+		margin: 0;
+		> li {
+			list-style-type: none;
+			float: left;
+			color: #5F5F5F;
+			padding: 20px 0px 0px 0px;
+			font-size: 14px;
+			//job.name
+			&:nth-child(1) {
+				width: 95%;
+				font-size: 18px;
+			}
+			//close button
+			&:nth-child(2) {
+				width: 5%;
+				font-size: 18px;
+				&:hover {
+					cursor: pointer;
+					color: #F48446;
+				}
+			}
+			//career location
+			&:nth-child(3), &:nth-child(4), &:nth-child(5) {
+				width: 25%;
+				padding: 5px 0px 0px 0px;
+				//icon
+				> img {
+					width: 25px;
+					height: 25px;
+					display: inline-block;
+					position: relative;
+					top: -1px;
+				}
+			}
+			//career experience
+			&:nth-child(4) {
+				//icon
+				> img{
+					margin-right: 3px;
+					top: 0px;
+				}
+			}
+			//career education
+			&:nth-child(5) {
+				//icon
+				> img {
+					margin-right: 3px;
+				}
+			}
+//			&:nth-child(6), &:nth-child(7), &:nth-child(6) {
+//				width: 50%;
+//				line-height: 1.6;
+//			}
+		}
+	}
+	.responsibilities, .skills{
+		width:calc(50% - 10px);
+		display:inline-block;
+		margin:50px 0 50px 0;
+		vertical-align: top;
+		h5{color:black;}
+	}
+	.compensation h5{color:black};
 }
 
 .career-detail-display ul:after {

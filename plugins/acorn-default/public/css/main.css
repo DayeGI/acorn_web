@@ -990,67 +990,47 @@ ul.career-category-listing li p {
 .career-detail-display {
   border-top: 1px solid #D8D8D8;
   border-bottom: 1px solid #D8D8D8; }
-
-.career-detail-display ul {
-  padding: 0;
-  margin: 0; }
-
-.career-detail-display ul li {
-  list-style-type: none;
-  float: left;
-  color: #5F5F5F;
-  padding: 20px 0px 0px 0px;
-  font-size: 14px; }
-
-.career-detail-display ul li img {
-  width: 25px;
-  height: 25px;
-  display: inline-block;
-  position: relative;
-  top: -1px; }
-
-.career-detail-display ul li:nth-child(4) img {
-  margin-right: 3px;
-  top: 0px; }
-
-.career-detail-display ul li:nth-child(5) img {
-  margin-right: 3px; }
-
-.career-detail-display ul li:nth-child(1) {
-  width: 95%;
-  font-size: 18px; }
-
-.career-detail-display ul li:nth-child(2) {
-  width: 5%;
-  font-size: 18px; }
-
-.career-detail-display ul li:nth-child(2):hover {
-  cursor: pointer;
-  color: #F48446; }
-
-.career-detail-display ul li:nth-child(3) {
-  width: 25%;
-  padding: 5px 0px 0px 0px; }
-
-.career-detail-display ul li:nth-child(4) {
-  width: 25%;
-  padding: 5px 0px 0px 0px; }
-
-.career-detail-display ul li:nth-child(5) {
-  width: 50%;
-  padding: 5px 0px 0px 0px; }
-
-.career-detail-display ul li:nth-child(6) {
-  width: 50%;
-  line-height: 1.6; }
-
-.career-detail-display ul li:nth-child(7) {
-  width: 50%;
-  line-height: 1.6; }
-
-.career-detail-display ul li:nth-child(8) {
-  width: 100%;
-  line-height: 1.6; }
+  .career-detail-display > ul {
+    padding: 0;
+    margin: 0; }
+    .career-detail-display > ul > li {
+      list-style-type: none;
+      float: left;
+      color: #5F5F5F;
+      padding: 20px 0px 0px 0px;
+      font-size: 14px; }
+      .career-detail-display > ul > li:nth-child(1) {
+        width: 95%;
+        font-size: 18px; }
+      .career-detail-display > ul > li:nth-child(2) {
+        width: 5%;
+        font-size: 18px; }
+        .career-detail-display > ul > li:nth-child(2):hover {
+          cursor: pointer;
+          color: #F48446; }
+      .career-detail-display > ul > li:nth-child(3), .career-detail-display > ul > li:nth-child(4), .career-detail-display > ul > li:nth-child(5) {
+        width: 25%;
+        padding: 5px 0px 0px 0px; }
+        .career-detail-display > ul > li:nth-child(3) > img, .career-detail-display > ul > li:nth-child(4) > img, .career-detail-display > ul > li:nth-child(5) > img {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          position: relative;
+          top: -1px; }
+      .career-detail-display > ul > li:nth-child(4) > img {
+        margin-right: 3px;
+        top: 0px; }
+      .career-detail-display > ul > li:nth-child(5) > img {
+        margin-right: 3px; }
+  .career-detail-display .responsibilities, .career-detail-display .skills {
+    width: calc(50% - 10px);
+    display: inline-block;
+    margin: 50px 0 50px 0;
+    vertical-align: top; }
+    .career-detail-display .responsibilities h5, .career-detail-display .skills h5 {
+      color: black; }
+  .career-detail-display .compensation h5 {
+    color: black; }
 
 .career-detail-display ul:after {
   content: "";
@@ -1868,3 +1848,5 @@ form input:nth-child(1) {
 .submit-button:hover {
   color: white;
   background-color: #F48446; }
+
+/*# sourceMappingURL=main.css.map */

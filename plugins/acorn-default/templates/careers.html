@@ -9,17 +9,14 @@
 		<div ng-repeat="job in jobs | filter:{active:true}">
 
 			<h3>{{job.name}}</h3>
-			<div>{{job.location}}  |  {{job.experience}}  |  {{job.education}}</div>
+			<div> {{job.location}}  |  专业要求：{{job.experience}}  |  专业要求：{{job.education}} </div>
 			<div>
-				Responsibilities:<br>
+				岗位职责::<br>
 
-				Skills:<br>
+				任职资:<br>
 				<div ng-bind-html="job.skills | to_trusted"></div>
 
-				Skills:<br>
-				<div ng-bind-html="job.skills | to_trusted"></div>
-
-				Compensation:<br>
+				薪水福利::<br>
 				<div ng-bind-html="job.compensation | to_trusted"></div>
 			</div>
 		</div>
@@ -47,75 +44,51 @@
 		<div class="clear"></div>
 
 		<!-- JOB DETAILS -->
-		<div class="career-details">
+		<div ng-cloak class="career-details">
 
 			<!-- LIST ALL JOBS IN ONE JOB CATEGORY -->
-			<div class="career-category" id="career-category-1">
+			<div class="career-category" ng-repeat="category in categories">
 				<!-- CATEGORY NAME -->
 				<div class="career-category-header">
 					<img src="public/acorn-default/img/careers/icon_career_operation.svg" alt="">
-					<h3>研发</h3>
+					<h3>{{category.name}}</h3>
 				</div>
 				<!-- LIST OF JOBS IN THIS CATEGORY -->
 				<ul class="career-category-listing">
-					<li ng-click="showCareerDetails = !showCareerDetails">
-						<h4>高级网络安全工程师</h4>
-						<p>北京</p>
-					</li>
-					<li ng-click="showCareerDetails = !showCareerDetails">
-						<h4>前端网页工程师</h4>
-						<p>北京</p>
-					</li>
-					<li ng-click="showCareerDetails = !showCareerDetails">
-						<h4>底层软件研发</h4>
-						<p>北京</p>
-					</li>
-					<li ng-click="showCareerDetails = !showCareerDetails">
-						<h4>底层软件研发</h4>
-						<p>北京</p>
+					<li ng-click="setCareerDetails(job)" ng-repeat="job in category.jobs"
+								ng-show="returnJobCategoryChecks[categoryMap[category.name]].isChecked && returnJobLocationChecks[locationMap[job.location]].isChecked">
+						<!--{{returnJobCategoryChecks[categoryMap[category.name]].isChecked}}-->
+						<h4>{{job.name}}</h4>
+						<p>{{job.location}}</p>
 					</li>
 				</ul>
 				<!-- START DETAILS OF ONE JOB -->
-				<div class="career-detail-display" ng-show="showCareerDetails">
+				<div class="career-detail-display" ng-show="careerDetails">
 					<ul>
-						<li>高级网络安全工程师</li>
-						<li ng-click="showCareerDetails = false">X</li>
+						<li>{{careerDetails.name}}</li>
+						<li ng-click="setCareerDetails(null)">X</li>
 						<li>
-							<img src="public/acorn-default/img/careers/icon_career_location.svg" alt="">北京
+							<img src="public/acorn-default/img/careers/icon_career_location.svg" alt="">{{careerDetails.location}}
 						</li>
 						<li>
-							<img src="public/acorn-default/img/careers/icon_career_exp.svg" alt="">工作经验：3年以上
+							<img src="public/acorn-default/img/careers/icon_career_exp.svg" alt="">工作经验：{{careerDetails.experience}}
 						</li>
 						<li>
-							<img src="public/acorn-default/img/careers/icon_career_education.svg" alt="">专业要求：计算机科学与技术
-						</li>
-						<li>
-							岗位职责:<br>
-							+ 岗位职责1<br>
-							+ 岗位职责2<br>
-							+ 岗位职责3<br>
-							+ 岗位职责4<br>
-							+ 岗位职责5<br>
-							+ 岗位职责6<br>
-						</li>
-						<li>
-							任职资:<br>
-							+ 任职资1<br>
-							+ 任职资2<br>
-							+ 任职资3<br>
-							+ 任职资4<br>
-							+ 任职资5<br>
-							+ 任职资6<br>
-						</li>
-						<li>
-							薪水福利:<br>
-							薪水福利 DESCRIPTION<br><br>
-							+ 薪水福利1<br>
-							+ 薪水福利2<br>
-							+ 薪水福利3<br>
-							+ 薪水福利4<br>
+							<img src="public/acorn-default/img/careers/icon_career_education.svg" alt="">专业要求：{{careerDetails.education}}
 						</li>
 					</ul>
+					<div class="responsibilities">
+						<h5>岗位职责:</h5>
+						<div ng-bind-html="careerDetails.responsibilities | to_trusted"></div>
+					</div>
+					<div class="skills">
+						<h5>任职资:</h5>
+						<div ng-bind-html="careerDetails.skills | to_trusted"></div>
+					</div>
+					<div class="compensation">
+						<h5>薪水福利:</h5>
+						<div ng-bind-html="careerDetails.compensation | to_trusted"></div>
+					</div>
 					<div class="career-apply-btn">
 						<a href="#" class="button SiYuanRegular">申请职位</a>
 					</div>
