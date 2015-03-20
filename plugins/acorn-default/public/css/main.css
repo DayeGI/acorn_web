@@ -397,7 +397,6 @@ ul.footer-elem li p:first-child {
 
 .solution-thumbnail {
   width: 16.6666667%;
-  background-color: #314753;
   float: left;
   border-right: 2px solid #57798A;
   transition: box-shadow 0.1s ease-in-out;
@@ -424,41 +423,59 @@ ul.footer-elem li p:first-child {
 .field6 {
   border-right: 0px solid white; }
 
+.field1 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/solution/tab_transportation203.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
 .field1:hover {
-  background-image: url(/public/acorn-default/img/solution/tab_transportation203.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/solution/tab_transportation203.jpg); }
+
+.field2 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/solution/tab_gold203.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .field2:hover {
-  background-image: url(/public/acorn-default/img/solution/tab_gold203.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/solution/tab_gold203.jpg); }
+
+.field3 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/solution/tab_electricity203.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .field3:hover {
-  background-image: url(/public/acorn-default/img/solution/tab_electricity203.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/solution/tab_electricity203.jpg); }
+
+.field4 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/solution/tab_tobacco203.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .field4:hover {
-  background-image: url(/public/acorn-default/img/solution/tab_tobacco203.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/solution/tab_tobacco203.jpg); }
+
+.field5 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/solution/tab_oil203.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .field5:hover {
-  background-image: url(/public/acorn-default/img/solution/tab_oil203.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/solution/tab_oil203.jpg); }
+
+.field6 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/solution/tab_manufacture203.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .field6:hover {
-  background-image: url(/public/acorn-default/img/solution/tab_manufacture203.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; }
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/solution/tab_manufacture203.jpg); }
 
 .active-field1 {
   background-image: url(/public/acorn-default/img/solution/tab_transportation203.jpg);
@@ -634,7 +651,6 @@ ul.footer-elem li p:first-child {
  */
 .course-type {
   width: 25%;
-  background-color: #314753;
   float: left;
   border-right: 1px solid white;
   transition: box-shadow 0.1s ease-in-out;
@@ -661,29 +677,41 @@ ul.footer-elem li p:first-child {
 .type4 {
   border-right: 0px solid white; }
 
+.type1 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
 .type1:hover {
-  background-image: url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg); }
+
+.type2 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .type2:hover {
-  background-image: url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg); }
+
+.type3 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .type3:hover {
-  background-image: url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg);
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg); }
+
+.type4 {
+  background-image: linear-gradient(#314753, #314753), url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
 
 .type4:hover {
-  background-image: url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; }
+  background-image: linear-gradient(rgba(49, 71, 83, 0), rgba(49, 71, 83, 0)), url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg); }
 
 .active-course1 {
   background-image: url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
@@ -1047,16 +1075,17 @@ ul.career-category-listing li p {
 
 .news-banner-wrapper {
   width: 100%;
-  height: 600px; }
+  height: 600px;
+  margin-top: 50px; }
 
 .news-main-1 {
-  width: 70%;
+  width: 60%;
   height: 600px;
   float: left;
   background-color: red; }
 
 .news-sub-2 {
-  width: 30%;
+  width: 40%;
   height: 300px;
   float: left;
   background-color: black; }

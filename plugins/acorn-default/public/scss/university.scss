@@ -83,7 +83,7 @@
 
 .course-type {
 	width: 25%;
-	background-color: #314753;
+	// background-color: #314753;
 	float: left;
 	border-right: 1px solid white;
 	transition: box-shadow 0.1s ease-in-out;
@@ -115,32 +115,48 @@
 	border-right: 0px solid white;
 }
 
+.type1 {
+	background-image: linear-gradient(rgba(49, 71, 83, 1),rgba(49, 71, 83, 1)),url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
 .type1:hover {
-	background-image: url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
+	background-image: linear-gradient(rgba(49, 71, 83, 0),rgba(49, 71, 83, 0)),url(/public/acorn-default/img/university/tab_attackCourse320X150.jpg);
+}
+
+.type2 {
+	background-image: linear-gradient(rgba(49, 71, 83, 1),rgba(49, 71, 83, 1)),url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 .type2:hover {
-	background-image: url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg);
+	background-image: linear-gradient(rgba(49, 71, 83, 0),rgba(49, 71, 83, 0)),url(/public/acorn-default/img/university/tab_employeeTraining320X150.jpg);
+}
+
+.type3 {
+	background-image: linear-gradient(rgba(49, 71, 83, 1),rgba(49, 71, 83, 1)),url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 .type3:hover {
-	background-image: url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg);
+	background-image: linear-gradient(rgba(49, 71, 83, 0),rgba(49, 71, 83, 0)),url(/public/acorn-default/img/university/tab_safetyCourse320X150.jpg);
+}
+
+.type4 {
+	background-image: linear-gradient(rgba(49, 71, 83, 1),rgba(49, 71, 83, 1)),url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 .type4:hover {
-	background-image: url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+	background-image: linear-gradient(rgba(49, 71, 83, 0),rgba(49, 71, 83, 0)),url(/public/acorn-default/img/university/tab_standardCourse320X150.jpg);
 }
 
 .active-course1 {

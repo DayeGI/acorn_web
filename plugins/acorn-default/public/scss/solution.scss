@@ -185,7 +185,7 @@
 
 .solution-thumbnail {
 	width: 16.6666667%;
-	background-color: #314753;
+	// background-color: #314753;
 	float: left;
 	border-right: 2px solid #57798A;
 	transition: box-shadow 0.1s ease-in-out;
@@ -217,46 +217,70 @@
 	border-right: 0px solid white;
 }
 
+.field1 {
+	background-image: linear-gradient(rgba(49, 71, 83, 1),rgba(49, 71, 83, 1)),url(/public/acorn-default/img/solution/tab_transportation203.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
 .field1:hover {
-	background-image: url(/public/acorn-default/img/solution/tab_transportation203.jpg);
+	background-image: linear-gradient(rgba(49, 71, 83, 0),rgba(49, 71, 83, 0)),url(/public/acorn-default/img/solution/tab_transportation203.jpg);
+}
+
+.field2 {
+	background-image: linear-gradient(rgba(49, 71, 83, 1),rgba(49, 71, 83, 1)),url(/public/acorn-default/img/solution/tab_gold203.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 .field2:hover {
-	background-image: url(/public/acorn-default/img/solution/tab_gold203.jpg);
+	background-image: linear-gradient(rgba(49, 71, 83, 0),rgba(49, 71, 83, 0)),url(/public/acorn-default/img/solution/tab_gold203.jpg);
+}
+
+.field3 {
+	background-image: linear-gradient(rgba(49, 71, 83, 1),rgba(49, 71, 83, 1)),url(/public/acorn-default/img/solution/tab_electricity203.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 .field3:hover {
-	background-image: url(/public/acorn-default/img/solution/tab_electricity203.jpg);
+	background-image: linear-gradient(rgba(49, 71, 83, 0),rgba(49, 71, 83, 0)),url(/public/acorn-default/img/solution/tab_electricity203.jpg);
+}
+
+.field4 {
+	background-image: linear-gradient(rgba(49, 71, 83, 1),rgba(49, 71, 83, 1)),url(/public/acorn-default/img/solution/tab_tobacco203.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 .field4:hover {
-	background-image: url(/public/acorn-default/img/solution/tab_tobacco203.jpg);
+	background-image: linear-gradient(rgba(49, 71, 83, 0),rgba(49, 71, 83, 0)),url(/public/acorn-default/img/solution/tab_tobacco203.jpg);
+}
+
+.field5 {
+	background-image: linear-gradient(rgba(49, 71, 83, 1),rgba(49, 71, 83, 1)),url(/public/acorn-default/img/solution/tab_oil203.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 .field5:hover {
-	background-image: url(/public/acorn-default/img/solution/tab_oil203.jpg);
+	background-image: linear-gradient(rgba(49, 71, 83, 0),rgba(49, 71, 83, 0)),url(/public/acorn-default/img/solution/tab_oil203.jpg);
+}
+
+.field6 {
+	background-image: linear-gradient(rgba(49, 71, 83, 1),rgba(49, 71, 83, 1)),url(/public/acorn-default/img/solution/tab_manufacture203.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
 
 .field6:hover {
-	background-image: url(/public/acorn-default/img/solution/tab_manufacture203.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+	background-image: linear-gradient(rgba(49, 71, 83, 0),rgba(49, 71, 83, 0)),url(/public/acorn-default/img/solution/tab_manufacture203.jpg);
 }
 
 .active-field1 {
