@@ -426,6 +426,10 @@ body {
 	z-index: 2;
 	color: white;
 
+	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/public/acorn-default/img/index/bg_companyValues1440.jpg) no-repeat;
+	background-position:center center;
+	background-size: cover;
+
 	/* Crop off image when viewport smaller than image min-width */
 	overflow: hidden;
 }
@@ -544,6 +548,10 @@ body {
 	height: 400px;
 	position: relative;
 	z-index: 2;
+
+	background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)),url(/public/acorn-default/img/index/bg_community.jpg) no-repeat;
+	background-position:center center;
+	background-size: cover;
 
 	/* Crop off image when viewport smaller than image min-width */
 	overflow: hidden;
