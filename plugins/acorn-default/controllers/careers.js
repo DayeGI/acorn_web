@@ -20,9 +20,10 @@ Careers.prototype.render = function(cb){
 Careers.prototype.getJobListings = function(cb){
 	//office contact information
 	var cos = new pb.CustomObjectService();
-	cos.loadTypeByName('job-listings', function(err, jobListingType){
-		cos.findByType(jobListingType, null, function(err, results){
-			cb({content: pb.BaseController.apiResponse(pb.BaseController.API_SUCCESS, results)});
+	cos.loadTypeByName('job_category', function(err, jobListingType){
+		cos.findByTypeWithOrdering(jobListingType, {fetch_depth: 3}, function(err, parents) {
+			console.log(parents);
+			cb({content: pb.BaseController.apiResponse(pb.BaseController.API_SUCCESS, parents)});
 		});
 	});
 };
@@ -37,7 +38,7 @@ Careers.getRoutes = function(cb){
 		},
 		{
 			method: 'get',
-			path: '/api/job-listings',
+			path: '/api/all_jobs',
 			auth_required: false,
 			content_type: 'application/json',
 			handler: 'getJobListings'

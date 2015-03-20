@@ -112,10 +112,25 @@ AcornDefault.onStartup = function(cb) {
 			cos.saveType(cvType, function(err, result){})
 		}
 	});
-	cos.loadTypeByName('job-listings', function(err, jobListingType) {
-		if(!jobListingType) {
+	var job_category_checker = function(){
+		cos.loadTypeByName('job_category', function(err, jobCategoryType) {
+			if(!jobCategoryType) {
+				var jCType = {
+					name: 'job_category',
+					"fields" : {
+						"active" : { "field_type" : "boolean" },
+						"jobs" : { "field_type" : "child_objects" , "object_type" : "custom:jobs" }
+					}
+				};
+				cos.saveType(jCType, function(err, result){})
+			}
+		});
+	};
+	cos.loadTypeByName('jobs', function(err, jobListingType) {
+		if(err) console.log(err);
+		else if(!jobListingType) {
 			var jLType = {
-				name: 'job-listings',
+				name: 'jobs',
 				"fields" : {
 					"active" : { "field_type" : "boolean" },
 					"location" : { "field_type" : "text" }, 
@@ -127,20 +142,12 @@ AcornDefault.onStartup = function(cb) {
 				}
 			};
 			cos.saveType(jLType, function(err, result){
-				cos.loadTypeByName('job-category', function(err, jobCategoryType) {
-					if(!jobCategoryType) {
-						var jCType = {
-							name: 'job-category',
-							"fields" : {
-								"active" : { "field_type" : "boolean" },
-								"jobs" : { "field_type" : "child_objects" , "object_type" : "custom:job-listings" }
-							}
-						};
-						cos.saveType(jCType, function(err, result){})
-					}
-				});
-			})
+				if(err) console.log(err);
+				else job_category_checker();
+			});
+			
 		}
+		else job_category_checker();
 	});
 
 	var course_type_checker = function(){

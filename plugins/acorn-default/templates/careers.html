@@ -4,41 +4,35 @@
 <script type="text/javascript" src="/public/acorn-default/js/careers_controller.js"></script>
 
 <div ng-controller="CareersController">
-	careers
 
-	<br><br><br>
-	<div ng-cloak>
-		<div ng-repeat="job in jobs | filter:{active:true}">
 	<!-- <div ng-cloak>
-		<div ng-repeat="job in jobs">
->>>>>>> master
+		<div ng-repeat="job in jobs | filter:{active:true}">
+
 			<h3>{{job.name}}</h3>
-			<div>{{job.location}}  |  {{job.experience}}  |  {{job.education}}</div>
+			<div> {{job.location}}  |  专业要求：{{job.experience}}  |  专业要求：{{job.education}} </div>
 			<div>
-				Responsibilities:<br>
-				<div ng-bind-html="job.responsibilities | to_trusted"></div>
-<<<<<<< HEAD
+				岗位职责::<br>
 
-				Skills:<br>
+				任职资:<br>
 				<div ng-bind-html="job.skills | to_trusted"></div>
 
-=======
-
-				Skills:<br>
-				<div ng-bind-html="job.skills | to_trusted"></div>
-
->>>>>>> master
-				Compensation:<br>
+				薪水福利::<br>
 				<div ng-bind-html="job.compensation | to_trusted"></div>
 			</div>
 		</div>
 	</div> -->
 
+	<!-- CAREER BANNER IMAGE -->
+	<div class="career-banner">
+		<img src="public/acorn-default/img/careers/cover_intro1140.jpg" alt="">
+		<div class="career-banner-caption">
+			<h2>加入匡恩</h2>
+			<p>匡恩网络拥有前沿的技术氛围，并且注重培养年轻的人才。这里不仅是分享创新想法的平台，也是展示才华、获得锻炼的舞台。匡恩网络诚挚的欢迎各种技术、市场、培训以及服务人员加入匡恩的大家庭</p>
+		</div>
+	</div>
+
 	<!-- CAREERS WRAPPER -->
 	<div class="careers-wrapper SiYuan-ExtraLight">
-
-		<!-- CAREER BANNER IMAGE -->
-		<div class="career-banner"></div>
 
 		<!-- DROPDWON FILTER CHECKBOX -->
 		<div class="dropdown-filter-wrapper">
@@ -47,9 +41,63 @@
 		<div class="dropdown-filter-wrapper">
 			<div class="jobAreaDropdownCheckbox SiYuan-ExtraLight"></div>
 		</div>
+		<div class="clear"></div>
 
 		<!-- JOB DETAILS -->
-		<div class="career-banner"></div>
+		<div ng-cloak class="career-details">
+
+			<!-- LIST ALL JOBS IN ONE JOB CATEGORY -->
+			<div class="career-category" ng-repeat="category in categories">
+				<!-- CATEGORY NAME -->
+				<div class="career-category-header">
+					<img src="public/acorn-default/img/careers/icon_career_operation.svg" alt="">
+					<h3>{{category.name}}</h3>
+				</div>
+				<!-- LIST OF JOBS IN THIS CATEGORY -->
+				<ul class="career-category-listing">
+					<li ng-click="setCareerDetails(job)" ng-repeat="job in category.jobs"
+								ng-show="returnJobCategoryChecks[categoryMap[category.name]].isChecked && returnJobLocationChecks[locationMap[job.location]].isChecked">
+						<!--{{returnJobCategoryChecks[categoryMap[category.name]].isChecked}}-->
+						<h4>{{job.name}}</h4>
+						<p>{{job.location}}</p>
+					</li>
+				</ul>
+				<!-- START DETAILS OF ONE JOB -->
+				<div class="career-detail-display" ng-show="careerDetails">
+					<ul>
+						<li>{{careerDetails.name}}</li>
+						<li ng-click="setCareerDetails(null)">X</li>
+						<li>
+							<img src="public/acorn-default/img/careers/icon_career_location.svg" alt="">{{careerDetails.location}}
+						</li>
+						<!-- JOB.EDUCATION -->
+						<li>
+							<img src="public/acorn-default/img/careers/icon_career_exp.svg" alt="">工作经验：{{careerDetails.experience}}
+						</li>
+						<!-- JOB.RESPONSIBILITIES -->
+						<li>
+							<img src="public/acorn-default/img/careers/icon_career_education.svg" alt="">专业要求：{{careerDetails.education}}
+						</li>
+					</ul>
+					<div class="responsibilities">
+						<h5>岗位职责:</h5>
+						<div ng-bind-html="careerDetails.responsibilities | to_trusted"></div>
+					</div>
+					<div class="skills">
+						<h5>任职资:</h5>
+						<div ng-bind-html="careerDetails.skills | to_trusted"></div>
+					</div>
+					<div class="compensation">
+						<h5>薪水福利:</h5>
+						<div ng-bind-html="careerDetails.compensation | to_trusted"></div>
+					</div>
+					<div class="career-apply-btn">
+						<a href="#" class="button SiYuanRegular">申请职位</a>
+					</div>
+				</div>
+				<!-- START DETAILS OF ONE JOB -->
+			</div>
+		</div>
 
 	</div>
 </div>

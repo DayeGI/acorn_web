@@ -1,14 +1,19 @@
 ^tmp_head^
 <script type="text/javascript" src="/public/acorn-default/js/about_us_controller.js"></script>
-<body ng-controller="AboutUsController">
+<body class="SiYuan-ExtraLight" ng-controller="AboutUsController">
 	^tmp_elements=top_menu^
+	
+	<!-- MISSION STATEMENT -->
 	<div class="mission-statement">
 		<h1>^mission_statement^</h1>
 	</div>
+
+	<!-- COMPANY DESCRIPTION -->
 	<div class="company-description">
 		<h2>^company_description^</h2>
 	</div>
 
+	<!-- COMPANY VALUES -->
 	<div class="company-values">
 		<h2> Our core values </h2>
 		<div class="value-table">
@@ -26,19 +31,45 @@
 			</div>
 		</div>
 	</div>
+	
 	<!-- NG CLOAK is used to prevent the page from displaying the HTML element before the Angular contoller loads, so that {{office.name}} and etc does not show up.-->
-	<div ng-cloak>
-		<div ng-repeat="office in offices">
-			<h1>{{office.name}}</h1>
-			<div>{{office.name}}</div>
-			<div>{{office.address}}</div>
-			<div>{{office.phone}}</div>
-			<div>{{office.fax}}</div>
-			<div>{{office.email}}</div>
+	<!-- COMPANY MAP -->
+	<div class="map-wrapper">
+		<div class="map">
+			<div class="marker-wrapper">
+			<!-- <div class="marker-wrapper" ng-repeat="office in offices" ng-cloak> -->
+				<ul>
+					<!-- <li>{{office.name}}</li> -->
+					<li>北京</li>
+					<li>上海</li>
+					<li>杭州</li>
+					<li>宁波</li>
+					<li>广州</li>
+					<li>深圳</li>
+				</ul>
+			</div>
+		</div>
+		<div class="office-details-wrapper">
+			<div class="details-wrapper">
+				<h4>我们的所在地</h4>
+				<p>工控网络安全精英团队,平均十五年业界经验 全球人工智能顶级专家领衔、获得多项国际金奖的技术团队</p>
+				<div class="office-details">
+				<!-- <div class="office-details" ng-repeat="office in offices" ng-cloak> -->
+					<ul>
+						<li>总公司</li>
+						<!-- <li>{{office.name}}</li> -->
+						<li><img src="public/acorn-default/img/icons_location.svg" alt="">北京市朝阳区阜通东大街1号院望京SOHO塔1A座608室</li>
+						<!-- <li><img src="public/acorn-default/img/icons_location.svg" alt="">{{office.name}}</li> -->
+						<li><img src="public/acorn-default/img/icons_phone.svg" alt="">(010) 5707-6272</li>
+						<!-- <li><img src="public/acorn-default/img/icons_phone.svg" alt="">{{office.address}}</li> -->
+						<li><img src="public/acorn-default/img/icons_fax.svg" alt="">(010) 5707-6468</li>
+						<!-- <li><img src="public/acorn-default/img/icons_phone.svg" alt="">{{office.fax}}</li> -->
+						<li><img src="public/acorn-default/img/icons_mail.svg" alt="">info@acorn-net.com</li>
+						<!-- <li><img src="public/acorn-default/img/icons_phone.svg" alt="">{{office.email}}</li> -->
+					</ul>
+				</div>
+			</div>
 		</div>
 	</div>
-
-	<br>
-	<!-- etc -->
 </div>
 ^tmp_footer^

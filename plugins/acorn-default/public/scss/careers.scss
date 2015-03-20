@@ -1,14 +1,57 @@
 /*
  *
- * careers
+ * career banner image
+ *
+ */
+
+.career-banner {
+	width: 100%;
+	margin-top: 50px;
+	position: relative;
+	z-index: 1;
+}
+
+.career-banner img {
+	/* Set rules to fill background */
+	min-width: 1140px;
+	min-height: 100%;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+}
+
+.career-banner-caption {
+	width: 100%;
+	padding: 30px 8%;
+	background: rgba(49, 71, 83, 0.7);
+	position: absolute;
+	z-index: 2;
+	top: 50%; //vertically align elements
+  	transform: translateY(-50%); //vertically align elements
+  	text-align: center;
+}
+
+.career-banner-caption h2 {
+	color: #ffffff;
+	padding: 0px 0px 10px 0px;
+}
+
+.career-banner-caption p {
+	color: #ffffff;
+	line-height: 1.8;
+}
+
+/*
+ *
+ * careers wrapper
  *
  */
 
 .careers-wrapper {
 	width: 100%;
-	height: 500px;
-	padding: 0px 8%;
-	margin-top: 50px;
+	// height: 800px;
+	padding: 50px 8% 0px 8%;
 	//http://www.colorzilla.com/gradient-editor
 	//#FFFFFF to #DDDDDD – pivot point at 90%
 	background: #ffffff; /* Old browsers */
@@ -23,7 +66,7 @@
 
 .dropdown-filter-wrapper {
 	position: relative;
-	top: 50px;
+	top: 0px;
 	float: left;
 	margin-right: 50px;
 }
@@ -31,12 +74,6 @@
 .myDropdownCheckbox {
 
 }
-
-/*
- *
- * career banner image
- *
- */
 
 /*
  *
@@ -120,4 +157,180 @@
 
 .dropdown-checkbox-menu li:nth-child(even) .layout label{
 	padding-left: 20px !important;
+}
+
+/*
+ *
+ * job details
+ *
+ */
+
+.career-details {
+	width: 100%;
+	// height: 500px;
+	// outline: 1px solid black;
+	margin-top: 50px;
+}
+
+.career-category {
+
+}
+
+.career-category-header {
+	width: 100%;
+	border-bottom: 1px solid #8D999F;
+}
+
+.career-category-header img {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	top: -3px;
+}
+
+.career-category-header h3 {
+	font-size: 18px;
+	color: #5F5F5F;
+	display: inline-block;
+}
+
+ul.career-category-listing {
+	padding: 0;
+	margin: 0;
+}
+
+ul.career-category-listing li {
+	width: 33.333333%;
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul.career-category-listing:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+ul.career-category-listing li:last-child {
+	margin-bottom: 25px;
+}
+
+ul.career-category-listing li:hover{
+	cursor: pointer;
+	h4 {
+		color: #F48446;
+	}
+	p {
+		color: #F48446;
+	}
+}
+
+ul.career-category-listing li h4{
+	color: #5F5F5F;
+	padding: 0px 0px 5px 0px;
+}
+
+ul.career-category-listing li p{
+	color: #5F5F5F;
+}
+
+/*
+ *
+ * career detailed display
+ *
+ */
+
+.career-detail-display {
+	border-top: 1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
+	> ul {
+		padding: 0;
+		margin: 0;
+		> li {
+			list-style-type: none;
+			float: left;
+			color: #5F5F5F;
+			padding: 20px 0px 0px 0px;
+			font-size: 14px;
+			//job.name
+			&:nth-child(1) {
+				width: 95%;
+				font-size: 18px;
+			}
+			//close button
+			&:nth-child(2) {
+				width: 5%;
+				font-size: 18px;
+				&:hover {
+					cursor: pointer;
+					color: #F48446;
+				}
+			}
+			//career location
+			&:nth-child(3), &:nth-child(4), &:nth-child(5) {
+				width: 25%;
+				padding: 5px 0px 0px 0px;
+				//icon
+				> img {
+					width: 25px;
+					height: 25px;
+					display: inline-block;
+					position: relative;
+					top: -1px;
+				}
+			}
+			//career experience
+			&:nth-child(4) {
+				//icon
+				> img{
+					margin-right: 3px;
+					top: 0px;
+				}
+			}
+			//career education
+			&:nth-child(5) {
+				//icon
+				> img {
+					margin-right: 3px;
+				}
+			}
+//			&:nth-child(6), &:nth-child(7), &:nth-child(6) {
+//				width: 50%;
+//				line-height: 1.6;
+//			}
+		}
+	}
+	.responsibilities, .skills{
+		width:calc(50% - 10px);
+		display:inline-block;
+		margin:50px 0 50px 0;
+		vertical-align: top;
+		h5{color:black;}
+	}
+	.compensation h5{color:black};
+}
+
+.career-detail-display ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+//apply button
+.career-apply-btn {
+	width: 100%;
+	padding: 50px 0px;
+}
+
+//active career class
+//!important to overide the higher specificity of the hover state
+.activeCareer{
+	h4{
+		color: #F48446 !important;
+	}
+	p {
+		color: #F48446 !important;
+	}
 }
