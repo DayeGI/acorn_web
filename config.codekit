@@ -1327,7 +1327,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 77433,
+		"initialSize": 113657,
 		"inputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_video.jpg",
 		"outputAbbreviatedPath": "\/plugins\/acorn-default\/public\/img\/index\/bg_video.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -8241,7 +8241,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Yee Loong Ooi",
+"lastSavedByUser": "yeeloong",
 "manualImportLinks": {
 	},
 "projectAttributes": {
