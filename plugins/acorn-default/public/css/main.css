@@ -809,7 +809,6 @@ ul.footer-elem li p:first-child {
 .career-banner-caption {
   width: 100%;
   padding: 30px 8%;
-  background: rgba(49, 71, 83, 0.7);
   position: absolute;
   z-index: 2;
   top: 50%;
@@ -1207,7 +1206,11 @@ ul.career-category-listing li p {
     top: 518px;
     left: 490px; }
   .map ul li:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    background: url(/public/acorn-default/img/aboutUs/dropshadow_pin_aboutUs.png);
+    background-size: 35px 54px;
+    width: 35px;
+    height: 54px; }
 
 .office-details-wrapper {
   width: 45%;
